@@ -121,7 +121,9 @@ Here are the top pet-related posts from Canadian city subreddits:
 
 {chr(10).join(posts_text)}
 
-Write a 2-3 sentence summary highlighting the key pet stories and trends from across Canada today. Focus on what's happening with cats and dogs in different Canadian cities. Keep it engaging and informative.
+Write a 2-3 sentence summary that tells readers WHAT pet stories are trending today. Focus on the actual topics and stories (lost dogs, rescues, training questions, adoption events, etc.), mentioning the city for context. Make it clear what each story is about so readers can decide if it's relevant to them.
+
+Example style: "Winnipeg pet owners are organizing flight angels to rescue dogs and cats before the holiday embargo, while Saskatoon residents are sharing stories of dogs getting stuck on frozen rivers during winter walks."
 
 Summary:"""
 
@@ -153,26 +155,36 @@ Summary:"""
         if not posts:
             return "Today's trending Canadian pet content features stories from across the country."
 
-        # Group by city
-        cities = {}
-        for post in posts[:10]:
-            city = post.get('subreddit', 'Unknown')
+        # Build story-focused mentions (top 3 posts)
+        story_mentions = []
+        for post in posts[:3]:
+            city = post.get('subreddit', 'Unknown').capitalize()
             title = post.get('title', '')
-            if city not in cities:
-                cities[city] = []
-            cities[city].append(title)
 
-        # Build summary
-        city_mentions = []
-        for city, titles in list(cities.items())[:3]:  # Top 3 cities
-            city_name = city.capitalize()
-            if len(titles) == 1:
-                city_mentions.append(f"{city_name} ({titles[0][:40]}...)")
+            # Extract key topic from title (lowercase for pattern matching)
+            title_lower = title.lower()
+
+            # Try to extract meaningful summary
+            if 'lost' in title_lower or 'found' in title_lower:
+                topic = "has lost/found pet reports"
+            elif 'rescue' in title_lower or 'adoption' in title_lower or 'adopt' in title_lower:
+                topic = f"features {title[:50]}"
+            elif 'training' in title_lower:
+                topic = "discusses pet training questions"
+            elif 'stuck' in title_lower or 'help' in title_lower:
+                topic = f"shares {title[:45]}"
             else:
-                city_mentions.append(f"{city_name} ({len(titles)} posts)")
+                # Default: use first part of title
+                topic = f"discusses {title[:50]}"
 
-        if city_mentions:
-            return f"Today's Canadian pet stories feature discussions from {', '.join(city_mentions[:-1])} and {city_mentions[-1]}."
+            story_mentions.append(f"{city} {topic}")
+
+        if len(story_mentions) == 1:
+            return f"Today's top Canadian pet story: {story_mentions[0]}."
+        elif len(story_mentions) == 2:
+            return f"Trending today: {story_mentions[0]}, while {story_mentions[1]}."
+        elif len(story_mentions) >= 3:
+            return f"Trending today: {story_mentions[0]}, {story_mentions[1]}, and {story_mentions[2]}."
         else:
             return "Today's trending Canadian pet content features stories from across the country."
 
