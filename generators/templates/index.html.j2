@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Daily trending pet content in the Canadian market - Reddit posts, news articles, and community discussions about pets across Canada.">
+    <meta name="keywords" content="Canadian pets, dog news, cat news, pet trends, Canada, Toronto pets, Vancouver pets">
+    <meta name="author" content="Canadian Pet Pulse">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:description" content="Daily trending pet content in the Canadian market">
+    <meta property="og:url" content="https://yourusername.github.io/canadian-pet-pulse/">
+
+    <title>{{ title }} - {{ generated_at }}</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🐾 {{ title }}</h1>
+            <p class="subtitle">Daily trending pet content in Canada</p>
+            <p class="last-updated">Last updated: {{ generated_at }}</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Stats Section -->
+        <section class="stats">
+            <div class="stat-card">
+                <span class="stat-number">{{ stats.reddit_posts }}</span>
+                <span class="stat-label">Reddit Posts</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number">{{ stats.news_articles }}</span>
+                <span class="stat-label">News Articles</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number">{{ stats.total_items }}</span>
+                <span class="stat-label">Total Items</span>
+            </div>
+        </section>
+
+        <!-- Trending Content -->
+        <section class="trending-content">
+            <h2>Today's Trending Pet Content</h2>
+
+            {% if trending_content %}
+                {% for item in trending_content %}
+                <article class="content-card {{ item.content_type }}">
+                    <div class="card-header">
+                        <span class="source-badge {{ item.content_type }}">
+                            {% if item.content_type == 'reddit' %}
+                                r/{{ item.subreddit }}
+                            {% else %}
+                                {{ item.source }}
+                            {% endif %}
+                        </span>
+                        <span class="trending-score" title="Trending Score">
+                            🔥 {{ "%.2f"|format(item.trending_score) }}
+                        </span>
+                    </div>
+
+                    <h3 class="content-title">
+                        <a href="{% if item.content_type == 'reddit' %}{{ item.permalink }}{% else %}{{ item.link }}{% endif %}"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            {{ item.title }}
+                        </a>
+                    </h3>
+
+                    {% if item.content_type == 'news' and item.summary %}
+                    <p class="content-summary">{{ item.summary[:250] }}{% if item.summary|length > 250 %}...{% endif %}</p>
+                    {% elif item.content_type == 'reddit' and item.selftext %}
+                    <p class="content-summary">{{ item.selftext[:250] }}{% if item.selftext|length > 250 %}...{% endif %}</p>
+                    {% endif %}
+
+                    <div class="card-footer">
+                        {% if item.content_type == 'reddit' %}
+                        <div class="meta">
+                            <span class="meta-item" title="Upvotes">⬆️ {{ item.score }}</span>
+                            <span class="meta-item" title="Comments">💬 {{ item.num_comments }}</span>
+                        </div>
+                        {% endif %}
+
+                        <span class="canadian-badge" title="Canadian Relevance Score">
+                            🍁 {{ "%.0f"|format(item.canadian_score * 100) }}%
+                        </span>
+
+                        <span class="timestamp">
+                            {{ (item.created_utc if item.content_type == 'reddit' else item.published)|format_time_ago }}
+                        </span>
+                    </div>
+                </article>
+                {% endfor %}
+            {% else %}
+                <!-- Empty State -->
+                <div class="empty-state">
+                    <div class="empty-state-icon">🐕</div>
+                    <p class="empty-state-text">No trending content available</p>
+                    <p class="empty-state-subtext">Check back later for the latest pet trends in Canada!</p>
+                </div>
+            {% endif %}
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p><strong>Canadian Pet Pulse</strong> - Aggregating trending pet content across Canada</p>
+            <p>Data sources: Reddit, CBC, CTV News, Global News</p>
+            <p>Updated daily at 2:00 AM ET</p>
+            <p><a href="https://github.com/yourusername/canadian-pet-pulse" target="_blank" rel="noopener noreferrer">View on GitHub</a></p>
+        </div>
+    </footer>
+</body>
+</html>
