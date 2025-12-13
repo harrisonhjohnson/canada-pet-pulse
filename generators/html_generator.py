@@ -93,7 +93,7 @@ class HTMLGenerator:
         self.env.filters['format_time_ago'] = format_time_ago
 
     def generate_site(self, trending_content: List[Dict], stats: Dict,
-                     output_filename: str = 'index.html'):
+                     output_filename: str = 'index.html', summary: str = None):
         """
         Generate complete static site.
 
@@ -101,6 +101,7 @@ class HTMLGenerator:
             trending_content: List of ranked content dictionaries
             stats: Site statistics (post counts, etc.)
             output_filename: Name of output HTML file
+            summary: Optional AI-generated summary of the day's content
         """
         output_path = os.path.join(self.output_dir, output_filename)
 
@@ -114,6 +115,7 @@ class HTMLGenerator:
             'trending_content': trending_content[:50],  # Top 50 items
             'stats': stats,
             'total_items': len(trending_content),
+            'summary': summary,
         }
 
         # Render HTML
@@ -165,7 +167,7 @@ class HTMLGenerator:
             logger.warning(f"Styles file not found: {styles_source}")
 
     def generate_archive_page(self, date: str, trending_content: List[Dict],
-                             stats: Dict):
+                             stats: Dict, summary: str = None):
         """
         Generate archive page for a specific date.
 
@@ -173,6 +175,7 @@ class HTMLGenerator:
             date: Date string (YYYYMMDD)
             trending_content: Trending content for that date
             stats: Statistics for that date
+            summary: Optional AI-generated summary
         """
         # Create archive directory
         archive_dir = os.path.join(self.output_dir, 'archive')
@@ -198,6 +201,7 @@ class HTMLGenerator:
             'date_formatted': date_formatted,
             'trending_content': trending_content,
             'stats': stats,
+            'summary': summary,
         }
 
         html = template.render(**context)

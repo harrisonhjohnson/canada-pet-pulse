@@ -14,6 +14,7 @@ from typing import List, Dict
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from generators.html_generator import HTMLGenerator
+from processors.summary_generator import SummaryGenerator
 
 
 class ContentReviewer:
@@ -222,6 +223,12 @@ class ContentReviewer:
             with open(approved_file, 'r') as f:
                 data = json.load(f)
 
+            # Generate AI summary
+            print("\n🤖 Generating AI summary...")
+            summary_gen = SummaryGenerator()
+            summary = summary_gen.generate_summary(data['content'])
+            print(f"   Summary: {summary[:100]}...")
+
             # Initialize HTML generator
             template_dir = os.path.join(
                 os.path.dirname(os.path.dirname(__file__)),
@@ -233,7 +240,8 @@ class ContentReviewer:
             # Generate site (this also copies CSS and saves JSON internally)
             generator.generate_site(
                 trending_content=data['content'],
-                stats=data['stats']
+                stats=data['stats'],
+                summary=summary
             )
 
             # Generate archive page for this date
@@ -242,7 +250,8 @@ class ContentReviewer:
                 generator.generate_archive_page(
                     date=date,
                     trending_content=data['content'],
-                    stats=data['stats']
+                    stats=data['stats'],
+                    summary=summary
                 )
 
                 # Regenerate archive index
@@ -255,6 +264,7 @@ class ContentReviewer:
             if date:
                 print(f"   - archive/{date}.html")
                 print(f"   - archive/index.html")
+            print(f"   - AI summary included")
 
             return True
 
