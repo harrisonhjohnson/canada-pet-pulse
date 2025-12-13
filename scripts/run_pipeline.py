@@ -34,8 +34,21 @@ class Config:
     OUTPUT_DIR = PROJECT_ROOT / 'docs'
 
     # Scraping
-    REDDIT_SUBREDDITS = ['dogs', 'puppy101', 'DogTraining', 'toronto', 'vancouver',
-                         'canada', 'montreal', 'calgary', 'ottawa', 'Edmonton', 'winnipeg']
+    REDDIT_SUBREDDITS = [
+        # Pet-focused subreddits
+        'dogs', 'puppy101', 'DogTraining',
+
+        # National
+        'canada',
+
+        # Major cities (original)
+        'toronto', 'vancouver', 'montreal', 'calgary', 'ottawa', 'Edmonton', 'winnipeg',
+
+        # Additional Canadian cities (15 more)
+        'halifax', 'Quebec', 'VictoriaBC', 'Saskatoon', 'Regina',
+        'KingstonOntario', 'londonontario', 'Guelph', 'Barrie', 'kelowna',
+        'waterloo', 'windsorontario', 'Hamilton', 'Kitchener', 'StJohnsNL'
+    ]
     REDDIT_LIMIT_PER_SUB = 15
 
     # Quality thresholds
@@ -232,43 +245,37 @@ def rank_content(canadian_reddit, canadian_news, logger) -> list:
     return ranked
 
 
-def generate_html(ranked_content, stats, logger) -> bool:
+def save_candidates(ranked_content, stats, logger) -> bool:
     """
-    Generate static HTML site.
+    Save trending candidates for editorial review.
+    Does NOT generate HTML - that's done after review.
 
     Returns:
         Success boolean
     """
     logger.info("=" * 70)
-    logger.info("STEP 5: Generating HTML")
+    logger.info("STEP 5: Saving Candidates for Review")
     logger.info("=" * 70)
 
     try:
-        generator = HTMLGenerator(str(Config.TEMPLATE_DIR), str(Config.OUTPUT_DIR))
-        generator.generate_site(ranked_content, stats)
-
-        logger.info(f"✓ Generated: {Config.OUTPUT_DIR / 'index.html'}")
-        logger.info(f"✓ Generated: {Config.OUTPUT_DIR / 'data.json'}")
-        logger.info(f"✓ Copied: {Config.OUTPUT_DIR / 'styles.css'}")
-
-        # Save processed data
+        # Save candidates data
         today = datetime.now().strftime('%Y%m%d')
-        processed_file = Config.PROCESSED_DIR / f'trending_{today}.json'
+        candidates_file = Config.PROCESSED_DIR / f'trending_candidates_{today}.json'
 
-        with open(processed_file, 'w', encoding='utf-8') as f:
+        with open(candidates_file, 'w', encoding='utf-8') as f:
             json.dump({
                 'date': today,
                 'generated_at': datetime.now(timezone.utc).isoformat(),
                 'stats': stats,
-                'content': ranked_content[:100]  # Top 100
+                'content': ranked_content  # All candidates (not just top 100)
             }, f, indent=2, ensure_ascii=False)
 
-        logger.info(f"✓ Saved processed data: {processed_file}")
+        logger.info(f"✓ Saved {len(ranked_content)} candidates: {candidates_file}")
 
         return True
 
     except Exception as e:
-        logger.error(f"✗ HTML generation failed: {e}", exc_info=True)
+        logger.error(f"✗ Failed to save candidates: {e}", exc_info=True)
         return False
 
 
@@ -336,7 +343,7 @@ def main():
         logger.error("✗ PIPELINE FAILED: No content to display")
         return False
 
-    # Step 5: Generate HTML
+    # Step 5: Save candidates for review
     stats = {
         'reddit_posts': len(canadian_reddit),
         'news_articles': len(canadian_news),
@@ -345,10 +352,10 @@ def main():
         'sources_failed': sources_failed,
     }
 
-    html_success = generate_html(ranked_content, stats, logger)
+    save_success = save_candidates(ranked_content, stats, logger)
 
-    if not html_success:
-        logger.error("✗ PIPELINE FAILED: HTML generation failed")
+    if not save_success:
+        logger.error("✗ PIPELINE FAILED: Failed to save candidates")
         return False
 
     # Success!
@@ -356,14 +363,18 @@ def main():
     duration = (end_time - start_time).total_seconds()
 
     logger.info("=" * 70)
-    logger.info("PIPELINE COMPLETE - SUCCESS!")
+    logger.info("PIPELINE COMPLETE - CANDIDATES READY FOR REVIEW")
     logger.info("=" * 70)
     logger.info(f"Duration: {duration:.1f} seconds")
+    logger.info(f"Candidates generated: {len(ranked_content)}")
     logger.info(f"Canadian items: {total_canadian}")
-    logger.info(f"Generated site: {Config.OUTPUT_DIR / 'index.html'}")
     logger.info(f"Sources succeeded: {', '.join(sources_succeeded)}")
     if sources_failed:
         logger.info(f"Sources failed: {', '.join(sources_failed)}")
+    logger.info("")
+    logger.info("NEXT STEP: Editorial review")
+    logger.info("Run: python scripts/review_content.py")
+    logger.info("This will let you review and approve items before publishing.")
     logger.info("=" * 70)
 
     return True

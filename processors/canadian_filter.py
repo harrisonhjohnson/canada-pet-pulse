@@ -193,24 +193,71 @@ class CanadianFilter:
 
         return canadian_content
 
+    # Pet keywords (same as news_scraper.py)
+    PET_KEYWORDS = [
+        'dog', 'dogs', 'puppy', 'puppies', 'canine',
+        'cat', 'cats', 'kitten', 'kittens', 'feline',
+        'pet', 'pets', 'animal', 'animals',
+        'veterinary', 'vet', 'veterinarian',
+        'rescue', 'shelter', 'adoption',
+        'paw', 'tail', 'fur', 'breed',
+        'collar', 'leash',
+    ]
+
+    def _is_pet_related(self, post: Dict) -> bool:
+        """
+        Check if post is pet-related based on keywords.
+        Uses word boundary matching to avoid false positives (e.g., 'fur' in 'furnace').
+
+        Args:
+            post: Reddit post dictionary
+
+        Returns:
+            True if post is pet-related
+        """
+        title = post.get('title', '').lower()
+        selftext = post.get('selftext', '').lower()
+
+        searchable_text = f"{title} {selftext}"
+
+        # Use word boundaries to avoid false positives
+        # (e.g., 'fur' shouldn't match 'furnace', 'cat' shouldn't match 'carte')
+        for keyword in self.PET_KEYWORDS:
+            pattern = r'\b' + re.escape(keyword) + r'\b'
+            if re.search(pattern, searchable_text, re.IGNORECASE):
+                return True
+
+        return False
+
     def filter_by_subreddit(self, posts: List[Dict]) -> List[Dict]:
         """
         Special handling for Reddit posts with subreddit-aware filtering.
 
-        - Posts from Canadian subreddits are auto-included
-        - Posts from pet subreddits need Canadian score check
-        - Other subreddits need strong Canadian signal
+        - Pet subreddits: Need Canadian filter only
+        - Canadian subreddits: Need PET filter (to ensure pet relevance)
+        - Other subreddits: Need both Canadian + pet filters
 
         Args:
             posts: List of Reddit post dictionaries
 
         Returns:
-            Filtered list of Canadian-relevant posts
+            Filtered list of Canadian-relevant AND pet-related posts
         """
         canadian_subreddits = {
-            'canada', 'toronto', 'vancouver', 'montreal', 'calgary',
-            'ottawa', 'edmonton', 'winnipeg', 'onguardforthee',
+            # National
+            'canada', 'onguardforthee',
+
+            # Provinces/regions
             'britishcolumbia', 'ontario', 'quebec', 'alberta',
+
+            # Major cities
+            'toronto', 'vancouver', 'montreal', 'calgary', 'ottawa',
+            'edmonton', 'winnipeg',
+
+            # Additional cities (15 more)
+            'halifax', 'victoriabc', 'saskatoon', 'regina',
+            'kingstonontario', 'londonontario', 'guelph', 'barrie', 'kelowna',
+            'waterloo', 'windsorontario', 'hamilton', 'kitchener', 'stjohnsnl'
         }
 
         pet_subreddits = {
@@ -223,14 +270,8 @@ class CanadianFilter:
         for post in posts:
             subreddit = post.get('subreddit', '').lower()
 
-            # Auto-include Canadian subreddits
-            if subreddit in canadian_subreddits:
-                post['canadian_score'] = 1.0  # Max score
-                filtered_posts.append(post)
-                logger.debug(f"Auto-included r/{subreddit}: {post['title'][:50]}")
-
-            # Check pet subreddits for Canadian mentions (lower threshold)
-            elif subreddit in pet_subreddits:
+            # Pet subreddits: Check for Canadian relevance only
+            if subreddit in pet_subreddits:
                 if self.is_canadian(post, threshold=0.15):
                     filtered_posts.append(post)
                     logger.debug(
@@ -238,17 +279,26 @@ class CanadianFilter:
                         f"(score: {post['canadian_score']:.2f}): {post['title'][:50]}"
                     )
 
-            # Other subreddits need strong Canadian signal
+            # Canadian subreddits: Must be PET-related!
+            elif subreddit in canadian_subreddits:
+                if self._is_pet_related(post):
+                    post['canadian_score'] = 1.0  # Max score (it's from Canadian subreddit)
+                    filtered_posts.append(post)
+                    logger.debug(f"Pet post from r/{subreddit}: {post['title'][:50]}")
+                else:
+                    logger.debug(f"Filtered out non-pet post from r/{subreddit}: {post['title'][:50]}")
+
+            # Other subreddits: Need both Canadian AND pet signals
             else:
-                if self.is_canadian(post, threshold=0.3):
+                if self.is_canadian(post, threshold=0.3) and self._is_pet_related(post):
                     filtered_posts.append(post)
                     logger.debug(
-                        f"Canadian post r/{subreddit} "
+                        f"Canadian pet post r/{subreddit} "
                         f"(score: {post['canadian_score']:.2f}): {post['title'][:50]}"
                     )
 
         logger.info(
-            f"Reddit filter: {len(posts)} posts -> {len(filtered_posts)} Canadian posts"
+            f"Reddit filter: {len(posts)} posts -> {len(filtered_posts)} Canadian pet posts"
         )
 
         return filtered_posts

@@ -108,7 +108,7 @@
     <footer>
         <div class="container">
             <p><strong>Canadian Pet Pulse</strong> - Aggregating trending pet content across Canada</p>
-            <p>Data sources: Reddit, CBC, CTV News, Global News</p>
+            <p>Data sources: {% if stats.sources_succeeded %}{{ stats.sources_succeeded|join(', ')|title }}{% else %}Reddit{% endif %}</p>
             <p>Updated daily at 2:00 AM ET</p>
             <p><a href="https://github.com/yourusername/canadian-pet-pulse" target="_blank" rel="noopener noreferrer">View on GitHub</a></p>
         </div>
