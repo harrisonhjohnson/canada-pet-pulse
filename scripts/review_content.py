@@ -236,10 +236,25 @@ class ContentReviewer:
                 stats=data['stats']
             )
 
+            # Generate archive page for this date
+            date = data.get('date')
+            if date:
+                generator.generate_archive_page(
+                    date=date,
+                    trending_content=data['content'],
+                    stats=data['stats']
+                )
+
+                # Regenerate archive index
+                generator.generate_archive_index()
+
             print(f"\n✅ Generated HTML site in: {output_dir}/")
             print(f"   - index.html ({len(data['content'])} items)")
             print(f"   - data.json")
             print(f"   - styles.css")
+            if date:
+                print(f"   - archive/{date}.html")
+                print(f"   - archive/index.html")
 
             return True
 

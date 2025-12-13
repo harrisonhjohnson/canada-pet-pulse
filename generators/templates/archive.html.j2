@@ -3,25 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Daily trending pet content in the Canadian market - Reddit posts, news articles, and community discussions about pets across Canada.">
-    <meta name="keywords" content="Canadian pets, dog news, cat news, pet trends, Canada, Toronto pets, Vancouver pets">
+    <meta name="description" content="Archive of Canadian pet content from {{ date_formatted }}">
+    <meta name="keywords" content="Canadian pets, dog news, cat news, pet trends, Canada, archive">
     <meta name="author" content="Canadian Pet Pulse">
 
     <!-- Open Graph / Social Media -->
     <meta property="og:type" content="website">
     <meta property="og:title" content="{{ title }}">
-    <meta property="og:description" content="Daily trending pet content in the Canadian market">
-    <meta property="og:url" content="https://yourusername.github.io/canadian-pet-pulse/">
+    <meta property="og:description" content="Archive of Canadian pet content from {{ date_formatted }}">
 
-    <title>{{ title }} - {{ generated_at }}</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>{{ title }} - {{ date_formatted }}</title>
+    <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
     <header>
         <div class="container">
             <h1>🐾 {{ title }}</h1>
-            <p class="subtitle">Daily trending pet content in Canada</p>
-            <p class="last-updated">Last updated: {{ generated_at }} | <a href="archive/index.html" style="color: white; text-decoration: underline;">📚 Browse Archive</a></p>
+            <p class="subtitle">Archive from {{ date_formatted }}</p>
+            <p class="last-updated">{{ stats.total_items }} curated items</p>
+            <p><a href="../index.html" style="color: white; text-decoration: underline;">← Back to Today</a></p>
         </div>
     </header>
 
@@ -44,7 +44,7 @@
 
         <!-- Trending Content -->
         <section class="trending-content">
-            <h2>Today's Trending Pet Content</h2>
+            <h2>Curated Pet Content</h2>
 
             {% if trending_content %}
                 {% for item in trending_content %}
@@ -98,8 +98,7 @@
                 <!-- Empty State -->
                 <div class="empty-state">
                     <div class="empty-state-icon">🐕</div>
-                    <p class="empty-state-text">No trending content available</p>
-                    <p class="empty-state-subtext">Check back later for the latest pet trends in Canada!</p>
+                    <p class="empty-state-text">No content archived for this date</p>
                 </div>
             {% endif %}
         </section>
@@ -107,10 +106,10 @@
 
     <footer>
         <div class="container">
-            <p><strong>Canadian Pet Pulse</strong> - Aggregating trending pet content across Canada</p>
+            <p><strong>Canadian Pet Pulse</strong> - Archive from {{ date_formatted }}</p>
             <p>Data sources: {% if stats.sources_succeeded %}{{ stats.sources_succeeded|join(', ')|title }}{% else %}Reddit{% endif %}</p>
-            <p>Updated daily at 2:00 AM ET</p>
-            <p><a href="https://github.com/yourusername/canadian-pet-pulse" target="_blank" rel="noopener noreferrer">View on GitHub</a></p>
+            <p><a href="../index.html">View Today's Content</a> | <a href="index.html">Browse Archive</a></p>
+            <p><a href="https://github.com/harrisonhjohnson/canada-pet-pulse" target="_blank" rel="noopener noreferrer">View on GitHub</a></p>
         </div>
     </footer>
 </body>

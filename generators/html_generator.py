@@ -170,7 +170,7 @@ class HTMLGenerator:
         Generate archive page for a specific date.
 
         Args:
-            date: Date string (YYYY-MM-DD)
+            date: Date string (YYYYMMDD)
             trending_content: Trending content for that date
             stats: Statistics for that date
         """
@@ -178,20 +178,26 @@ class HTMLGenerator:
         archive_dir = os.path.join(self.output_dir, 'archive')
         os.makedirs(archive_dir, exist_ok=True)
 
+        # Format date for display
+        from datetime import datetime
+        try:
+            date_obj = datetime.strptime(date, '%Y%m%d')
+            date_formatted = date_obj.strftime('%B %d, %Y')
+        except:
+            date_formatted = date
+
         # Generate filename
         filename = f"{date}.html"
-
-        # Generate page (similar to main page but with date in title)
         output_path = os.path.join(archive_dir, filename)
 
-        template = self.env.get_template('index.html.j2')
+        # Use archive template
+        template = self.env.get_template('archive.html.j2')
 
         context = {
-            'title': f'Canadian Pet Pulse - {date}',
-            'generated_at': date,
+            'title': 'Canadian Pet Pulse',
+            'date_formatted': date_formatted,
             'trending_content': trending_content,
             'stats': stats,
-            'total_items': len(trending_content),
         }
 
         html = template.render(**context)
@@ -200,6 +206,102 @@ class HTMLGenerator:
             f.write(html)
 
         logger.info(f"Generated archive page: {output_path}")
+
+    def generate_archive_index(self):
+        """
+        Generate archive index page listing all available archive days.
+        """
+        archive_dir = os.path.join(self.output_dir, 'archive')
+
+        if not os.path.exists(archive_dir):
+            logger.warning("No archive directory found")
+            return
+
+        # Find all archive HTML files
+        archive_files = sorted([f for f in os.listdir(archive_dir) if f.endswith('.html') and f != 'index.html'], reverse=True)
+
+        # Parse dates from filenames
+        archives = []
+        for filename in archive_files:
+            date_str = filename.replace('.html', '')
+            try:
+                from datetime import datetime
+                date_obj = datetime.strptime(date_str, '%Y%m%d')
+                archives.append({
+                    'date': date_str,
+                    'date_formatted': date_obj.strftime('%B %d, %Y'),
+                    'filename': filename
+                })
+            except:
+                continue
+
+        # Generate index page
+        index_path = os.path.join(archive_dir, 'index.html')
+
+        html = f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canadian Pet Pulse - Archive</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🐾 Canadian Pet Pulse</h1>
+            <p class="subtitle">Content Archive</p>
+            <p><a href="../index.html" style="color: white; text-decoration: underline;">← Back to Today</a></p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="trending-content">
+            <h2>Browse Past Days</h2>
+            <div style="max-width: 600px; margin: 0 auto;">
+"""
+
+        for archive in archives:
+            html += f"""
+                <div style="background: white; padding: 20px; margin-bottom: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+                    <h3 style="margin: 0 0 10px 0;">
+                        <a href="{archive['filename']}" style="color: #E74C3C; text-decoration: none;">
+                            {archive['date_formatted']}
+                        </a>
+                    </h3>
+                    <p style="color: #666; margin: 0;">View curated Canadian pet content from this day</p>
+                </div>
+"""
+
+        if not archives:
+            html += """
+                <div class="empty-state">
+                    <div class="empty-state-icon">🐕</div>
+                    <p class="empty-state-text">No archived content yet</p>
+                    <p class="empty-state-subtext">Check back after your first daily update!</p>
+                </div>
+"""
+
+        html += """
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p><strong>Canadian Pet Pulse</strong> - Browse historical content</p>
+            <p><a href="../index.html">View Today's Content</a></p>
+            <p><a href="https://github.com/harrisonhjohnson/canada-pet-pulse" target="_blank" rel="noopener noreferrer">View on GitHub</a></p>
+        </div>
+    </footer>
+</body>
+</html>
+"""
+
+        with open(index_path, 'w', encoding='utf-8') as f:
+            f.write(html)
+
+        logger.info(f"Generated archive index with {len(archives)} days")
 
 
 # Example usage and testing
