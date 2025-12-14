@@ -202,8 +202,8 @@ def filter_content(reddit_posts, news_articles, logger) -> tuple[list, list]:
     canadian_reddit = canadian_filter.filter_by_subreddit(reddit_posts)
     logger.info(f"Reddit: {len(reddit_posts)} → {len(canadian_reddit)} Canadian posts")
 
-    # Filter News
-    canadian_news = canadian_filter.filter_canadian_content(news_articles, threshold=0.2)
+    # Filter News (high threshold for strong Canadian relevance)
+    canadian_news = canadian_filter.filter_canadian_content(news_articles, threshold=0.45)
     logger.info(f"News: {len(news_articles)} → {len(canadian_news)} Canadian articles")
 
     total_canadian = len(canadian_reddit) + len(canadian_news)

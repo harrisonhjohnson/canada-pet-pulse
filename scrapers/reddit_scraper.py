@@ -114,6 +114,7 @@ class RedditScraper(BaseScraper):
             Dictionary with cleaned post data
         """
         return {
+            'content_type': 'reddit',  # Required for content ranker
             'id': post.get('id', ''),
             'title': self.clean_whitespace(post.get('title', '')),
             'selftext': self.clean_whitespace(post.get('selftext', '')),

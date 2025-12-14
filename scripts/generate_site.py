@@ -135,8 +135,8 @@ class AutomatedPipeline:
         canadian_reddit = canadian_filter.filter_by_subreddit(reddit_posts)
         logger.info(f"✓ Reddit: {len(reddit_posts)} → {len(canadian_reddit)} Canadian pet posts")
 
-        # Filter news
-        canadian_news = canadian_filter.filter_canadian_content(news_articles, threshold=0.2)
+        # Filter news (high threshold to ensure strong Canadian relevance)
+        canadian_news = canadian_filter.filter_canadian_content(news_articles, threshold=0.45)
         logger.info(f"✓ News: {len(news_articles)} → {len(canadian_news)} Canadian articles")
 
         return canadian_reddit + canadian_news
@@ -165,8 +165,8 @@ class AutomatedPipeline:
         """
         logger.info("STEP 4: Auto-approving content")
 
-        # Filter by minimum Canadian score
-        quality_items = [c for c in candidates if c.get('canadian_score', 0) >= 0.15]
+        # Filter by minimum Canadian score (high threshold for quality)
+        quality_items = [c for c in candidates if c.get('canadian_score', 0) >= 0.45]
 
         # Take top 15 by trending score
         approved = quality_items[:15]

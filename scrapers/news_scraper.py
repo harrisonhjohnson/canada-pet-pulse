@@ -130,6 +130,7 @@ class NewsScraper(BaseScraper):
         summary = self._clean_html(entry.get('summary', ''))
 
         return {
+            'content_type': 'news',  # Required for content ranker
             'title': self.clean_whitespace(entry.get('title', '')),
             'link': entry.get('link', ''),
             'summary': self.truncate_text(summary, max_length=500),

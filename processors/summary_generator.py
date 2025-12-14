@@ -115,24 +115,37 @@ class SummaryGenerator:
             if selftext:
                 posts_text.append(f"   Context: {selftext}")
 
-        prompt = f"""You are summarizing today's trending pet stories across Canadian cities.
+        prompt = f"""You are a marketing manager for Fi, a GPS dog collar company. Based on today's trending pet stories in Canada, create 5 specific marketing tactics.
 
-Here are the top pet-related posts from Canadian city subreddits:
+Here are today's top pet-related posts from Canadian city subreddits:
 
 {chr(10).join(posts_text)}
 
-Write a 2-3 sentence summary that tells readers WHAT pet stories are trending today. Focus on the actual topics and stories (lost dogs, rescues, training questions, adoption events, etc.), mentioning the city for context. Make it clear what each story is about so readers can decide if it's relevant to them.
+Create these 5 marketing tactics based on the trends you see:
 
-Example style: "Winnipeg pet owners are organizing flight angels to rescue dogs and cats before the holiday embargo, while Saskatoon residents are sharing stories of dogs getting stuck on frozen rivers during winter walks."
+1. **Instagram Post**: A caption for an Instagram post that ties to today's trends (include emoji, keep it engaging, under 150 chars)
 
-Summary:"""
+2. **Email to Canada Prospects**: Subject line and 1-sentence preview that connects today's pet trends to why they need Fi
+
+3. **In-App Discover Card** (Referral): A short message for Fi app users encouraging them to refer friends, tied to today's trends
+
+4. **Email to Canada Customers**: Subject line and 1-sentence preview with a helpful tip or story based on today's trends
+
+5. **Partnership/PR Email**: A 1-sentence pitch to Canadian pet organizations/media about why today's trends matter
+
+Format your response exactly like this:
+📸 Instagram: [caption]
+📧 Prospects: [subject] | [preview]
+📱 Refer Friend: [message]
+📧 Customers: [subject] | [preview]
+🤝 Partners: [pitch]"""
 
         # Call Claude API
         client = anthropic.Anthropic(api_key=self.api_key)
 
         message = client.messages.create(
             model="claude-3-5-haiku-20241022",  # Fast and cost-effective
-            max_tokens=200,
+            max_tokens=500,  # Increased for 5 marketing tactics
             messages=[
                 {"role": "user", "content": prompt}
             ]
@@ -144,49 +157,31 @@ Summary:"""
 
     def _generate_fallback_summary(self, posts: List[Dict]) -> str:
         """
-        Generate simple rule-based summary when AI is unavailable.
+        Generate simple rule-based marketing tactics when AI is unavailable.
 
         Args:
             posts: Posts to summarize
 
         Returns:
-            Simple summary text
+            Marketing tactics text
         """
         if not posts:
-            return "Today's trending Canadian pet content features stories from across the country."
+            return """📸 Instagram: Canadian pet parents are making moves today 🇨🇦🐾
+📧 Prospects: Keep your pup safe in Canada's unpredictable conditions | Never lose sight of your dog with Fi's GPS tracking
+📱 Refer Friend: Share Fi with your Canadian dog parent friends and help keep more pups safe!
+📧 Customers: Tips for winter pet safety in Canada | Based on today's trending stories from pet parents across the country
+🤝 Partners: Canadian pet parents are increasingly concerned about pet safety - let's discuss how Fi can help address these trends"""
 
-        # Build story-focused mentions (top 3 posts)
-        story_mentions = []
-        for post in posts[:3]:
-            city = post.get('subreddit', 'Unknown').capitalize()
-            title = post.get('title', '')
+        # Get top story for context
+        top_post = posts[0]
+        city = top_post.get('subreddit', 'Canada').capitalize()
+        title = top_post.get('title', '')[:60]
 
-            # Extract key topic from title (lowercase for pattern matching)
-            title_lower = title.lower()
-
-            # Try to extract meaningful summary
-            if 'lost' in title_lower or 'found' in title_lower:
-                topic = "has lost/found pet reports"
-            elif 'rescue' in title_lower or 'adoption' in title_lower or 'adopt' in title_lower:
-                topic = f"features {title[:50]}"
-            elif 'training' in title_lower:
-                topic = "discusses pet training questions"
-            elif 'stuck' in title_lower or 'help' in title_lower:
-                topic = f"shares {title[:45]}"
-            else:
-                # Default: use first part of title
-                topic = f"discusses {title[:50]}"
-
-            story_mentions.append(f"{city} {topic}")
-
-        if len(story_mentions) == 1:
-            return f"Today's top Canadian pet story: {story_mentions[0]}."
-        elif len(story_mentions) == 2:
-            return f"Trending today: {story_mentions[0]}, while {story_mentions[1]}."
-        elif len(story_mentions) >= 3:
-            return f"Trending today: {story_mentions[0]}, {story_mentions[1]}, and {story_mentions[2]}."
-        else:
-            return "Today's trending Canadian pet content features stories from across the country."
+        return f"""📸 Instagram: Canadian pet parents in {city} are talking about: {title}... 🇨🇦🐾
+📧 Prospects: Never lose your dog in Canada | Fi GPS collars help Canadian pet parents stay connected with their dogs
+📱 Refer Friend: See today's trending pet stories? Share Fi with friends who need GPS tracking for their pups!
+📧 Customers: What's trending in Canadian pet communities today | {title}...
+🤝 Partners: Today's trending pet content shows Canadian pet parents need better safety tools - Fi is seeing strong engagement in markets like {city}"""
 
 
 # Example usage

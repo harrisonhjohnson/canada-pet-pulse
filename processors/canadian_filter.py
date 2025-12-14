@@ -41,16 +41,16 @@ class CanadianFilter:
         'northwest territories', 'nunavut', 'yukon',
     ]
 
-    # Province abbreviations
+    # Province abbreviations (uppercase for case-sensitive matching to avoid false positives like "on")
     PROVINCE_CODES = [
-        'on', 'qc', 'bc', 'ab', 'mb', 'sk', 'ns', 'nb', 'nl', 'pe', 'nt', 'nu', 'yt',
+        'ON', 'QC', 'BC', 'AB', 'MB', 'SK', 'NS', 'NB', 'NL', 'PE', 'NT', 'NU', 'YT',
     ]
 
     # Canadian-specific keywords
     KEYWORDS = [
         'canada', 'canadian', 'canuck', 'canadians',
-        # Canadian institutions
-        'cra', 'rcmp', 'cbsa', 'health canada',
+        # Canadian institutions (removed 'cra' - matches 'crate', 'craft', 'crazy', etc.)
+        'rcmp', 'cbsa', 'health canada',
         # Canadian brands/terms
         'tim hortons', 'timmies', 'loblaws', 'canadian tire',
         'shoppers drug mart', 'sobeys',
@@ -76,9 +76,9 @@ class CanadianFilter:
             for prov in self.PROVINCES
         ]
 
-        # Special patterns for province codes (need word boundaries)
+        # Special patterns for province codes (case-sensitive to avoid matching "on", "in", etc.)
         self.province_code_patterns = [
-            re.compile(r'\b' + code + r'\b', re.IGNORECASE)
+            re.compile(r'\b' + code + r'\b')  # No IGNORECASE - must match uppercase ON, QC, BC, etc.
             for code in self.PROVINCE_CODES
         ]
 
@@ -204,13 +204,14 @@ class CanadianFilter:
         'collar', 'leash',
     ]
 
-    def _is_pet_related(self, post: Dict) -> bool:
+    def _is_pet_related(self, post: Dict, strict: bool = False) -> bool:
         """
         Check if post is pet-related based on keywords.
         Uses word boundary matching to avoid false positives (e.g., 'fur' in 'furnace').
 
         Args:
             post: Reddit post dictionary
+            strict: If True, require pet keyword in title OR multiple keywords (reduces false positives)
 
         Returns:
             True if post is pet-related
@@ -218,16 +219,42 @@ class CanadianFilter:
         title = post.get('title', '').lower()
         selftext = post.get('selftext', '').lower()
 
-        searchable_text = f"{title} {selftext}"
+        if strict:
+            # Strict mode: For Canadian city subreddits to avoid false positives like "Cat's Coffee"
+            # Require: Pet keyword in TITLE or multiple pet keywords total
 
-        # Use word boundaries to avoid false positives
-        # (e.g., 'fur' shouldn't match 'furnace', 'cat' shouldn't match 'carte')
-        for keyword in self.PET_KEYWORDS:
-            pattern = r'\b' + re.escape(keyword) + r'\b'
-            if re.search(pattern, searchable_text, re.IGNORECASE):
+            # Check if title has pet keywords
+            title_matches = 0
+            for keyword in self.PET_KEYWORDS:
+                pattern = r'\b' + re.escape(keyword) + r'\b'
+                if re.search(pattern, title, re.IGNORECASE):
+                    title_matches += 1
+
+            # If title has pet keywords, it's clearly about pets
+            if title_matches > 0:
                 return True
 
-        return False
+            # Otherwise, check if there are multiple pet keywords in the full text
+            # (to avoid matching "Cat's Coffee and Cake" as a pet post)
+            total_matches = 0
+            searchable_text = f"{title} {selftext}"
+            for keyword in self.PET_KEYWORDS:
+                pattern = r'\b' + re.escape(keyword) + r'\b'
+                if re.search(pattern, searchable_text, re.IGNORECASE):
+                    total_matches += 1
+
+            # Need at least 2 pet keywords if none are in title
+            return total_matches >= 2
+
+        else:
+            # Loose mode: Any pet keyword anywhere
+            searchable_text = f"{title} {selftext}"
+            for keyword in self.PET_KEYWORDS:
+                pattern = r'\b' + re.escape(keyword) + r'\b'
+                if re.search(pattern, searchable_text, re.IGNORECASE):
+                    return True
+
+            return False
 
     def filter_by_subreddit(self, posts: List[Dict]) -> List[Dict]:
         """
@@ -272,7 +299,7 @@ class CanadianFilter:
 
             # Pet subreddits: Check for Canadian relevance only
             if subreddit in pet_subreddits:
-                if self.is_canadian(post, threshold=0.15):
+                if self.is_canadian(post, threshold=0.45):
                     filtered_posts.append(post)
                     logger.debug(
                         f"Canadian pet post r/{subreddit} "
@@ -281,7 +308,8 @@ class CanadianFilter:
 
             # Canadian subreddits: Must be PET-related!
             elif subreddit in canadian_subreddits:
-                if self._is_pet_related(post):
+                # Use strict=True to avoid false positives like "Cat's Coffee"
+                if self._is_pet_related(post, strict=True):
                     post['canadian_score'] = 1.0  # Max score (it's from Canadian subreddit)
                     filtered_posts.append(post)
                     logger.debug(f"Pet post from r/{subreddit}: {post['title'][:50]}")
