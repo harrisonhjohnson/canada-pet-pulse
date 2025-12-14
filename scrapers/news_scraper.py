@@ -25,10 +25,13 @@ class NewsScraper(BaseScraper):
 
     # RSS feed sources
     RSS_FEEDS = {
-        'CBC Canada': 'https://www.cbc.ca/webfeed/rss/rss-canada',
-        'CBC News': 'https://www.cbc.ca/webfeed/rss/rss-topstories',
-        'CTV News': 'https://www.ctvnews.ca/rss/ctvnews-ca-top-stories-public-rss-1.822009',
+        # Direct news feeds (reliable, no blocking)
         'Global News': 'https://globalnews.ca/feed/',
+
+        # Google News RSS (aggregates multiple Canadian sources)
+        'Google News - Dogs Canada': 'https://news.google.com/rss/search?q=dogs+canada&hl=en-CA&gl=CA&ceid=CA:en',
+        'Google News - Cats Canada': 'https://news.google.com/rss/search?q=cats+canada&hl=en-CA&gl=CA&ceid=CA:en',
+        'Google News - Pets Canada': 'https://news.google.com/rss/search?q=pets+canada&hl=en-CA&gl=CA&ceid=CA:en',
     }
 
     # Pet-related keywords for filtering
