@@ -115,37 +115,70 @@ class SummaryGenerator:
             if selftext:
                 posts_text.append(f"   Context: {selftext}")
 
-        prompt = f"""You are a marketing manager for Fi, a GPS dog collar company. Based on today's trending pet stories in Canada, create 5 specific marketing tactics.
+        prompt = f"""You are a marketing manager for Fi, a GPS dog collar company. Create 5 marketing tactics for the Canadian market based on today's trending pet stories.
 
-Here are today's top pet-related posts from Canadian city subreddits:
+BRAND VOICE (Fi Canada Style Guide):
+- Voice: "We bring pets and pet owners closer through our technology"
+- Tone: Witty, never cutesy. NO "doggo", "pupper", "fur baby"
+- Style: Confident brevity. Short, punchy headlines. Active voice.
 
+TODAY'S TRENDING STORIES:
 {chr(10).join(posts_text)}
 
-Create these 5 marketing tactics based on the trends you see:
+For EACH tactic below, select the BEST trending story from the list above that fits that specific marketing channel. Different tactics can use different stories. Then create:
 
-1. **Instagram Post**: A caption for an Instagram post that ties to today's trends (include emoji, keep it engaging, under 150 chars)
+1. 📸 INSTAGRAM POST
+   - Headline (max 50 chars)
+   - Body copy (max 100 chars)
+   - CTA (max 8 chars)
+   - Tie to the specific story, witty tone
 
-2. **Email to Canada Prospects**: Subject line and 1-sentence preview that connects today's pet trends to why they need Fi
+2. 📧 PROSPECT EMAIL
+   - Subject line (max 50 chars)
+   - Preview text (max 100 chars)
+   - Connect story to why they need Fi GPS
 
-3. **In-App Discover Card** (Referral): A short message for Fi app users encouraging them to refer friends, tied to today's trends
+3. 📱 IN-APP REFERRAL CARD
+   - Headline (max 37 chars)
+   - Body copy (max 45 chars)
+   - Reference the trending story
 
-4. **Email to Canada Customers**: Subject line and 1-sentence preview with a helpful tip or story based on today's trends
+4. 📧 CUSTOMER EMAIL
+   - Subject line (max 50 chars)
+   - Preview text (max 100 chars)
+   - Helpful tip based on the story
 
-5. **Partnership/PR Email**: A 1-sentence pitch to Canadian pet organizations/media about why today's trends matter
+5. 🤝 PARTNERSHIP PITCH
+   - One compelling sentence (max 100 chars)
+   - Pitch to Canadian pet orgs/media
 
-Format your response exactly like this:
-📸 Instagram: [caption]
-📧 Prospects: [subject] | [preview]
-📱 Refer Friend: [message]
-📧 Customers: [subject] | [preview]
-🤝 Partners: [pitch]"""
+Format response exactly like this:
+📸 Instagram
+Headline: [text]
+Copy: [text]
+CTA: [text]
+
+📧 Prospects
+Subject: [text]
+Preview: [text]
+
+📱 Refer Friend
+Headline: [text]
+Copy: [text]
+
+📧 Customers
+Subject: [text]
+Preview: [text]
+
+🤝 Partners
+[pitch text]"""
 
         # Call Claude API
         client = anthropic.Anthropic(api_key=self.api_key)
 
         message = client.messages.create(
             model="claude-3-5-haiku-20241022",  # Fast and cost-effective
-            max_tokens=500,  # Increased for 5 marketing tactics
+            max_tokens=750,  # Increased for 5 marketing tactics with different stories
             messages=[
                 {"role": "user", "content": prompt}
             ]
@@ -166,22 +199,51 @@ Format your response exactly like this:
             Marketing tactics text
         """
         if not posts:
-            return """📸 Instagram: Canadian pet parents are making moves today 🇨🇦🐾
-📧 Prospects: Keep your pup safe in Canada's unpredictable conditions | Never lose sight of your dog with Fi's GPS tracking
-📱 Refer Friend: Share Fi with your Canadian dog parent friends and help keep more pups safe!
-📧 Customers: Tips for winter pet safety in Canada | Based on today's trending stories from pet parents across the country
-🤝 Partners: Canadian pet parents are increasingly concerned about pet safety - let's discuss how Fi can help address these trends"""
+            return """📸 Instagram
+Headline: GPS tracking keeps Canadian pets safe
+Copy: Real-time location tracking. AI health insights. Peace of mind.
+CTA: Learn more
+
+📧 Prospects
+Subject: Never lose your dog in Canada
+Preview: Fi brings you closer to your pet with GPS tracking & AI-analyzed behavior insights.
+
+📱 Refer Friend
+Headline: Share Fi with your friends
+Copy: Help keep more Canadian pets safe
+
+📧 Customers
+Subject: Track your adventures together
+Preview: See where your dog explored today with Fi's GPS tracking.
+
+🤝 Partners
+Canadian pet parents need better safety tools — Fi's GPS tracking is seeing strong engagement nationwide."""
 
         # Get top story for context
         top_post = posts[0]
         city = top_post.get('subreddit', 'Canada').capitalize()
-        title = top_post.get('title', '')[:60]
+        title = top_post.get('title', '')
+        title_short = title[:40] if len(title) > 40 else title
 
-        return f"""📸 Instagram: Canadian pet parents in {city} are talking about: {title}... 🇨🇦🐾
-📧 Prospects: Never lose your dog in Canada | Fi GPS collars help Canadian pet parents stay connected with their dogs
-📱 Refer Friend: See today's trending pet stories? Share Fi with friends who need GPS tracking for their pups!
-📧 Customers: What's trending in Canadian pet communities today | {title}...
-🤝 Partners: Today's trending pet content shows Canadian pet parents need better safety tools - Fi is seeing strong engagement in markets like {city}"""
+        return f"""📸 Instagram
+Headline: {city} pet parents are talking
+Copy: "{title_short}" — this is why GPS tracking matters.
+CTA: Get Fi
+
+📧 Prospects
+Subject: {city}: {title_short}
+Preview: Stories like this show why Canadian pet parents trust Fi's GPS tracking.
+
+📱 Refer Friend
+Headline: Trending in {city}
+Copy: Share Fi with friends who need GPS tracking
+
+📧 Customers
+Subject: Trending in {city} pet communities
+Preview: {title_short} — see what's happening in your area.
+
+🤝 Partners
+{city} pet parents are discussing {title_short[:50]} — Fi's GPS tracking addresses real safety concerns."""
 
 
 # Example usage

@@ -204,6 +204,12 @@ class CanadianFilter:
         'collar', 'leash',
     ]
 
+    # Sports teams with animal names to exclude (false positives)
+    SPORTS_TEAM_EXCLUSIONS = [
+        'tiger-cats', 'ticats',  # Hamilton CFL team
+        'blue jays',  # Toronto MLB team
+    ]
+
     def _is_pet_related(self, post: Dict, strict: bool = False) -> bool:
         """
         Check if post is pet-related based on keywords.
@@ -218,6 +224,12 @@ class CanadianFilter:
         """
         title = post.get('title', '').lower()
         selftext = post.get('selftext', '').lower()
+
+        # Exclude sports teams with animal names
+        searchable_text = f"{title} {selftext}"
+        for team in self.SPORTS_TEAM_EXCLUSIONS:
+            if team in searchable_text:
+                return False
 
         if strict:
             # Strict mode: For Canadian city subreddits to avoid false positives like "Cat's Coffee"

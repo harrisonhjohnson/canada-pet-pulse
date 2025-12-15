@@ -45,6 +45,12 @@ class NewsScraper(BaseScraper):
         'collar', 'leash',
     ]
 
+    # Sports teams with animal names to exclude (false positives)
+    SPORTS_TEAM_EXCLUSIONS = [
+        'tiger-cats', 'ticats',  # Hamilton CFL team
+        'blue jays',  # Toronto MLB team
+    ]
+
     def __init__(self):
         """Initialize news scraper."""
         self.session = requests.Session()
@@ -101,6 +107,11 @@ class NewsScraper(BaseScraper):
 
         # Combine all searchable text
         searchable_text = f"{title} {summary} {tags}"
+
+        # Exclude sports teams with animal names
+        for team in self.SPORTS_TEAM_EXCLUSIONS:
+            if team in searchable_text:
+                return False
 
         # Check if any pet keyword appears
         return any(keyword in searchable_text for keyword in self.PET_KEYWORDS)
