@@ -1,9 +1,9 @@
 {
-  "generated_at": "2025-12-16T06:37:36.205299+00:00",
+  "generated_at": "2025-12-17T06:37:01.875826+00:00",
   "stats": {
     "reddit_posts": 0,
-    "news_articles": 5,
-    "total_items": 5,
+    "news_articles": 4,
+    "total_items": 4,
     "sources_succeeded": [
       "reddit",
       "news"
@@ -13,25 +13,6 @@
   "content": [
     {
       "content_type": "news",
-      "title": "Government of Alberta shutting down Calgary’s supervised consumption site",
-      "link": "https://globalnews.ca/news/11579251/alberta-shutting-down-calgary-supervised-consumption-site/",
-      "summary": "The Alberta government has confirmed its plans to close Calgary's controversial supervised consumption site, located in the Sheldon Chumir Centre, in early 2026.",
-      "published": "2025-12-16T00:52:05+00:00",
-      "source": "Global News",
-      "author": "Ken MacGillivray",
-      "tags": [
-        "Crime",
-        "Health",
-        "Politics",
-        "Sheldon Chumir Centre",
-        "Supervised Consumption Site"
-      ],
-      "scraped_at": "2025-12-16T06:37:34.318775+00:00",
-      "canadian_score": 0.5,
-      "trending_score": 8.125
-    },
-    {
-      "content_type": "news",
       "title": "Parks Canada warns wolves are targeting dogs on popular Vancouver Island beach - Victoria Buzz",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWmxpU3BEMmdaaHdhbHJFNGFYX3RoUE1IQi1wZzVqUldnbGJEYVhjN3F4QURKNkFtQ3BDUDVNaWQxOF84RmFYVHNDeHJ2Qy05SDNPRE5FWmszc3Zfcnc2WmJSU2dtOElIUXp2VER3X2xXTDlhMFA2N3I4eVFuS21oZEcxX1prcGJmMC1TT3VINWh4SVBsWmhtWllsZGgzZUpKQllVQ2hiOHpQU1NFRGxoYkxB?oc=5",
       "summary": "Parks Canada warns wolves are targeting dogs on popular Vancouver Island beach Victoria Buzz",
@@ -39,7 +20,7 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2025-12-16T06:37:34.929498+00:00",
+      "scraped_at": "2025-12-17T06:37:00.555822+00:00",
       "canadian_score": 0.65,
       "trending_score": 0.662
     },
@@ -52,7 +33,7 @@
       "source": "Google News - Pets Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2025-12-16T06:37:36.113236+00:00",
+      "scraped_at": "2025-12-17T06:37:01.748375+00:00",
       "canadian_score": 0.65,
       "trending_score": 0.662
     },
@@ -65,7 +46,7 @@
       "source": "Google News - Cats Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2025-12-16T06:37:35.531833+00:00",
+      "scraped_at": "2025-12-17T06:37:01.154083+00:00",
       "canadian_score": 0.6,
       "trending_score": 0.65
     },
@@ -78,7 +59,7 @@
       "source": "Google News - Pets Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2025-12-16T06:37:36.117638+00:00",
+      "scraped_at": "2025-12-17T06:37:01.753947+00:00",
       "canadian_score": 0.6,
       "trending_score": 0.65
     }
