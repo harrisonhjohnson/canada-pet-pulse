@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-20T06:35:28.737318+00:00",
+  "generated_at": "2025-12-21T06:34:53.442350+00:00",
   "stats": {
     "reddit_posts": 0,
     "news_articles": 5,
@@ -20,7 +20,7 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2025-12-20T06:35:27.291455+00:00",
+      "scraped_at": "2025-12-21T06:34:52.175492+00:00",
       "canadian_score": 0.65,
       "trending_score": 0.662
     },
@@ -33,7 +33,7 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2025-12-20T06:35:27.297493+00:00",
+      "scraped_at": "2025-12-21T06:34:52.182335+00:00",
       "canadian_score": 0.65,
       "trending_score": 0.662
     },
@@ -46,7 +46,7 @@
       "source": "Google News - Pets Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2025-12-20T06:35:28.613391+00:00",
+      "scraped_at": "2025-12-21T06:34:53.320738+00:00",
       "canadian_score": 0.65,
       "trending_score": 0.662
     },
@@ -59,7 +59,7 @@
       "source": "Google News - Cats Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2025-12-20T06:35:27.955169+00:00",
+      "scraped_at": "2025-12-21T06:34:52.781369+00:00",
       "canadian_score": 0.6,
       "trending_score": 0.65
     },
@@ -72,7 +72,7 @@
       "source": "Google News - Pets Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2025-12-20T06:35:28.619774+00:00",
+      "scraped_at": "2025-12-21T06:34:53.325072+00:00",
       "canadian_score": 0.6,
       "trending_score": 0.65
     }
