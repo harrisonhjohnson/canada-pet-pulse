@@ -1,9 +1,9 @@
 {
-  "generated_at": "2025-12-21T06:34:53.442350+00:00",
+  "generated_at": "2025-12-22T06:39:04.515434+00:00",
   "stats": {
     "reddit_posts": 0,
-    "news_articles": 5,
-    "total_items": 5,
+    "news_articles": 4,
+    "total_items": 4,
     "sources_succeeded": [
       "reddit",
       "news"
@@ -20,20 +20,7 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2025-12-21T06:34:52.175492+00:00",
-      "canadian_score": 0.65,
-      "trending_score": 0.662
-    },
-    {
-      "content_type": "news",
-      "title": "Canoeists ‘stalked’ by pack of vicious dogs on Nova Scotia river: RCMP - Halifax - Global News",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBOaXRkVGRjbTY0QmloWi1hdmNjUUo1SWhnTTB0b1hiMF9PMW9xVGFHLVRaUFJHRExvVnpidkg2SnV0R0hSdFhLajV3eW15RzUtNXVwUGhLLVFYUEd3WW9wOWdvTURQZU9OeDNCbnpUU3d0VG9mb1JHWQ?oc=5",
-      "summary": "Canoeists ‘stalked’ by pack of vicious dogs on Nova Scotia river: RCMP - Halifax Global News",
-      "published": "2025-07-07T07:00:00+00:00",
-      "source": "Google News - Dogs Canada",
-      "author": "",
-      "tags": [],
-      "scraped_at": "2025-12-21T06:34:52.182335+00:00",
+      "scraped_at": "2025-12-22T06:39:03.195116+00:00",
       "canadian_score": 0.65,
       "trending_score": 0.662
     },
@@ -46,7 +33,7 @@
       "source": "Google News - Pets Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2025-12-21T06:34:53.320738+00:00",
+      "scraped_at": "2025-12-22T06:39:04.374771+00:00",
       "canadian_score": 0.65,
       "trending_score": 0.662
     },
@@ -59,7 +46,7 @@
       "source": "Google News - Cats Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2025-12-21T06:34:52.781369+00:00",
+      "scraped_at": "2025-12-22T06:39:03.768028+00:00",
       "canadian_score": 0.6,
       "trending_score": 0.65
     },
@@ -72,7 +59,7 @@
       "source": "Google News - Pets Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2025-12-21T06:34:53.325072+00:00",
+      "scraped_at": "2025-12-22T06:39:04.380679+00:00",
       "canadian_score": 0.6,
       "trending_score": 0.65
     }
