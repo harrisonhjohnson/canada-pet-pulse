@@ -1,9 +1,9 @@
 {
-  "generated_at": "2025-12-23T06:37:58.469344+00:00",
+  "generated_at": "2025-12-24T06:37:52.288666+00:00",
   "stats": {
     "reddit_posts": 0,
-    "news_articles": 5,
-    "total_items": 5,
+    "news_articles": 4,
+    "total_items": 4,
     "sources_succeeded": [
       "reddit",
       "news"
@@ -20,20 +20,7 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2025-12-23T06:37:57.121959+00:00",
-      "canadian_score": 0.65,
-      "trending_score": 0.662
-    },
-    {
-      "content_type": "news",
-      "title": "3 stats that defined Hamilton’s WestJet Canada Day Weekend win over Montreal - CFL.ca",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPX3BIcHZBMWNMYnA5M3RMNjduVG9ZeFZUN09KMU5NOFJEN3ZlZXFJX3Z5U2ctV0RaTXlkLVpfRE9KanBfVlk3R0tmVjF3bWljcTluajViMjRsNjFveEs2SDlIZ2E0YU10LTdQME5fNFVXV3JaRHBLRVVvanZOMjB2eU42aC0wYnBrTHhiYVEtVQ?oc=5",
-      "summary": "3 stats that defined Hamilton’s WestJet Canada Day Weekend win over Montreal CFL.ca",
-      "published": "2025-06-27T07:00:00+00:00",
-      "source": "Google News - Cats Canada",
-      "author": "",
-      "tags": [],
-      "scraped_at": "2025-12-23T06:37:57.777225+00:00",
+      "scraped_at": "2025-12-24T06:37:51.006386+00:00",
       "canadian_score": 0.65,
       "trending_score": 0.662
     },
@@ -46,7 +33,7 @@
       "source": "Google News - Pets Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2025-12-23T06:37:58.332245+00:00",
+      "scraped_at": "2025-12-24T06:37:52.145825+00:00",
       "canadian_score": 0.65,
       "trending_score": 0.662
     },
@@ -59,7 +46,7 @@
       "source": "Google News - Cats Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2025-12-23T06:37:57.771956+00:00",
+      "scraped_at": "2025-12-24T06:37:51.581345+00:00",
       "canadian_score": 0.6,
       "trending_score": 0.65
     },
@@ -72,7 +59,7 @@
       "source": "Google News - Pets Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2025-12-23T06:37:58.336624+00:00",
+      "scraped_at": "2025-12-24T06:37:52.151459+00:00",
       "canadian_score": 0.6,
       "trending_score": 0.65
     }
