@@ -1,9 +1,9 @@
 {
-  "generated_at": "2025-12-24T06:37:52.288666+00:00",
+  "generated_at": "2025-12-25T06:37:07.463265+00:00",
   "stats": {
     "reddit_posts": 0,
-    "news_articles": 4,
-    "total_items": 4,
+    "news_articles": 3,
+    "total_items": 3,
     "sources_succeeded": [
       "reddit",
       "news"
@@ -20,35 +20,9 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2025-12-24T06:37:51.006386+00:00",
+      "scraped_at": "2025-12-25T06:37:06.113862+00:00",
       "canadian_score": 0.65,
       "trending_score": 0.662
-    },
-    {
-      "content_type": "news",
-      "title": "Pet abandonments in Quebec used to spike around Canada Day. Now they’re year-round - Montreal - Global News",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9GZUd0djFCV3U2WGFhcGlkaUJkZi1feGpGdTFwLUtGeE5BcXRGUHFEWmJlU0dhQV95QWs5Q2NpYndPeTZPdDVZSUNreE5ORUxEaVRhMDVoV21xRDhyRFJ0NVVLQzNxWDNsdUhYVw?oc=5",
-      "summary": "Pet abandonments in Quebec used to spike around Canada Day. Now they’re year-round - Montreal Global News",
-      "published": "2025-07-01T07:00:00+00:00",
-      "source": "Google News - Pets Canada",
-      "author": "",
-      "tags": [],
-      "scraped_at": "2025-12-24T06:37:52.145825+00:00",
-      "canadian_score": 0.65,
-      "trending_score": 0.662
-    },
-    {
-      "content_type": "news",
-      "title": "Montreal's Le Miaousée wants to become Canada's first permanent cat museum - thecanadianpressnews.ca",
-      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOelJLdHlMbUtSRHdSX0dzNzMwSWFCM1o2TkQtUVJ4YzFHc3dQcG54dlBqSUVWUmc2Y09KMkg3LXZnOFMtQmFqTXdvVHdMOE93cEMtVklvQ0dTeGF3Y1JsRnluaUJzeVJ4WkRhdk9zUXh4dy1MUGtycGpVdElzajk0TmFVN0tLSGI0c1Vfc0dReGoydUhMT2x2YlJPdElLR2RNMWZjcmpPMHZhUF9GWlVKaThFTUVaQXFMNEE4bHR2YmF2bV9WdVNUaUQxY3NUNm52Ujhxb0ZSN2dMN3ZNdkJLUXhxUGxtdGlDbW5XRFYzRzUxaXBRS0daQ2pzS3RlOG5tWGc?oc=5",
-      "summary": "Montreal's Le Miaousée wants to become Canada's first permanent cat museum thecanadianpressnews.ca",
-      "published": "2025-09-14T07:00:00+00:00",
-      "source": "Google News - Cats Canada",
-      "author": "",
-      "tags": [],
-      "scraped_at": "2025-12-24T06:37:51.581345+00:00",
-      "canadian_score": 0.6,
-      "trending_score": 0.65
     },
     {
       "content_type": "news",
@@ -59,9 +33,22 @@
       "source": "Google News - Pets Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2025-12-24T06:37:52.151459+00:00",
+      "scraped_at": "2025-12-25T06:37:07.371428+00:00",
       "canadian_score": 0.6,
       "trending_score": 0.65
+    },
+    {
+      "content_type": "news",
+      "title": "Ontario to end medical research testing on dogs, cats following whistleblower exposé - Windsor Star",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOclJuTXBRZkVUUjVPTmUwSEcyNGxycVhhcmxmSlFSaXc4RzJpZzRTbjBVcUJsbTlwdGhlYXVqeWFoMlhSS3lJQWQxUGpLYWk3VWMxLUVLcVZLQWRsSUQ2ZExldEcxOFVPLTZjVE1meFZiOWJqZGZ0TVVNM1BVTkpyOVROVlFneF9TX0w5enRJY29DYk95eFl0UFVsV2lsR21wTTF0TlZacEJ3cHUxaWpKTlRyS3otMXBuWE9kOWNNdkI?oc=5",
+      "summary": "Ontario to end medical research testing on dogs, cats following whistleblower exposé Windsor Star",
+      "published": "2025-08-26T07:00:00+00:00",
+      "source": "Google News - Cats Canada",
+      "author": "",
+      "tags": [],
+      "scraped_at": "2025-12-25T06:37:06.652780+00:00",
+      "canadian_score": 0.5,
+      "trending_score": 0.625
     }
   ]
 }
