@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-25T06:37:07.463265+00:00",
+  "generated_at": "2025-12-26T06:36:38.857086+00:00",
   "stats": {
     "reddit_posts": 0,
     "news_articles": 3,
@@ -13,16 +13,16 @@
   "content": [
     {
       "content_type": "news",
-      "title": "Parks Canada warns wolves are targeting dogs on popular Vancouver Island beach - Victoria Buzz",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWmxpU3BEMmdaaHdhbHJFNGFYX3RoUE1IQi1wZzVqUldnbGJEYVhjN3F4QURKNkFtQ3BDUDVNaWQxOF84RmFYVHNDeHJ2Qy05SDNPRE5FWmszc3Zfcnc2WmJSU2dtOElIUXp2VER3X2xXTDlhMFA2N3I4eVFuS21oZEcxX1prcGJmMC1TT3VINWh4SVBsWmhtWllsZGgzZUpKQllVQ2hiOHpQU1NFRGxoYkxB?oc=5",
-      "summary": "Parks Canada warns wolves are targeting dogs on popular Vancouver Island beach Victoria Buzz",
-      "published": "2025-10-29T07:00:00+00:00",
-      "source": "Google News - Dogs Canada",
+      "title": "Montreal's Le Miaousée wants to become Canada's first permanent cat museum - thecanadianpressnews.ca",
+      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOelJLdHlMbUtSRHdSX0dzNzMwSWFCM1o2TkQtUVJ4YzFHc3dQcG54dlBqSUVWUmc2Y09KMkg3LXZnOFMtQmFqTXdvVHdMOE93cEMtVklvQ0dTeGF3Y1JsRnluaUJzeVJ4WkRhdk9zUXh4dy1MUGtycGpVdElzajk0TmFVN0tLSGI0c1Vfc0dReGoydUhMT2x2YlJPdElLR2RNMWZjcmpPMHZhUF9GWlVKaThFTUVaQXFMNEE4bHR2YmF2bV9WdVNUaUQxY3NUNm52Ujhxb0ZSN2dMN3ZNdkJLUXhxUGxtdGlDbW5XRFYzRzUxaXBRS0daQ2pzS3RlOG5tWGc?oc=5",
+      "summary": "Montreal's Le Miaousée wants to become Canada's first permanent cat museum thecanadianpressnews.ca",
+      "published": "2025-09-14T07:00:00+00:00",
+      "source": "Google News - Cats Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2025-12-25T06:37:06.113862+00:00",
-      "canadian_score": 0.65,
-      "trending_score": 0.662
+      "scraped_at": "2025-12-26T06:36:38.078489+00:00",
+      "canadian_score": 0.6,
+      "trending_score": 0.65
     },
     {
       "content_type": "news",
@@ -33,20 +33,20 @@
       "source": "Google News - Pets Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2025-12-25T06:37:07.371428+00:00",
+      "scraped_at": "2025-12-26T06:36:38.752412+00:00",
       "canadian_score": 0.6,
       "trending_score": 0.65
     },
     {
       "content_type": "news",
-      "title": "Ontario to end medical research testing on dogs, cats following whistleblower exposé - Windsor Star",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOclJuTXBRZkVUUjVPTmUwSEcyNGxycVhhcmxmSlFSaXc4RzJpZzRTbjBVcUJsbTlwdGhlYXVqeWFoMlhSS3lJQWQxUGpLYWk3VWMxLUVLcVZLQWRsSUQ2ZExldEcxOFVPLTZjVE1meFZiOWJqZGZ0TVVNM1BVTkpyOVROVlFneF9TX0w5enRJY29DYk95eFl0UFVsV2lsR21wTTF0TlZacEJ3cHUxaWpKTlRyS3otMXBuWE9kOWNNdkI?oc=5",
-      "summary": "Ontario to end medical research testing on dogs, cats following whistleblower exposé Windsor Star",
-      "published": "2025-08-26T07:00:00+00:00",
+      "title": "Ontario unveils legislation to restrict invasive medical research on dogs and cats - London Free Press",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNzRub3laaE5RYzVZcmdXOVJJcmo0TFZ1RE1JcTM2Zkw0OHdRaVlnSHFKWVZTaWNIMkpnV2NNaGpNM0xubS1RbmJzWXY0ck5QcXlMdXQ0S2dzNUtfdGVTVlBrYU5KVkFCaGxqd0hNVDMtX2w2eHpjcDFIbzRiM2RNbkdvTWgzUmZOUmhYVWJfR21aelJTcm5YblZDUmQ4R1Nfc21ZdzlSLVh1SmJTTE5vR3BlMkdKSEttdEE?oc=5",
+      "summary": "Ontario unveils legislation to restrict invasive medical research on dogs and cats London Free Press",
+      "published": "2025-11-27T08:00:00+00:00",
       "source": "Google News - Cats Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2025-12-25T06:37:06.652780+00:00",
+      "scraped_at": "2025-12-26T06:36:38.077587+00:00",
       "canadian_score": 0.5,
       "trending_score": 0.625
     }
