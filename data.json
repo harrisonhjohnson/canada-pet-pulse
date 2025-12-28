@@ -1,9 +1,9 @@
 {
-  "generated_at": "2025-12-27T06:35:16.077184+00:00",
+  "generated_at": "2025-12-28T06:35:39.836045+00:00",
   "stats": {
     "reddit_posts": 0,
-    "news_articles": 3,
-    "total_items": 3,
+    "news_articles": 4,
+    "total_items": 4,
     "sources_succeeded": [
       "reddit",
       "news"
@@ -13,6 +13,21 @@
   "content": [
     {
       "content_type": "news",
+      "title": "Alberta outdoorsman hopes book will inspire Canadians to connect with nature",
+      "link": "https://globalnews.ca/news/11590388/alberta-outdoors-scott-sunderwald-radically-wild-true-tales-of-adventure/",
+      "summary": "Lifelong outdoor enthusiast Scott Sunderwald has detailed his adventures in 'Radically Wild True Tales of Adventure, Wilderness Survival, and Hard Lessons.'",
+      "published": "2025-12-27T19:00:18+00:00",
+      "source": "Global News",
+      "author": "Karen Bartko",
+      "tags": [
+        "Features"
+      ],
+      "scraped_at": "2025-12-28T06:35:37.777657+00:00",
+      "canadian_score": 0.5,
+      "trending_score": 5.688
+    },
+    {
+      "content_type": "news",
       "title": "Parks Canada warns wolves are targeting dogs on popular Vancouver Island beach - Victoria Buzz",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWmxpU3BEMmdaaHdhbHJFNGFYX3RoUE1IQi1wZzVqUldnbGJEYVhjN3F4QURKNkFtQ3BDUDVNaWQxOF84RmFYVHNDeHJ2Qy05SDNPRE5FWmszc3Zfcnc2WmJSU2dtOElIUXp2VER3X2xXTDlhMFA2N3I4eVFuS21oZEcxX1prcGJmMC1TT3VINWh4SVBsWmhtWllsZGgzZUpKQllVQ2hiOHpQU1NFRGxoYkxB?oc=5",
       "summary": "Parks Canada warns wolves are targeting dogs on popular Vancouver Island beach Victoria Buzz",
@@ -20,7 +35,7 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2025-12-27T06:35:14.801759+00:00",
+      "scraped_at": "2025-12-28T06:35:38.437379+00:00",
       "canadian_score": 0.65,
       "trending_score": 0.662
     },
@@ -33,7 +48,7 @@
       "source": "Google News - Cats Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2025-12-27T06:35:15.430088+00:00",
+      "scraped_at": "2025-12-28T06:35:39.047370+00:00",
       "canadian_score": 0.6,
       "trending_score": 0.65
     },
@@ -46,7 +61,7 @@
       "source": "Google News - Pets Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2025-12-27T06:35:15.996240+00:00",
+      "scraped_at": "2025-12-28T06:35:39.705708+00:00",
       "canadian_score": 0.6,
       "trending_score": 0.65
     }
