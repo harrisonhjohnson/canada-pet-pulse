@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-01-05T06:43:26.372766+00:00",
+  "generated_at": "2026-01-06T06:38:23.560972+00:00",
   "stats": {
     "reddit_posts": 0,
-    "news_articles": 6,
-    "total_items": 6,
+    "news_articles": 5,
+    "total_items": 5,
     "sources_succeeded": [
       "reddit",
       "news"
@@ -13,42 +13,6 @@
   "content": [
     {
       "content_type": "news",
-      "title": "Quebec City police probe suspicious apartment fire death",
-      "link": "https://globalnews.ca/news/11598910/quebec-city-apartment-fire-suspicious-death/",
-      "summary": "A man was found unconscious inside an Quebec City apartment building that was on fire. Despite being rescued by firefighters, he was pronounced dead in hospital.",
-      "published": "2026-01-04T22:39:58+00:00",
-      "source": "Global News",
-      "author": "Sean Previl",
-      "tags": [
-        "Crime",
-        "Quebec Crime",
-        "SPVQ",
-        "Suspicious Death"
-      ],
-      "scraped_at": "2026-01-05T06:43:24.474206+00:00",
-      "canadian_score": 0.5,
-      "trending_score": 5.688
-    },
-    {
-      "content_type": "news",
-      "title": "Man rescued from Lake Ontario, arrested by Toronto police after woman stabbed",
-      "link": "https://globalnews.ca/news/11598820/toronto-stabbing-suspect-jumps-in-lake-ontario/",
-      "summary": "Toronto police say a suspect wanted in connection with a stabbing had to be rescued from the icy waters of Lake Ontario after he jumped in while fleeing from officers on Sunday.",
-      "published": "2026-01-04T20:23:47+00:00",
-      "source": "Global News",
-      "author": "Sean Previl",
-      "tags": [
-        "Crime",
-        "Lake Ontario",
-        "Stabbing",
-        "Toronto crime"
-      ],
-      "scraped_at": "2026-01-05T06:43:24.474335+00:00",
-      "canadian_score": 0.5,
-      "trending_score": 5.688
-    },
-    {
-      "content_type": "news",
       "title": "Parks Canada warns wolves are targeting dogs on popular Vancouver Island beach - Victoria Buzz",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWmxpU3BEMmdaaHdhbHJFNGFYX3RoUE1IQi1wZzVqUldnbGJEYVhjN3F4QURKNkFtQ3BDUDVNaWQxOF84RmFYVHNDeHJ2Qy05SDNPRE5FWmszc3Zfcnc2WmJSU2dtOElIUXp2VER3X2xXTDlhMFA2N3I4eVFuS21oZEcxX1prcGJmMC1TT3VINWh4SVBsWmhtWllsZGgzZUpKQllVQ2hiOHpQU1NFRGxoYkxB?oc=5",
       "summary": "Parks Canada warns wolves are targeting dogs on popular Vancouver Island beach Victoria Buzz",
@@ -56,7 +20,7 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-01-05T06:43:25.076909+00:00",
+      "scraped_at": "2026-01-06T06:38:22.067697+00:00",
       "canadian_score": 0.65,
       "trending_score": 0.662
     },
@@ -69,7 +33,7 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-01-05T06:43:25.082627+00:00",
+      "scraped_at": "2026-01-06T06:38:22.072782+00:00",
       "canadian_score": 0.65,
       "trending_score": 0.662
     },
@@ -82,7 +46,7 @@
       "source": "Google News - Cats Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-01-05T06:43:25.656205+00:00",
+      "scraped_at": "2026-01-06T06:38:22.762859+00:00",
       "canadian_score": 0.6,
       "trending_score": 0.65
     },
@@ -95,9 +59,22 @@
       "source": "Google News - Pets Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-01-05T06:43:26.249241+00:00",
+      "scraped_at": "2026-01-06T06:38:23.432423+00:00",
       "canadian_score": 0.6,
       "trending_score": 0.65
+    },
+    {
+      "content_type": "news",
+      "title": "Nova Scotia pet owner shares story after her dog dies suffocating on a chip bag - Halifax - Global News",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5xSUVEMG5uVTlOWE9yME1OS3JvQ21ZZHVobkVBRExCSURMV0hMR1dVdXhTUVkwa3M1OXhjNkVSVnItbTlra0pEQ2otWHFWTkdvR0U5cjdkbEhXWlFiSWNNT1BjcFZ6QVdweEE?oc=5",
+      "summary": "Nova Scotia pet owner shares story after her dog dies suffocating on a chip bag - Halifax Global News",
+      "published": "2025-06-26T07:00:00+00:00",
+      "source": "Google News - Pets Canada",
+      "author": "",
+      "tags": [],
+      "scraped_at": "2026-01-06T06:38:23.434561+00:00",
+      "canadian_score": 0.5,
+      "trending_score": 0.625
     }
   ]
 }
