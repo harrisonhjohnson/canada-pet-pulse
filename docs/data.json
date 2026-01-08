@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-07T06:37:47.548590+00:00",
+  "generated_at": "2026-01-08T06:38:33.076046+00:00",
   "stats": {
     "reddit_posts": 0,
     "news_articles": 4,
@@ -13,6 +13,19 @@
   "content": [
     {
       "content_type": "news",
+      "title": "Nova Scotia community rallies to support family of boy killed in dog attack - CityNews Halifax",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcFNRVVMxeGtacnVNQ1VoeWtHMERFcUc3YUJTMGZPLTZyVk9xaFpMSl9MaUxNSE9fUlI3Z2JZR2dDb2pOZzROVXY5SG0tSTR2WFRRMGNZTUFhelAzTy1nU2JCYy1FS3JoZjhQWEZQVUpIMWFZNGJJcFdtVzhXTkNOZE5xZmJMYlBxMUVXOEFpZk9jMzBDYklSMnFST0s4b182YlF3Y05vNWgzNGhtNHVLTkYwWmJ2Zw?oc=5",
+      "summary": "Nova Scotia community rallies to support family of boy killed in dog attack CityNews Halifax",
+      "published": "2026-01-07T15:54:50+00:00",
+      "source": "Google News - Dogs Canada",
+      "author": "",
+      "tags": [],
+      "scraped_at": "2026-01-08T06:38:31.654763+00:00",
+      "canadian_score": 0.5,
+      "trending_score": 2.5
+    },
+    {
+      "content_type": "news",
       "title": "Nova Scotia youth has life-threatening injuries after attack by 3 dogs: RCMP - Halifax - Global News",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQnE1S3dHUWpIclNlZUFLdHMwbkFoNzl6NGd5NXRxZjgtTzJhVEZsdjNiaF9XQXhpQld6b3VrbVlabV9IZFhqZ3FZNU5yVkhhZzlzMEVPR1BvTHJMSGVma3BKV09mU1psVWcxZVp4MHVzZndiSW1BdFA5RTBLZWhPX0g5UktjdmNVTkxyOXk0U0RCYlduanc?oc=5",
       "summary": "Nova Scotia youth has life-threatening injuries after attack by 3 dogs: RCMP - Halifax Global News",
@@ -20,7 +33,7 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-01-07T06:37:46.238295+00:00",
+      "scraped_at": "2026-01-08T06:38:31.655094+00:00",
       "canadian_score": 0.65,
       "trending_score": 0.662
     },
@@ -33,20 +46,7 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-01-07T06:37:46.246615+00:00",
-      "canadian_score": 0.65,
-      "trending_score": 0.662
-    },
-    {
-      "content_type": "news",
-      "title": "Canoeists ‘stalked’ by pack of vicious dogs on Nova Scotia river: RCMP - Halifax - Global News",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBOaXRkVGRjbTY0QmloWi1hdmNjUUo1SWhnTTB0b1hiMF9PMW9xVGFHLVRaUFJHRExvVnpidkg2SnV0R0hSdFhLajV3eW15RzUtNXVwUGhLLVFYUEd3WW9wOWdvTURQZU9OeDNCbnpUU3d0VG9mb1JHWQ?oc=5",
-      "summary": "Canoeists ‘stalked’ by pack of vicious dogs on Nova Scotia river: RCMP - Halifax Global News",
-      "published": "2025-07-07T07:00:00+00:00",
-      "source": "Google News - Dogs Canada",
-      "author": "",
-      "tags": [],
-      "scraped_at": "2026-01-07T06:37:46.251605+00:00",
+      "scraped_at": "2026-01-08T06:38:31.664862+00:00",
       "canadian_score": 0.65,
       "trending_score": 0.662
     },
@@ -59,7 +59,7 @@
       "source": "Google News - Cats Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-01-07T06:37:46.831948+00:00",
+      "scraped_at": "2026-01-08T06:38:32.324685+00:00",
       "canadian_score": 0.6,
       "trending_score": 0.65
     }
