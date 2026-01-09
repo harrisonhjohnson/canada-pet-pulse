@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-01-08T06:38:33.076046+00:00",
+  "generated_at": "2026-01-09T06:38:05.844096+00:00",
   "stats": {
     "reddit_posts": 0,
-    "news_articles": 4,
-    "total_items": 4,
+    "news_articles": 6,
+    "total_items": 6,
     "sources_succeeded": [
       "reddit",
       "news"
@@ -13,19 +13,6 @@
   "content": [
     {
       "content_type": "news",
-      "title": "Nova Scotia community rallies to support family of boy killed in dog attack - CityNews Halifax",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcFNRVVMxeGtacnVNQ1VoeWtHMERFcUc3YUJTMGZPLTZyVk9xaFpMSl9MaUxNSE9fUlI3Z2JZR2dDb2pOZzROVXY5SG0tSTR2WFRRMGNZTUFhelAzTy1nU2JCYy1FS3JoZjhQWEZQVUpIMWFZNGJJcFdtVzhXTkNOZE5xZmJMYlBxMUVXOEFpZk9jMzBDYklSMnFST0s4b182YlF3Y05vNWgzNGhtNHVLTkYwWmJ2Zw?oc=5",
-      "summary": "Nova Scotia community rallies to support family of boy killed in dog attack CityNews Halifax",
-      "published": "2026-01-07T15:54:50+00:00",
-      "source": "Google News - Dogs Canada",
-      "author": "",
-      "tags": [],
-      "scraped_at": "2026-01-08T06:38:31.654763+00:00",
-      "canadian_score": 0.5,
-      "trending_score": 2.5
-    },
-    {
-      "content_type": "news",
       "title": "Nova Scotia youth has life-threatening injuries after attack by 3 dogs: RCMP - Halifax - Global News",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQnE1S3dHUWpIclNlZUFLdHMwbkFoNzl6NGd5NXRxZjgtTzJhVEZsdjNiaF9XQXhpQld6b3VrbVlabV9IZFhqZ3FZNU5yVkhhZzlzMEVPR1BvTHJMSGVma3BKV09mU1psVWcxZVp4MHVzZndiSW1BdFA5RTBLZWhPX0g5UktjdmNVTkxyOXk0U0RCYlduanc?oc=5",
       "summary": "Nova Scotia youth has life-threatening injuries after attack by 3 dogs: RCMP - Halifax Global News",
@@ -33,7 +20,7 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-01-08T06:38:31.655094+00:00",
+      "scraped_at": "2026-01-09T06:38:04.410116+00:00",
       "canadian_score": 0.65,
       "trending_score": 0.662
     },
@@ -46,7 +33,7 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-01-08T06:38:31.664862+00:00",
+      "scraped_at": "2026-01-09T06:38:04.421399+00:00",
       "canadian_score": 0.65,
       "trending_score": 0.662
     },
@@ -59,9 +46,48 @@
       "source": "Google News - Cats Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-01-08T06:38:32.324685+00:00",
+      "scraped_at": "2026-01-09T06:38:05.027867+00:00",
       "canadian_score": 0.6,
       "trending_score": 0.65
+    },
+    {
+      "content_type": "news",
+      "title": "Almost half of Canadians travel with unrestrained pets in cars: Survey - Toronto Sun",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcnJDdVdrWjVvaFZQMWdjLVFEMFJEZGM5WFJ5REE5d3RKWFRkeHZNMHgxeWNubEFWajBVS1FxZFpZNVYwd0lBTnBkNE1ZU2gzNi00R1g2OE9pbThFbnNNVVR3NjJXOUtSNzBPXzVJNER4aXBURW1yVERDMkJvV3J4V0RtR3RVS0RUMTktdXRMNGw1VmRGeGRWeVZDVktsRlJnZVhrbVZyRUVNUQ?oc=5",
+      "summary": "Almost half of Canadians travel with unrestrained pets in cars: Survey Toronto Sun",
+      "published": "2025-09-14T07:00:00+00:00",
+      "source": "Google News - Pets Canada",
+      "author": "",
+      "tags": [],
+      "scraped_at": "2026-01-09T06:38:05.754556+00:00",
+      "canadian_score": 0.6,
+      "trending_score": 0.65
+    },
+    {
+      "content_type": "news",
+      "title": "Nova Scotia teen dies after being attacked by 3 dogs - Halifax - Global News",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdFZIU2p5X3BaZXl3YTlCb25ISU5ZM3RpeERJbWxrRDJIWllrcDU4UmZZX2N2N0NlaWJRY0t0QnhGQWRwUldVR2FjOWZHaW5OZVZaVGpPWnlIOTQzaXFpODlGUDdtWW9IVTViYkxCT2ZZM1h6ZzJ1WklKblNuUE9aWjlTcFB4dw?oc=5",
+      "summary": "Nova Scotia teen dies after being attacked by 3 dogs - Halifax Global News",
+      "published": "2026-01-06T18:11:44+00:00",
+      "source": "Google News - Dogs Canada",
+      "author": "",
+      "tags": [],
+      "scraped_at": "2026-01-09T06:38:04.410770+00:00",
+      "canadian_score": 0.5,
+      "trending_score": 0.625
+    },
+    {
+      "content_type": "news",
+      "title": "Nova Scotia community rallies to support family of boy killed in dog attack - CityNews Halifax",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcFNRVVMxeGtacnVNQ1VoeWtHMERFcUc3YUJTMGZPLTZyVk9xaFpMSl9MaUxNSE9fUlI3Z2JZR2dDb2pOZzROVXY5SG0tSTR2WFRRMGNZTUFhelAzTy1nU2JCYy1FS3JoZjhQWEZQVUpIMWFZNGJJcFdtVzhXTkNOZE5xZmJMYlBxMUVXOEFpZk9jMzBDYklSMnFST0s4b182YlF3Y05vNWgzNGhtNHVLTkYwWmJ2Zw?oc=5",
+      "summary": "Nova Scotia community rallies to support family of boy killed in dog attack CityNews Halifax",
+      "published": "2026-01-07T15:54:50+00:00",
+      "source": "Google News - Dogs Canada",
+      "author": "",
+      "tags": [],
+      "scraped_at": "2026-01-09T06:38:04.413481+00:00",
+      "canadian_score": 0.5,
+      "trending_score": 0.625
     }
   ]
 }
