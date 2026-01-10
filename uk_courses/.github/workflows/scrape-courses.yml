@@ -1,0 +1,61 @@
+name: Scrape UK Course Catalog
+
+on:
+  # Run weekly on Sundays at 6 AM UTC
+  schedule:
+    - cron: '0 6 * * 0'
+
+  # Allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  scrape-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        working-directory: ./uk_courses
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Install Playwright browsers
+        run: |
+          playwright install chromium
+          playwright install-deps chromium
+
+      - name: Run course scraper
+        working-directory: ./uk_courses
+        run: |
+          python scripts/generate_site.py --delay 3.0
+
+      - name: Check for changes
+        id: git-check
+        working-directory: ./uk_courses
+        run: |
+          git diff --quiet docs/ data/ || echo "changes=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push changes
+        if: steps.git-check.outputs.changes == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add uk_courses/docs/ uk_courses/data/
+          git commit -m "Weekly course catalog update: $(date +'%Y-%m-%d %H:%M UTC')"
+          git push
+
+      - name: Deploy to GitHub Pages
+        if: steps.git-check.outputs.changes == 'true'
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./uk_courses/docs
+          destination_dir: uk-courses

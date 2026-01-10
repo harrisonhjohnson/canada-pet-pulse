@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ course.code }} - {{ course.catalog_info.title if course.catalog_info else course.name }}</title>
+    <style>
+        :root {
+            --uk-blue: #0033A0;
+            --uk-white: #FFFFFF;
+            --uk-gray: #63666A;
+            --uk-light-gray: #F5F5F5;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: var(--uk-light-gray);
+        }
+
+        header {
+            background-color: var(--uk-blue);
+            color: var(--uk-white);
+            padding: 2rem;
+        }
+
+        header a {
+            color: rgba(255,255,255,0.8);
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+
+        header a:hover {
+            color: white;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            margin: 1rem 0 0.5rem;
+        }
+
+        header .course-title {
+            font-size: 1.25rem;
+            opacity: 0.9;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .content-card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .content-card h2 {
+            color: var(--uk-blue);
+            margin-bottom: 1rem;
+            font-size: 1.25rem;
+        }
+
+        .info-row {
+            display: flex;
+            border-bottom: 1px solid #eee;
+            padding: 0.75rem 0;
+        }
+
+        .info-row:last-child {
+            border-bottom: none;
+        }
+
+        .info-label {
+            font-weight: 600;
+            width: 150px;
+            flex-shrink: 0;
+            color: var(--uk-gray);
+        }
+
+        .info-value {
+            flex: 1;
+        }
+
+        .description-text {
+            font-size: 1rem;
+            line-height: 1.8;
+        }
+
+        .notes-box {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 1rem;
+            margin-top: 1rem;
+        }
+
+        .catalog-link {
+            display: inline-block;
+            background: var(--uk-blue);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 4px;
+            text-decoration: none;
+            margin-top: 1rem;
+        }
+
+        .catalog-link:hover {
+            background: #002380;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: var(--uk-gray);
+            font-size: 0.875rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html">&larr; Back to All Courses</a>
+        <h1>{{ course.code }}</h1>
+        <div class="course-title">
+            {{ course.catalog_info.title if course.catalog_info else course.name }}
+        </div>
+    </header>
+
+    <main>
+        {% if course.catalog_info %}
+        <div class="content-card">
+            <h2>Course Information</h2>
+
+            <div class="info-row">
+                <span class="info-label">Course Code</span>
+                <span class="info-value">{{ course.code }}</span>
+            </div>
+
+            {% if course.catalog_info.credits %}
+            <div class="info-row">
+                <span class="info-label">Credits</span>
+                <span class="info-value">{{ course.catalog_info.credits }}</span>
+            </div>
+            {% endif %}
+
+            {% if course.catalog_info.offered %}
+            <div class="info-row">
+                <span class="info-label">Offered</span>
+                <span class="info-value">{{ course.catalog_info.offered }}</span>
+            </div>
+            {% endif %}
+
+            {% if course.catalog_info.grading %}
+            <div class="info-row">
+                <span class="info-label">Grading</span>
+                <span class="info-value">{{ course.catalog_info.grading }}</span>
+            </div>
+            {% endif %}
+
+            {% if course.catalog_info.crosslisted %}
+            <div class="info-row">
+                <span class="info-label">Cross-listed</span>
+                <span class="info-value">{{ course.catalog_info.crosslisted }}</span>
+            </div>
+            {% endif %}
+
+            {% if course.catalog_info.repeatable %}
+            <div class="info-row">
+                <span class="info-label">Repeatable</span>
+                <span class="info-value">Yes</span>
+            </div>
+            {% endif %}
+        </div>
+
+        {% if course.catalog_info.description %}
+        <div class="content-card">
+            <h2>Description</h2>
+            <p class="description-text">{{ course.catalog_info.description }}</p>
+        </div>
+        {% endif %}
+
+        {% if course.catalog_info.prerequisites or course.catalog_info.corequisites %}
+        <div class="content-card">
+            <h2>Requirements</h2>
+
+            {% if course.catalog_info.prerequisites %}
+            <div class="info-row">
+                <span class="info-label">Prerequisites</span>
+                <span class="info-value">{{ course.catalog_info.prerequisites }}</span>
+            </div>
+            {% endif %}
+
+            {% if course.catalog_info.corequisites %}
+            <div class="info-row">
+                <span class="info-label">Corequisites</span>
+                <span class="info-value">{{ course.catalog_info.corequisites }}</span>
+            </div>
+            {% endif %}
+        </div>
+        {% endif %}
+
+        {% if course.catalog_info.catalog_url %}
+        <a href="{{ course.catalog_info.catalog_url }}" target="_blank" class="catalog-link">
+            View Official Catalog Entry &rarr;
+        </a>
+        {% endif %}
+
+        {% endif %}
+
+        {% if course.notes %}
+        <div class="notes-box">
+            <strong>Note:</strong> {{ course.notes }}
+        </div>
+        {% endif %}
+    </main>
+
+    <footer>
+        <p>Last updated: {{ generated_at | format_datetime }}</p>
+    </footer>
+</body>
+</html>
