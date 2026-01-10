@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-01-09T06:38:05.844096+00:00",
+  "generated_at": "2026-01-10T06:35:08.779453+00:00",
   "stats": {
     "reddit_posts": 0,
-    "news_articles": 6,
-    "total_items": 6,
+    "news_articles": 5,
+    "total_items": 5,
     "sources_succeeded": [
       "reddit",
       "news"
@@ -13,19 +13,6 @@
   "content": [
     {
       "content_type": "news",
-      "title": "Nova Scotia youth has life-threatening injuries after attack by 3 dogs: RCMP - Halifax - Global News",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQnE1S3dHUWpIclNlZUFLdHMwbkFoNzl6NGd5NXRxZjgtTzJhVEZsdjNiaF9XQXhpQld6b3VrbVlabV9IZFhqZ3FZNU5yVkhhZzlzMEVPR1BvTHJMSGVma3BKV09mU1psVWcxZVp4MHVzZndiSW1BdFA5RTBLZWhPX0g5UktjdmNVTkxyOXk0U0RCYlduanc?oc=5",
-      "summary": "Nova Scotia youth has life-threatening injuries after attack by 3 dogs: RCMP - Halifax Global News",
-      "published": "2026-01-05T16:41:38+00:00",
-      "source": "Google News - Dogs Canada",
-      "author": "",
-      "tags": [],
-      "scraped_at": "2026-01-09T06:38:04.410116+00:00",
-      "canadian_score": 0.65,
-      "trending_score": 0.662
-    },
-    {
-      "content_type": "news",
       "title": "Parks Canada warns wolves are targeting dogs on popular Vancouver Island beach - Victoria Buzz",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWmxpU3BEMmdaaHdhbHJFNGFYX3RoUE1IQi1wZzVqUldnbGJEYVhjN3F4QURKNkFtQ3BDUDVNaWQxOF84RmFYVHNDeHJ2Qy05SDNPRE5FWmszc3Zfcnc2WmJSU2dtOElIUXp2VER3X2xXTDlhMFA2N3I4eVFuS21oZEcxX1prcGJmMC1TT3VINWh4SVBsWmhtWllsZGgzZUpKQllVQ2hiOHpQU1NFRGxoYkxB?oc=5",
       "summary": "Parks Canada warns wolves are targeting dogs on popular Vancouver Island beach Victoria Buzz",
@@ -33,7 +20,7 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-01-09T06:38:04.421399+00:00",
+      "scraped_at": "2026-01-10T06:35:07.506728+00:00",
       "canadian_score": 0.65,
       "trending_score": 0.662
     },
@@ -46,7 +33,7 @@
       "source": "Google News - Cats Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-01-09T06:38:05.027867+00:00",
+      "scraped_at": "2026-01-10T06:35:08.075157+00:00",
       "canadian_score": 0.6,
       "trending_score": 0.65
     },
@@ -59,7 +46,7 @@
       "source": "Google News - Pets Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-01-09T06:38:05.754556+00:00",
+      "scraped_at": "2026-01-10T06:35:08.671691+00:00",
       "canadian_score": 0.6,
       "trending_score": 0.65
     },
@@ -72,7 +59,7 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-01-09T06:38:04.410770+00:00",
+      "scraped_at": "2026-01-10T06:35:07.495618+00:00",
       "canadian_score": 0.5,
       "trending_score": 0.625
     },
@@ -85,7 +72,7 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-01-09T06:38:04.413481+00:00",
+      "scraped_at": "2026-01-10T06:35:07.499974+00:00",
       "canadian_score": 0.5,
       "trending_score": 0.625
     }
