@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-01-10T06:35:08.779453+00:00",
+  "generated_at": "2026-01-11T06:36:31.569035+00:00",
   "stats": {
     "reddit_posts": 0,
-    "news_articles": 5,
-    "total_items": 5,
+    "news_articles": 6,
+    "total_items": 6,
     "sources_succeeded": [
       "reddit",
       "news"
@@ -20,7 +20,7 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-01-10T06:35:07.506728+00:00",
+      "scraped_at": "2026-01-11T06:36:30.229019+00:00",
       "canadian_score": 0.65,
       "trending_score": 0.662
     },
@@ -33,7 +33,7 @@
       "source": "Google News - Cats Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-01-10T06:35:08.075157+00:00",
+      "scraped_at": "2026-01-11T06:36:30.792331+00:00",
       "canadian_score": 0.6,
       "trending_score": 0.65
     },
@@ -46,9 +46,22 @@
       "source": "Google News - Pets Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-01-10T06:35:08.671691+00:00",
+      "scraped_at": "2026-01-11T06:36:31.393249+00:00",
       "canadian_score": 0.6,
       "trending_score": 0.65
+    },
+    {
+      "content_type": "news",
+      "title": "Nova Scotia child attacked by three dogs has died, school officials say - CityNews Halifax",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTU9VQ2ZJdDNsNjB6T0dtMXdWaHBCcjFTUFdCVmg2SE5ZemZHZU9RZU9iemNUT3p6aGNUSE9jeGRaYy01aXBZY3QxVHl2M3lXOXJ3dG9KUi1JRFRUNDBQdGE1b1NZRmxWVFctVUpSQ1dIZXQ2QlhtbmFnbUI0TWZCTzd4VExUSW9RQm4teVZENV9uN002NHdNOS1oTFNFZUZ5S0x5eGpvVWVoc2I4YlB4X2xkLXNJVUV2M1ZnNV83bEo?oc=5",
+      "summary": "Nova Scotia child attacked by three dogs has died, school officials say CityNews Halifax",
+      "published": "2026-01-06T18:06:35+00:00",
+      "source": "Google News - Dogs Canada",
+      "author": "",
+      "tags": [],
+      "scraped_at": "2026-01-11T06:36:30.215902+00:00",
+      "canadian_score": 0.5,
+      "trending_score": 0.625
     },
     {
       "content_type": "news",
@@ -59,7 +72,7 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-01-10T06:35:07.495618+00:00",
+      "scraped_at": "2026-01-11T06:36:30.217751+00:00",
       "canadian_score": 0.5,
       "trending_score": 0.625
     },
@@ -72,7 +85,7 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-01-10T06:35:07.499974+00:00",
+      "scraped_at": "2026-01-11T06:36:30.222157+00:00",
       "canadian_score": 0.5,
       "trending_score": 0.625
     }
