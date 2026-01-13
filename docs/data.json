@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-01-12T06:41:01.161970+00:00",
+  "generated_at": "2026-01-13T06:38:17.381301+00:00",
   "stats": {
     "reddit_posts": 0,
-    "news_articles": 7,
-    "total_items": 7,
+    "news_articles": 4,
+    "total_items": 4,
     "sources_succeeded": [
       "reddit",
       "news"
@@ -13,19 +13,6 @@
   "content": [
     {
       "content_type": "news",
-      "title": "RCMP investigate after goat killed in dog attack on Vancouver Island - Toronto Star",
-      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPLXpmR1BvTzdQZ2pLR3Q0cnhhYW5RZVg1Q3ZZUllkemdGVDRBcG93d3ZaZVVaYWN4LTRXUElqdEFvZW91SXd3WS1iRzNJYWRrZUxaZkhmdmp2MDExM0NuQzJOZlhfYU1Cb3poVG01SEFOTGtVdnNhUUp1N0dENUg3U0VrUE1oZ25zb2ZnZUlha2RzcXVRdVpLcEZ1OXU4Y29VNFVJQ2Qwb1lXaDZVS3RBVUhWaERvamkwMVBIM08zS3UyMHJTSGxZelV5STRTWUR4SUowejJFLWZWcG5QOWJqendxZFVYQjR4ZHprWGdNYmZtaE9qVWR1SU8tQlNfcGt3?oc=5",
-      "summary": "RCMP investigate after goat killed in dog attack on Vancouver Island Toronto Star",
-      "published": "2026-01-10T12:48:10+00:00",
-      "source": "Google News - Dogs Canada",
-      "author": "",
-      "tags": [],
-      "scraped_at": "2026-01-12T06:40:59.564205+00:00",
-      "canadian_score": 0.65,
-      "trending_score": 0.662
-    },
-    {
-      "content_type": "news",
       "title": "Parks Canada warns wolves are targeting dogs on popular Vancouver Island beach - Victoria Buzz",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWmxpU3BEMmdaaHdhbHJFNGFYX3RoUE1IQi1wZzVqUldnbGJEYVhjN3F4QURKNkFtQ3BDUDVNaWQxOF84RmFYVHNDeHJ2Qy05SDNPRE5FWmszc3Zfcnc2WmJSU2dtOElIUXp2VER3X2xXTDlhMFA2N3I4eVFuS21oZEcxX1prcGJmMC1TT3VINWh4SVBsWmhtWllsZGgzZUpKQllVQ2hiOHpQU1NFRGxoYkxB?oc=5",
       "summary": "Parks Canada warns wolves are targeting dogs on popular Vancouver Island beach Victoria Buzz",
@@ -33,7 +20,7 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-01-12T06:40:59.569807+00:00",
+      "scraped_at": "2026-01-13T06:38:15.904300+00:00",
       "canadian_score": 0.65,
       "trending_score": 0.662
     },
@@ -46,7 +33,7 @@
       "source": "Google News - Cats Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-01-12T06:41:00.305582+00:00",
+      "scraped_at": "2026-01-13T06:38:16.561849+00:00",
       "canadian_score": 0.6,
       "trending_score": 0.65
     },
@@ -59,7 +46,7 @@
       "source": "Google News - Pets Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-01-12T06:41:01.065755+00:00",
+      "scraped_at": "2026-01-13T06:38:17.242673+00:00",
       "canadian_score": 0.6,
       "trending_score": 0.65
     },
@@ -72,33 +59,7 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-01-12T06:40:59.560796+00:00",
-      "canadian_score": 0.5,
-      "trending_score": 0.625
-    },
-    {
-      "content_type": "news",
-      "title": "Nova Scotia community rallies to support family of boy killed in dog attack - CityNews Halifax",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcFNRVVMxeGtacnVNQ1VoeWtHMERFcUc3YUJTMGZPLTZyVk9xaFpMSl9MaUxNSE9fUlI3Z2JZR2dDb2pOZzROVXY5SG0tSTR2WFRRMGNZTUFhelAzTy1nU2JCYy1FS3JoZjhQWEZQVUpIMWFZNGJJcFdtVzhXTkNOZE5xZmJMYlBxMUVXOEFpZk9jMzBDYklSMnFST0s4b182YlF3Y05vNWgzNGhtNHVLTkYwWmJ2Zw?oc=5",
-      "summary": "Nova Scotia community rallies to support family of boy killed in dog attack CityNews Halifax",
-      "published": "2026-01-07T15:54:50+00:00",
-      "source": "Google News - Dogs Canada",
-      "author": "",
-      "tags": [],
-      "scraped_at": "2026-01-12T06:40:59.564780+00:00",
-      "canadian_score": 0.5,
-      "trending_score": 0.625
-    },
-    {
-      "content_type": "news",
-      "title": "Nova Scotia pet owner shares story after her dog dies suffocating on a chip bag - Halifax - Global News",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5xSUVEMG5uVTlOWE9yME1OS3JvQ21ZZHVobkVBRExCSURMV0hMR1dVdXhTUVkwa3M1OXhjNkVSVnItbTlra0pEQ2otWHFWTkdvR0U5cjdkbEhXWlFiSWNNT1BjcFZ6QVdweEE?oc=5",
-      "summary": "Nova Scotia pet owner shares story after her dog dies suffocating on a chip bag - Halifax Global News",
-      "published": "2025-06-26T07:00:00+00:00",
-      "source": "Google News - Pets Canada",
-      "author": "",
-      "tags": [],
-      "scraped_at": "2026-01-12T06:41:01.069812+00:00",
+      "scraped_at": "2026-01-13T06:38:15.896311+00:00",
       "canadian_score": 0.5,
       "trending_score": 0.625
     }
