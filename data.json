@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-01-14T06:38:21.661630+00:00",
+  "generated_at": "2026-01-15T06:38:16.147601+00:00",
   "stats": {
     "reddit_posts": 0,
-    "news_articles": 4,
-    "total_items": 4,
+    "news_articles": 3,
+    "total_items": 3,
     "sources_succeeded": [
       "reddit",
       "news"
@@ -13,24 +13,6 @@
   "content": [
     {
       "content_type": "news",
-      "title": "Delay forces judge to drop charges against teen in Toronto animal cruelty case",
-      "link": "https://globalnews.ca/news/11612111/toronto-riverdale-animal-killings-case-tossed/",
-      "summary": "Charges against a teen accused in the killing of a cat and harm of a raccoon has been tossed, with an Ontario justice citing delays.",
-      "published": "2026-01-14T00:38:54+00:00",
-      "source": "Global News",
-      "author": "Sean Previl",
-      "tags": [
-        "Crime",
-        "animal killing",
-        "Riverdale",
-        "Toronto Police"
-      ],
-      "scraped_at": "2026-01-14T06:38:19.369275+00:00",
-      "canadian_score": 0.5,
-      "trending_score": 8.125
-    },
-    {
-      "content_type": "news",
       "title": "Parks Canada warns wolves are targeting dogs on popular Vancouver Island beach - Victoria Buzz",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWmxpU3BEMmdaaHdhbHJFNGFYX3RoUE1IQi1wZzVqUldnbGJEYVhjN3F4QURKNkFtQ3BDUDVNaWQxOF84RmFYVHNDeHJ2Qy05SDNPRE5FWmszc3Zfcnc2WmJSU2dtOElIUXp2VER3X2xXTDlhMFA2N3I4eVFuS21oZEcxX1prcGJmMC1TT3VINWh4SVBsWmhtWllsZGgzZUpKQllVQ2hiOHpQU1NFRGxoYkxB?oc=5",
       "summary": "Parks Canada warns wolves are targeting dogs on popular Vancouver Island beach Victoria Buzz",
@@ -38,7 +20,7 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-01-14T06:38:20.072582+00:00",
+      "scraped_at": "2026-01-15T06:38:14.723339+00:00",
       "canadian_score": 0.65,
       "trending_score": 0.662
     },
@@ -51,7 +33,7 @@
       "source": "Google News - Cats Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-01-14T06:38:20.795136+00:00",
+      "scraped_at": "2026-01-15T06:38:15.334346+00:00",
       "canadian_score": 0.6,
       "trending_score": 0.65
     },
@@ -64,7 +46,7 @@
       "source": "Google News - Pets Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-01-14T06:38:21.528638+00:00",
+      "scraped_at": "2026-01-15T06:38:16.024486+00:00",
       "canadian_score": 0.6,
       "trending_score": 0.65
     }
