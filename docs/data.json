@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-15T06:38:16.147601+00:00",
+  "generated_at": "2026-01-16T06:38:38.402140+00:00",
   "stats": {
     "reddit_posts": 0,
     "news_articles": 3,
@@ -20,7 +20,7 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-01-15T06:38:14.723339+00:00",
+      "scraped_at": "2026-01-16T06:38:36.877155+00:00",
       "canadian_score": 0.65,
       "trending_score": 0.662
     },
@@ -33,22 +33,22 @@
       "source": "Google News - Cats Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-01-15T06:38:15.334346+00:00",
+      "scraped_at": "2026-01-16T06:38:37.675494+00:00",
       "canadian_score": 0.6,
       "trending_score": 0.65
     },
     {
       "content_type": "news",
-      "title": "Almost half of Canadians travel with unrestrained pets in cars: Survey - Toronto Sun",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcnJDdVdrWjVvaFZQMWdjLVFEMFJEZGM5WFJ5REE5d3RKWFRkeHZNMHgxeWNubEFWajBVS1FxZFpZNVYwd0lBTnBkNE1ZU2gzNi00R1g2OE9pbThFbnNNVVR3NjJXOUtSNzBPXzVJNER4aXBURW1yVERDMkJvV3J4V0RtR3RVS0RUMTktdXRMNGw1VmRGeGRWeVZDVktsRlJnZVhrbVZyRUVNUQ?oc=5",
-      "summary": "Almost half of Canadians travel with unrestrained pets in cars: Survey Toronto Sun",
-      "published": "2025-09-14T07:00:00+00:00",
+      "title": "Nova Scotia pet owner shares story after her dog dies suffocating on a chip bag - Halifax - Global News",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5xSUVEMG5uVTlOWE9yME1OS3JvQ21ZZHVobkVBRExCSURMV0hMR1dVdXhTUVkwa3M1OXhjNkVSVnItbTlra0pEQ2otWHFWTkdvR0U5cjdkbEhXWlFiSWNNT1BjcFZ6QVdweEE?oc=5",
+      "summary": "Nova Scotia pet owner shares story after her dog dies suffocating on a chip bag - Halifax Global News",
+      "published": "2025-06-26T07:00:00+00:00",
       "source": "Google News - Pets Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-01-15T06:38:16.024486+00:00",
-      "canadian_score": 0.6,
-      "trending_score": 0.65
+      "scraped_at": "2026-01-16T06:38:38.325537+00:00",
+      "canadian_score": 0.5,
+      "trending_score": 0.625
     }
   ]
 }
