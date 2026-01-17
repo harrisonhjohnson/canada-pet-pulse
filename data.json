@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-01-16T06:38:38.402140+00:00",
+  "generated_at": "2026-01-17T06:35:22.054515+00:00",
   "stats": {
     "reddit_posts": 0,
-    "news_articles": 3,
-    "total_items": 3,
+    "news_articles": 6,
+    "total_items": 6,
     "sources_succeeded": [
       "reddit",
       "news"
@@ -13,6 +13,19 @@
   "content": [
     {
       "content_type": "news",
+      "title": "Nova Scotia youth has life-threatening injuries after attack by 3 dogs: RCMP - Halifax - Global News",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQnE1S3dHUWpIclNlZUFLdHMwbkFoNzl6NGd5NXRxZjgtTzJhVEZsdjNiaF9XQXhpQld6b3VrbVlabV9IZFhqZ3FZNU5yVkhhZzlzMEVPR1BvTHJMSGVma3BKV09mU1psVWcxZVp4MHVzZndiSW1BdFA5RTBLZWhPX0g5UktjdmNVTkxyOXk0U0RCYlduanc?oc=5",
+      "summary": "Nova Scotia youth has life-threatening injuries after attack by 3 dogs: RCMP - Halifax Global News",
+      "published": "2026-01-05T08:00:00+00:00",
+      "source": "Google News - Dogs Canada",
+      "author": "",
+      "tags": [],
+      "scraped_at": "2026-01-17T06:35:20.660869+00:00",
+      "canadian_score": 0.65,
+      "trending_score": 0.662
+    },
+    {
+      "content_type": "news",
       "title": "Parks Canada warns wolves are targeting dogs on popular Vancouver Island beach - Victoria Buzz",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWmxpU3BEMmdaaHdhbHJFNGFYX3RoUE1IQi1wZzVqUldnbGJEYVhjN3F4QURKNkFtQ3BDUDVNaWQxOF84RmFYVHNDeHJ2Qy05SDNPRE5FWmszc3Zfcnc2WmJSU2dtOElIUXp2VER3X2xXTDlhMFA2N3I4eVFuS21oZEcxX1prcGJmMC1TT3VINWh4SVBsWmhtWllsZGgzZUpKQllVQ2hiOHpQU1NFRGxoYkxB?oc=5",
       "summary": "Parks Canada warns wolves are targeting dogs on popular Vancouver Island beach Victoria Buzz",
@@ -20,7 +33,20 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-01-16T06:38:36.877155+00:00",
+      "scraped_at": "2026-01-17T06:35:20.668864+00:00",
+      "canadian_score": 0.65,
+      "trending_score": 0.662
+    },
+    {
+      "content_type": "news",
+      "title": "Canoeists ‘stalked’ by pack of vicious dogs on Nova Scotia river: RCMP - Halifax - Global News",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBOaXRkVGRjbTY0QmloWi1hdmNjUUo1SWhnTTB0b1hiMF9PMW9xVGFHLVRaUFJHRExvVnpidkg2SnV0R0hSdFhLajV3eW15RzUtNXVwUGhLLVFYUEd3WW9wOWdvTURQZU9OeDNCbnpUU3d0VG9mb1JHWQ?oc=5",
+      "summary": "Canoeists ‘stalked’ by pack of vicious dogs on Nova Scotia river: RCMP - Halifax Global News",
+      "published": "2025-07-07T07:00:00+00:00",
+      "source": "Google News - Dogs Canada",
+      "author": "",
+      "tags": [],
+      "scraped_at": "2026-01-17T06:35:20.674161+00:00",
       "canadian_score": 0.65,
       "trending_score": 0.662
     },
@@ -33,20 +59,33 @@
       "source": "Google News - Cats Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-01-16T06:38:37.675494+00:00",
+      "scraped_at": "2026-01-17T06:35:21.281713+00:00",
       "canadian_score": 0.6,
       "trending_score": 0.65
     },
     {
       "content_type": "news",
-      "title": "Nova Scotia pet owner shares story after her dog dies suffocating on a chip bag - Halifax - Global News",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5xSUVEMG5uVTlOWE9yME1OS3JvQ21ZZHVobkVBRExCSURMV0hMR1dVdXhTUVkwa3M1OXhjNkVSVnItbTlra0pEQ2otWHFWTkdvR0U5cjdkbEhXWlFiSWNNT1BjcFZ6QVdweEE?oc=5",
-      "summary": "Nova Scotia pet owner shares story after her dog dies suffocating on a chip bag - Halifax Global News",
-      "published": "2025-06-26T07:00:00+00:00",
+      "title": "Almost half of Canadians travel with unrestrained pets in cars: Survey - Toronto Sun",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcnJDdVdrWjVvaFZQMWdjLVFEMFJEZGM5WFJ5REE5d3RKWFRkeHZNMHgxeWNubEFWajBVS1FxZFpZNVYwd0lBTnBkNE1ZU2gzNi00R1g2OE9pbThFbnNNVVR3NjJXOUtSNzBPXzVJNER4aXBURW1yVERDMkJvV3J4V0RtR3RVS0RUMTktdXRMNGw1VmRGeGRWeVZDVktsRlJnZVhrbVZyRUVNUQ?oc=5",
+      "summary": "Almost half of Canadians travel with unrestrained pets in cars: Survey Toronto Sun",
+      "published": "2025-09-14T07:00:00+00:00",
       "source": "Google News - Pets Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-01-16T06:38:38.325537+00:00",
+      "scraped_at": "2026-01-17T06:35:21.976731+00:00",
+      "canadian_score": 0.6,
+      "trending_score": 0.65
+    },
+    {
+      "content_type": "news",
+      "title": "Nova Scotia teen dies after being attacked by 3 dogs - Halifax - Global News",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdFZIU2p5X3BaZXl3YTlCb25ISU5ZM3RpeERJbWxrRDJIWllrcDU4UmZZX2N2N0NlaWJRY0t0QnhGQWRwUldVR2FjOWZHaW5OZVZaVGpPWnlIOTQzaXFpODlGUDdtWW9IVTViYkxCT2ZZM1h6ZzJ1WklKblNuUE9aWjlTcFB4dw?oc=5",
+      "summary": "Nova Scotia teen dies after being attacked by 3 dogs - Halifax Global News",
+      "published": "2026-01-06T08:00:00+00:00",
+      "source": "Google News - Dogs Canada",
+      "author": "",
+      "tags": [],
+      "scraped_at": "2026-01-17T06:35:20.662305+00:00",
       "canadian_score": 0.5,
       "trending_score": 0.625
     }
