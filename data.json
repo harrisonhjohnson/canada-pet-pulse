@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-01-23T06:39:26.241794+00:00",
+  "generated_at": "2026-01-24T06:36:07.679639+00:00",
   "stats": {
     "reddit_posts": 0,
-    "news_articles": 2,
-    "total_items": 2,
+    "news_articles": 1,
+    "total_items": 1,
     "sources_succeeded": [
       "reddit",
       "news"
@@ -20,20 +20,7 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-01-23T06:39:24.778887+00:00",
-      "canadian_score": 0.65,
-      "trending_score": 0.662
-    },
-    {
-      "content_type": "news",
-      "title": "Montreal’s Le Miaousée wants to become Canada’s first permanent cat museum - toronto.citynews.ca",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNR2o2bGt2T2hkOUw0WWZ0TGMzZ3NaRUtSSFpOMkstRXFtTGcyM09nN0dEc3BTeXlrc2R1MlNVamtocGdzRnQ2M2w1ZTR4SjV6VExUU3pEZWFnajVHcmJMYWlBUWZNN2tiZVJHdmcwYy05NUJwLTRRdnU3TDV1TXREWDZvdl8xVFUxdTloUkNrMXFOQWI0V29pRkdRRDdjNEhYMWlJY3d3SXB5SUVwZ3pJdjJR?oc=5",
-      "summary": "Montreal’s Le Miaousée wants to become Canada’s first permanent cat museum toronto.citynews.ca",
-      "published": "2025-09-14T07:00:00+00:00",
-      "source": "Google News - Cats Canada",
-      "author": "",
-      "tags": [],
-      "scraped_at": "2026-01-23T06:39:25.429923+00:00",
+      "scraped_at": "2026-01-24T06:36:06.334440+00:00",
       "canadian_score": 0.65,
       "trending_score": 0.662
     }
