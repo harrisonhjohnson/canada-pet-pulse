@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-01-29T06:50:46.386040+00:00",
+  "generated_at": "2026-01-30T06:51:18.058039+00:00",
   "stats": {
     "reddit_posts": 0,
-    "news_articles": 1,
-    "total_items": 1,
+    "news_articles": 2,
+    "total_items": 2,
     "sources_succeeded": [
       "reddit",
       "news"
@@ -13,6 +13,19 @@
   "content": [
     {
       "content_type": "news",
+      "title": "Nova Scotia youth has life-threatening injuries after attack by 3 dogs: RCMP - Halifax - Global News",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQnE1S3dHUWpIclNlZUFLdHMwbkFoNzl6NGd5NXRxZjgtTzJhVEZsdjNiaF9XQXhpQld6b3VrbVlabV9IZFhqZ3FZNU5yVkhhZzlzMEVPR1BvTHJMSGVma3BKV09mU1psVWcxZVp4MHVzZndiSW1BdFA5RTBLZWhPX0g5UktjdmNVTkxyOXk0U0RCYlduanc?oc=5",
+      "summary": "Nova Scotia youth has life-threatening injuries after attack by 3 dogs: RCMP - Halifax Global News",
+      "published": "2026-01-05T08:00:00+00:00",
+      "source": "Google News - Dogs Canada",
+      "author": "",
+      "tags": [],
+      "scraped_at": "2026-01-30T06:51:16.779926+00:00",
+      "canadian_score": 0.65,
+      "trending_score": 0.662
+    },
+    {
+      "content_type": "news",
       "title": "Montreal's Le Miaousée wants to become Canada's first permanent cat museum - thecanadianpressnews.ca",
       "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOelJLdHlMbUtSRHdSX0dzNzMwSWFCM1o2TkQtUVJ4YzFHc3dQcG54dlBqSUVWUmc2Y09KMkg3LXZnOFMtQmFqTXdvVHdMOE93cEMtVklvQ0dTeGF3Y1JsRnluaUJzeVJ4WkRhdk9zUXh4dy1MUGtycGpVdElzajk0TmFVN0tLSGI0c1Vfc0dReGoydUhMT2x2YlJPdElLR2RNMWZjcmpPMHZhUF9GWlVKaThFTUVaQXFMNEE4bHR2YmF2bV9WdVNUaUQxY3NUNm52Ujhxb0ZSN2dMN3ZNdkJLUXhxUGxtdGlDbW5XRFYzRzUxaXBRS0daQ2pzS3RlOG5tWGc?oc=5",
       "summary": "Montreal's Le Miaousée wants to become Canada's first permanent cat museum thecanadianpressnews.ca",
@@ -20,7 +33,7 @@
       "source": "Google News - Cats Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-01-29T06:50:45.642928+00:00",
+      "scraped_at": "2026-01-30T06:51:17.363863+00:00",
       "canadian_score": 0.6,
       "trending_score": 0.65
     }
