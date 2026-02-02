@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-01T06:52:30.507812+00:00",
+  "generated_at": "2026-02-02T07:07:16.166996+00:00",
   "stats": {
     "reddit_posts": 0,
     "news_articles": 5,
@@ -13,19 +13,6 @@
   "content": [
     {
       "content_type": "news",
-      "title": "Vancouver Island rescuers helped people, sheep, dogs and cat after heavy rains - Toronto Star",
-      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPbEdYV0M3VDNEUkxRLVRxTHBETnJwQW9CcFpTOEMtMXFsdXdiUkNrakd6WHIybTFHU3JyanBZbGdqbVBWNVAyeS1vYlVNbmlQTXB6cVkzRVkyNWlMeUxPQTVEcjB5V1lfeHB1eXkwc2QwRG54aTYtVHg2bzE3QldXcFRyQW9tZV9OYV9NdGR6em5RMW9hSlR6bGRtRjJtMXJkSEdHWWhRMXZLNFBKQlFGOEl3SWMzUElkbkFFVkl4SUlJNFE3UERvNXlaM3hIRFVXNU5kVXFlODk0R1d1OHFnRWVKLUFyNmZUaXRDcXp1YjBoclBySGlKNWVnenJkcDU5SlAtZzF4SnltbVU?oc=5",
-      "summary": "Vancouver Island rescuers helped people, sheep, dogs and cat after heavy rains Toronto Star",
-      "published": "2026-01-31T11:00:25+00:00",
-      "source": "Google News - Dogs Canada",
-      "author": "",
-      "tags": [],
-      "scraped_at": "2026-02-01T06:52:29.122924+00:00",
-      "canadian_score": 0.5,
-      "trending_score": 2.5
-    },
-    {
-      "content_type": "news",
       "title": "Parks Canada warns wolves are targeting dogs on popular Vancouver Island beach - Victoria Buzz",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWmxpU3BEMmdaaHdhbHJFNGFYX3RoUE1IQi1wZzVqUldnbGJEYVhjN3F4QURKNkFtQ3BDUDVNaWQxOF84RmFYVHNDeHJ2Qy05SDNPRE5FWmszc3Zfcnc2WmJSU2dtOElIUXp2VER3X2xXTDlhMFA2N3I4eVFuS21oZEcxX1prcGJmMC1TT3VINWh4SVBsWmhtWllsZGgzZUpKQllVQ2hiOHpQU1NFRGxoYkxB?oc=5",
       "summary": "Parks Canada warns wolves are targeting dogs on popular Vancouver Island beach Victoria Buzz",
@@ -33,7 +20,7 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-02-01T06:52:29.135317+00:00",
+      "scraped_at": "2026-02-02T07:07:14.918055+00:00",
       "canadian_score": 0.65,
       "trending_score": 0.662
     },
@@ -46,20 +33,33 @@
       "source": "Google News - Cats Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-02-01T06:52:29.819214+00:00",
+      "scraped_at": "2026-02-02T07:07:15.471397+00:00",
       "canadian_score": 0.6,
       "trending_score": 0.65
     },
     {
       "content_type": "news",
-      "title": "Nova Scotia teen dies after being attacked by 3 dogs - Halifax - Global News",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdFZIU2p5X3BaZXl3YTlCb25ISU5ZM3RpeERJbWxrRDJIWllrcDU4UmZZX2N2N0NlaWJRY0t0QnhGQWRwUldVR2FjOWZHaW5OZVZaVGpPWnlIOTQzaXFpODlGUDdtWW9IVTViYkxCT2ZZM1h6ZzJ1WklKblNuUE9aWjlTcFB4dw?oc=5",
-      "summary": "Nova Scotia teen dies after being attacked by 3 dogs - Halifax Global News",
-      "published": "2026-01-06T08:00:00+00:00",
+      "title": "Vancouver Island rescuers helped people, sheep, dogs and cat after heavy rains - Toronto Star",
+      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPbEdYV0M3VDNEUkxRLVRxTHBETnJwQW9CcFpTOEMtMXFsdXdiUkNrakd6WHIybTFHU3JyanBZbGdqbVBWNVAyeS1vYlVNbmlQTXB6cVkzRVkyNWlMeUxPQTVEcjB5V1lfeHB1eXkwc2QwRG54aTYtVHg2bzE3QldXcFRyQW9tZV9OYV9NdGR6em5RMW9hSlR6bGRtRjJtMXJkSEdHWWhRMXZLNFBKQlFGOEl3SWMzUElkbkFFVkl4SUlJNFE3UERvNXlaM3hIRFVXNU5kVXFlODk0R1d1OHFnRWVKLUFyNmZUaXRDcXp1YjBoclBySGlKNWVnenJkcDU5SlAtZzF4SnltbVU?oc=5",
+      "summary": "Vancouver Island rescuers helped people, sheep, dogs and cat after heavy rains Toronto Star",
+      "published": "2026-01-31T11:00:00+00:00",
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-02-01T06:52:29.131727+00:00",
+      "scraped_at": "2026-02-02T07:07:14.908281+00:00",
+      "canadian_score": 0.5,
+      "trending_score": 0.625
+    },
+    {
+      "content_type": "news",
+      "title": "Ontario unveils legislation to restrict invasive medical research on dogs and cats - London Free Press",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNzRub3laaE5RYzVZcmdXOVJJcmo0TFZ1RE1JcTM2Zkw0OHdRaVlnSHFKWVZTaWNIMkpnV2NNaGpNM0xubS1RbmJzWXY0ck5QcXlMdXQ0S2dzNUtfdGVTVlBrYU5KVkFCaGxqd0hNVDMtX2w2eHpjcDFIbzRiM2RNbkdvTWgzUmZOUmhYVWJfR21aelJTcm5YblZDUmQ4R1Nfc21ZdzlSLVh1SmJTTE5vR3BlMkdKSEttdEE?oc=5",
+      "summary": "Ontario unveils legislation to restrict invasive medical research on dogs and cats London Free Press",
+      "published": "2025-11-27T08:00:00+00:00",
+      "source": "Google News - Cats Canada",
+      "author": "",
+      "tags": [],
+      "scraped_at": "2026-02-02T07:07:15.473388+00:00",
       "canadian_score": 0.5,
       "trending_score": 0.625
     },
@@ -72,7 +72,7 @@
       "source": "Google News - Pets Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-02-01T06:52:30.421445+00:00",
+      "scraped_at": "2026-02-02T07:07:16.082697+00:00",
       "canadian_score": 0.5,
       "trending_score": 0.625
     }
