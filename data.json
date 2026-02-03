@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-02-02T07:07:16.166996+00:00",
+  "generated_at": "2026-02-03T06:55:01.119303+00:00",
   "stats": {
     "reddit_posts": 0,
-    "news_articles": 5,
-    "total_items": 5,
+    "news_articles": 6,
+    "total_items": 6,
     "sources_succeeded": [
       "reddit",
       "news"
@@ -20,7 +20,20 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-02-02T07:07:14.918055+00:00",
+      "scraped_at": "2026-02-03T06:54:59.854141+00:00",
+      "canadian_score": 0.65,
+      "trending_score": 0.662
+    },
+    {
+      "content_type": "news",
+      "title": "Canoeists ‘stalked’ by pack of vicious dogs on Nova Scotia river: RCMP - Halifax - Global News",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBOaXRkVGRjbTY0QmloWi1hdmNjUUo1SWhnTTB0b1hiMF9PMW9xVGFHLVRaUFJHRExvVnpidkg2SnV0R0hSdFhLajV3eW15RzUtNXVwUGhLLVFYUEd3WW9wOWdvTURQZU9OeDNCbnpUU3d0VG9mb1JHWQ?oc=5",
+      "summary": "Canoeists ‘stalked’ by pack of vicious dogs on Nova Scotia river: RCMP - Halifax Global News",
+      "published": "2025-07-07T07:00:00+00:00",
+      "source": "Google News - Dogs Canada",
+      "author": "",
+      "tags": [],
+      "scraped_at": "2026-02-03T06:54:59.857938+00:00",
       "canadian_score": 0.65,
       "trending_score": 0.662
     },
@@ -33,7 +46,7 @@
       "source": "Google News - Cats Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-02-02T07:07:15.471397+00:00",
+      "scraped_at": "2026-02-03T06:55:00.427077+00:00",
       "canadian_score": 0.6,
       "trending_score": 0.65
     },
@@ -46,7 +59,7 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-02-02T07:07:14.908281+00:00",
+      "scraped_at": "2026-02-03T06:54:59.846262+00:00",
       "canadian_score": 0.5,
       "trending_score": 0.625
     },
@@ -59,7 +72,7 @@
       "source": "Google News - Cats Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-02-02T07:07:15.473388+00:00",
+      "scraped_at": "2026-02-03T06:55:00.429501+00:00",
       "canadian_score": 0.5,
       "trending_score": 0.625
     },
@@ -72,7 +85,7 @@
       "source": "Google News - Pets Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-02-02T07:07:16.082697+00:00",
+      "scraped_at": "2026-02-03T06:55:01.036889+00:00",
       "canadian_score": 0.5,
       "trending_score": 0.625
     }
