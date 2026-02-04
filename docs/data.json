@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-02-03T06:55:01.119303+00:00",
+  "generated_at": "2026-02-04T06:55:41.595178+00:00",
   "stats": {
     "reddit_posts": 0,
-    "news_articles": 6,
-    "total_items": 6,
+    "news_articles": 2,
+    "total_items": 2,
     "sources_succeeded": [
       "reddit",
       "news"
@@ -13,45 +13,6 @@
   "content": [
     {
       "content_type": "news",
-      "title": "Parks Canada warns wolves are targeting dogs on popular Vancouver Island beach - Victoria Buzz",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWmxpU3BEMmdaaHdhbHJFNGFYX3RoUE1IQi1wZzVqUldnbGJEYVhjN3F4QURKNkFtQ3BDUDVNaWQxOF84RmFYVHNDeHJ2Qy05SDNPRE5FWmszc3Zfcnc2WmJSU2dtOElIUXp2VER3X2xXTDlhMFA2N3I4eVFuS21oZEcxX1prcGJmMC1TT3VINWh4SVBsWmhtWllsZGgzZUpKQllVQ2hiOHpQU1NFRGxoYkxB?oc=5",
-      "summary": "Parks Canada warns wolves are targeting dogs on popular Vancouver Island beach Victoria Buzz",
-      "published": "2025-10-29T07:00:00+00:00",
-      "source": "Google News - Dogs Canada",
-      "author": "",
-      "tags": [],
-      "scraped_at": "2026-02-03T06:54:59.854141+00:00",
-      "canadian_score": 0.65,
-      "trending_score": 0.662
-    },
-    {
-      "content_type": "news",
-      "title": "Canoeists ‘stalked’ by pack of vicious dogs on Nova Scotia river: RCMP - Halifax - Global News",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBOaXRkVGRjbTY0QmloWi1hdmNjUUo1SWhnTTB0b1hiMF9PMW9xVGFHLVRaUFJHRExvVnpidkg2SnV0R0hSdFhLajV3eW15RzUtNXVwUGhLLVFYUEd3WW9wOWdvTURQZU9OeDNCbnpUU3d0VG9mb1JHWQ?oc=5",
-      "summary": "Canoeists ‘stalked’ by pack of vicious dogs on Nova Scotia river: RCMP - Halifax Global News",
-      "published": "2025-07-07T07:00:00+00:00",
-      "source": "Google News - Dogs Canada",
-      "author": "",
-      "tags": [],
-      "scraped_at": "2026-02-03T06:54:59.857938+00:00",
-      "canadian_score": 0.65,
-      "trending_score": 0.662
-    },
-    {
-      "content_type": "news",
-      "title": "Montreal's Le Miaousée wants to become Canada's first permanent cat museum - thecanadianpressnews.ca",
-      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOelJLdHlMbUtSRHdSX0dzNzMwSWFCM1o2TkQtUVJ4YzFHc3dQcG54dlBqSUVWUmc2Y09KMkg3LXZnOFMtQmFqTXdvVHdMOE93cEMtVklvQ0dTeGF3Y1JsRnluaUJzeVJ4WkRhdk9zUXh4dy1MUGtycGpVdElzajk0TmFVN0tLSGI0c1Vfc0dReGoydUhMT2x2YlJPdElLR2RNMWZjcmpPMHZhUF9GWlVKaThFTUVaQXFMNEE4bHR2YmF2bV9WdVNUaUQxY3NUNm52Ujhxb0ZSN2dMN3ZNdkJLUXhxUGxtdGlDbW5XRFYzRzUxaXBRS0daQ2pzS3RlOG5tWGc?oc=5",
-      "summary": "Montreal's Le Miaousée wants to become Canada's first permanent cat museum thecanadianpressnews.ca",
-      "published": "2025-09-14T07:00:00+00:00",
-      "source": "Google News - Cats Canada",
-      "author": "",
-      "tags": [],
-      "scraped_at": "2026-02-03T06:55:00.427077+00:00",
-      "canadian_score": 0.6,
-      "trending_score": 0.65
-    },
-    {
-      "content_type": "news",
       "title": "Vancouver Island rescuers helped people, sheep, dogs and cat after heavy rains - Toronto Star",
       "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPbEdYV0M3VDNEUkxRLVRxTHBETnJwQW9CcFpTOEMtMXFsdXdiUkNrakd6WHIybTFHU3JyanBZbGdqbVBWNVAyeS1vYlVNbmlQTXB6cVkzRVkyNWlMeUxPQTVEcjB5V1lfeHB1eXkwc2QwRG54aTYtVHg2bzE3QldXcFRyQW9tZV9OYV9NdGR6em5RMW9hSlR6bGRtRjJtMXJkSEdHWWhRMXZLNFBKQlFGOEl3SWMzUElkbkFFVkl4SUlJNFE3UERvNXlaM3hIRFVXNU5kVXFlODk0R1d1OHFnRWVKLUFyNmZUaXRDcXp1YjBoclBySGlKNWVnenJkcDU5SlAtZzF4SnltbVU?oc=5",
       "summary": "Vancouver Island rescuers helped people, sheep, dogs and cat after heavy rains Toronto Star",
@@ -59,7 +20,7 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-02-03T06:54:59.846262+00:00",
+      "scraped_at": "2026-02-04T06:55:40.219808+00:00",
       "canadian_score": 0.5,
       "trending_score": 0.625
     },
@@ -72,20 +33,7 @@
       "source": "Google News - Cats Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-02-03T06:55:00.429501+00:00",
-      "canadian_score": 0.5,
-      "trending_score": 0.625
-    },
-    {
-      "content_type": "news",
-      "title": "Can landlords say no to pets in Ontario? Here’s what the law says - NOW Toronto",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNkZoQS1ycU5tUTlZZGZFanlSWXhobnI1SXVwVFRXMDU5V1RJRW9vRzhPT0g2WVUxRW45a0cxcWVRNi1sTF9qZl9lMHhqaHdHZzllaGxlQV9vV2NyZmRoZGhIOXk0UVhIYjVpQ0s3X3NnQ2JSY1RpZWE5bldDWU53aTdjZXNKUk10ZHNOU3IxaEcxUmtGbEhjSGVJalFubXlH?oc=5",
-      "summary": "Can landlords say no to pets in Ontario? Here’s what the law says NOW Toronto",
-      "published": "2026-01-18T08:00:00+00:00",
-      "source": "Google News - Pets Canada",
-      "author": "",
-      "tags": [],
-      "scraped_at": "2026-02-03T06:55:01.036889+00:00",
+      "scraped_at": "2026-02-04T06:55:40.859905+00:00",
       "canadian_score": 0.5,
       "trending_score": 0.625
     }
