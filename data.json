@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-04T06:55:41.595178+00:00",
+  "generated_at": "2026-02-05T07:03:11.904500+00:00",
   "stats": {
     "reddit_posts": 0,
     "news_articles": 2,
@@ -13,16 +13,16 @@
   "content": [
     {
       "content_type": "news",
-      "title": "Vancouver Island rescuers helped people, sheep, dogs and cat after heavy rains - Toronto Star",
-      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPbEdYV0M3VDNEUkxRLVRxTHBETnJwQW9CcFpTOEMtMXFsdXdiUkNrakd6WHIybTFHU3JyanBZbGdqbVBWNVAyeS1vYlVNbmlQTXB6cVkzRVkyNWlMeUxPQTVEcjB5V1lfeHB1eXkwc2QwRG54aTYtVHg2bzE3QldXcFRyQW9tZV9OYV9NdGR6em5RMW9hSlR6bGRtRjJtMXJkSEdHWWhRMXZLNFBKQlFGOEl3SWMzUElkbkFFVkl4SUlJNFE3UERvNXlaM3hIRFVXNU5kVXFlODk0R1d1OHFnRWVKLUFyNmZUaXRDcXp1YjBoclBySGlKNWVnenJkcDU5SlAtZzF4SnltbVU?oc=5",
-      "summary": "Vancouver Island rescuers helped people, sheep, dogs and cat after heavy rains Toronto Star",
-      "published": "2026-01-31T11:00:00+00:00",
+      "title": "Parks Canada warns wolves are targeting dogs on popular Vancouver Island beach - Victoria Buzz",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWmxpU3BEMmdaaHdhbHJFNGFYX3RoUE1IQi1wZzVqUldnbGJEYVhjN3F4QURKNkFtQ3BDUDVNaWQxOF84RmFYVHNDeHJ2Qy05SDNPRE5FWmszc3Zfcnc2WmJSU2dtOElIUXp2VER3X2xXTDlhMFA2N3I4eVFuS21oZEcxX1prcGJmMC1TT3VINWh4SVBsWmhtWllsZGgzZUpKQllVQ2hiOHpQU1NFRGxoYkxB?oc=5",
+      "summary": "Parks Canada warns wolves are targeting dogs on popular Vancouver Island beach Victoria Buzz",
+      "published": "2025-10-29T07:00:00+00:00",
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-02-04T06:55:40.219808+00:00",
-      "canadian_score": 0.5,
-      "trending_score": 0.625
+      "scraped_at": "2026-02-05T07:03:10.685774+00:00",
+      "canadian_score": 0.65,
+      "trending_score": 0.662
     },
     {
       "content_type": "news",
@@ -33,7 +33,7 @@
       "source": "Google News - Cats Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-02-04T06:55:40.859905+00:00",
+      "scraped_at": "2026-02-05T07:03:11.283643+00:00",
       "canadian_score": 0.5,
       "trending_score": 0.625
     }
