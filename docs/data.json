@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-02-05T07:03:11.904500+00:00",
+  "generated_at": "2026-02-06T06:59:33.151776+00:00",
   "stats": {
     "reddit_posts": 0,
-    "news_articles": 2,
-    "total_items": 2,
+    "news_articles": 1,
+    "total_items": 1,
     "sources_succeeded": [
       "reddit",
       "news"
@@ -13,19 +13,6 @@
   "content": [
     {
       "content_type": "news",
-      "title": "Parks Canada warns wolves are targeting dogs on popular Vancouver Island beach - Victoria Buzz",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWmxpU3BEMmdaaHdhbHJFNGFYX3RoUE1IQi1wZzVqUldnbGJEYVhjN3F4QURKNkFtQ3BDUDVNaWQxOF84RmFYVHNDeHJ2Qy05SDNPRE5FWmszc3Zfcnc2WmJSU2dtOElIUXp2VER3X2xXTDlhMFA2N3I4eVFuS21oZEcxX1prcGJmMC1TT3VINWh4SVBsWmhtWllsZGgzZUpKQllVQ2hiOHpQU1NFRGxoYkxB?oc=5",
-      "summary": "Parks Canada warns wolves are targeting dogs on popular Vancouver Island beach Victoria Buzz",
-      "published": "2025-10-29T07:00:00+00:00",
-      "source": "Google News - Dogs Canada",
-      "author": "",
-      "tags": [],
-      "scraped_at": "2026-02-05T07:03:10.685774+00:00",
-      "canadian_score": 0.65,
-      "trending_score": 0.662
-    },
-    {
-      "content_type": "news",
       "title": "Ontario unveils legislation to restrict invasive medical research on dogs and cats - London Free Press",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNzRub3laaE5RYzVZcmdXOVJJcmo0TFZ1RE1JcTM2Zkw0OHdRaVlnSHFKWVZTaWNIMkpnV2NNaGpNM0xubS1RbmJzWXY0ck5QcXlMdXQ0S2dzNUtfdGVTVlBrYU5KVkFCaGxqd0hNVDMtX2w2eHpjcDFIbzRiM2RNbkdvTWgzUmZOUmhYVWJfR21aelJTcm5YblZDUmQ4R1Nfc21ZdzlSLVh1SmJTTE5vR3BlMkdKSEttdEE?oc=5",
       "summary": "Ontario unveils legislation to restrict invasive medical research on dogs and cats London Free Press",
@@ -33,7 +20,7 @@
       "source": "Google News - Cats Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-02-05T07:03:11.283643+00:00",
+      "scraped_at": "2026-02-06T06:59:32.367265+00:00",
       "canadian_score": 0.5,
       "trending_score": 0.625
     }
