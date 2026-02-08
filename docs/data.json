@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-02-07T06:46:24.186777+00:00",
+  "generated_at": "2026-02-08T06:53:16.012644+00:00",
   "stats": {
     "reddit_posts": 0,
-    "news_articles": 3,
-    "total_items": 3,
+    "news_articles": 2,
+    "total_items": 2,
     "sources_succeeded": [
       "reddit",
       "news"
@@ -20,7 +20,7 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-02-07T06:46:22.989772+00:00",
+      "scraped_at": "2026-02-08T06:53:14.706485+00:00",
       "canadian_score": 0.65,
       "trending_score": 0.662
     },
@@ -33,22 +33,9 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-02-07T06:46:22.991695+00:00",
+      "scraped_at": "2026-02-08T06:53:14.706638+00:00",
       "canadian_score": 0.65,
       "trending_score": 0.662
-    },
-    {
-      "content_type": "news",
-      "title": "Nova Scotia pet owner shares story after her dog dies suffocating on a chip bag - Halifax - Global News",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5xSUVEMG5uVTlOWE9yME1OS3JvQ21ZZHVobkVBRExCSURMV0hMR1dVdXhTUVkwa3M1OXhjNkVSVnItbTlra0pEQ2otWHFWTkdvR0U5cjdkbEhXWlFiSWNNT1BjcFZ6QVdweEE?oc=5",
-      "summary": "Nova Scotia pet owner shares story after her dog dies suffocating on a chip bag - Halifax Global News",
-      "published": "2025-06-26T07:00:00+00:00",
-      "source": "Google News - Pets Canada",
-      "author": "",
-      "tags": [],
-      "scraped_at": "2026-02-07T06:46:24.113832+00:00",
-      "canadian_score": 0.5,
-      "trending_score": 0.625
     }
   ]
 }
