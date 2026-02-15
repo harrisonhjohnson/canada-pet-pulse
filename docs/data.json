@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-02-14T06:48:30.284958+00:00",
+  "generated_at": "2026-02-15T06:56:48.942739+00:00",
   "stats": {
     "reddit_posts": 0,
-    "news_articles": 2,
-    "total_items": 2,
+    "news_articles": 1,
+    "total_items": 1,
     "sources_succeeded": [
       "reddit",
       "news"
@@ -13,25 +13,6 @@
   "content": [
     {
       "content_type": "news",
-      "title": "Saskatchewan Polytechnic backtracks on program move for current students",
-      "link": "https://globalnews.ca/news/11667549/saskatchewan-polytechnic-program-update/",
-      "summary": "Saskatchewan Polytechnic says Saskatoon-based ESET students will no longer be required to relocate to Regina after the school reversed its earlier decision.",
-      "published": "2026-02-14T00:15:46+00:00",
-      "source": "Global News",
-      "author": "Prisha Dev",
-      "tags": [
-        "Canada",
-        "Education",
-        "polytechnic university",
-        "Saskatchewan Education",
-        "Saskatoon News"
-      ],
-      "scraped_at": "2026-02-14T06:48:28.435420+00:00",
-      "canadian_score": 0.7,
-      "trending_score": 6.143
-    },
-    {
-      "content_type": "news",
       "title": "Montreal's Le Miaousée wants to become Canada's first permanent cat museum - thecanadianpressnews.ca",
       "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOelJLdHlMbUtSRHdSX0dzNzMwSWFCM1o2TkQtUVJ4YzFHc3dQcG54dlBqSUVWUmc2Y09KMkg3LXZnOFMtQmFqTXdvVHdMOE93cEMtVklvQ0dTeGF3Y1JsRnluaUJzeVJ4WkRhdk9zUXh4dy1MUGtycGpVdElzajk0TmFVN0tLSGI0c1Vfc0dReGoydUhMT2x2YlJPdElLR2RNMWZjcmpPMHZhUF9GWlVKaThFTUVaQXFMNEE4bHR2YmF2bV9WdVNUaUQxY3NUNm52Ujhxb0ZSN2dMN3ZNdkJLUXhxUGxtdGlDbW5XRFYzRzUxaXBRS0daQ2pzS3RlOG5tWGc?oc=5",
       "summary": "Montreal's Le Miaousée wants to become Canada's first permanent cat museum thecanadianpressnews.ca",
@@ -39,7 +20,7 @@
       "source": "Google News - Cats Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-02-14T06:48:29.619653+00:00",
+      "scraped_at": "2026-02-15T06:56:48.288899+00:00",
       "canadian_score": 0.6,
       "trending_score": 0.65
     }
