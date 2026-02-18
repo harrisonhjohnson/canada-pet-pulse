@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-17T07:03:48.942209+00:00",
+  "generated_at": "2026-02-18T07:06:02.105343+00:00",
   "stats": {
     "reddit_posts": 0,
     "news_articles": 1,
@@ -13,16 +13,16 @@
   "content": [
     {
       "content_type": "news",
-      "title": "Parks Canada warns wolves are targeting dogs on popular Vancouver Island beach - Victoria Buzz",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWmxpU3BEMmdaaHdhbHJFNGFYX3RoUE1IQi1wZzVqUldnbGJEYVhjN3F4QURKNkFtQ3BDUDVNaWQxOF84RmFYVHNDeHJ2Qy05SDNPRE5FWmszc3Zfcnc2WmJSU2dtOElIUXp2VER3X2xXTDlhMFA2N3I4eVFuS21oZEcxX1prcGJmMC1TT3VINWh4SVBsWmhtWllsZGgzZUpKQllVQ2hiOHpQU1NFRGxoYkxB?oc=5",
-      "summary": "Parks Canada warns wolves are targeting dogs on popular Vancouver Island beach Victoria Buzz",
-      "published": "2025-10-29T07:00:00+00:00",
-      "source": "Google News - Dogs Canada",
+      "title": "Nova Scotia pet owner shares story after her dog dies suffocating on a chip bag - Halifax - Global News",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5xSUVEMG5uVTlOWE9yME1OS3JvQ21ZZHVobkVBRExCSURMV0hMR1dVdXhTUVkwa3M1OXhjNkVSVnItbTlra0pEQ2otWHFWTkdvR0U5cjdkbEhXWlFiSWNNT1BjcFZ6QVdweEE?oc=5",
+      "summary": "Nova Scotia pet owner shares story after her dog dies suffocating on a chip bag - Halifax Global News",
+      "published": "2025-06-26T07:00:00+00:00",
+      "source": "Google News - Pets Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-02-17T07:03:47.766014+00:00",
-      "canadian_score": 0.65,
-      "trending_score": 0.662
+      "scraped_at": "2026-02-18T07:06:02.031803+00:00",
+      "canadian_score": 0.5,
+      "trending_score": 0.625
     }
   ]
 }
