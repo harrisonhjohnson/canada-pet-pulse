@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-02-19T07:04:42.726218+00:00",
+  "generated_at": "2026-02-20T07:01:00.840018+00:00",
   "stats": {
     "reddit_posts": 0,
-    "news_articles": 2,
-    "total_items": 2,
+    "news_articles": 1,
+    "total_items": 1,
     "sources_succeeded": [
       "reddit",
       "news"
@@ -13,27 +13,14 @@
   "content": [
     {
       "content_type": "news",
-      "title": "Montreal’s Le Miaousee wants to become Canada’s first permanent cat museum - Toronto Sun",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQXhoUEdOUkd6RkJCTWhLQXFZRFdLVzdGSnVjZ2g3Wm1FYmZkUU1nVk54QlJZZXVlODcwVlNyMlhWZkN3aUtPOGo0bjhYVUlvWWpvNTlNTVN1dGZMYzZnSDJIRWRnNHpNRWhLSHdKS1F4Z1UxZ3lUajhoS3YwSjlHMW1mOG55ZGdLREphM2o1aG5qTkZHMHIyNHNSQ1lPUmJiY1dpZ0NscnJ2ZTVCRWc?oc=5",
-      "summary": "Montreal’s Le Miaousee wants to become Canada’s first permanent cat museum Toronto Sun",
-      "published": "2025-09-14T07:00:00+00:00",
+      "title": "Edmonton cat with six legs recovering after surgery - CityNews Vancouver",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1WODhLemQwYUkyekxSYTZRRWRJYm54MVJKdU5yUm1YS1BJT0V2MWVmUVZsOHRGV1hlaUg1d2pQcE1hZVNDbFZLSmk3dGxLZVhhX1EtSU9iSVE3UkFPWnRCOXpTMTVHSmRFb2hpV0ZLWG9zQkZPdkpUZUdRUQ?oc=5",
+      "summary": "Edmonton cat with six legs recovering after surgery CityNews Vancouver",
+      "published": "2025-05-15T07:00:00+00:00",
       "source": "Google News - Cats Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-02-19T07:04:42.077410+00:00",
-      "canadian_score": 0.65,
-      "trending_score": 0.662
-    },
-    {
-      "content_type": "news",
-      "title": "Nova Scotia pet owner shares story after her dog dies suffocating on a chip bag - Halifax - Global News",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5xSUVEMG5uVTlOWE9yME1OS3JvQ21ZZHVobkVBRExCSURMV0hMR1dVdXhTUVkwa3M1OXhjNkVSVnItbTlra0pEQ2otWHFWTkdvR0U5cjdkbEhXWlFiSWNNT1BjcFZ6QVdweEE?oc=5",
-      "summary": "Nova Scotia pet owner shares story after her dog dies suffocating on a chip bag - Halifax Global News",
-      "published": "2025-06-26T07:00:00+00:00",
-      "source": "Google News - Pets Canada",
-      "author": "",
-      "tags": [],
-      "scraped_at": "2026-02-19T07:04:42.654301+00:00",
+      "scraped_at": "2026-02-20T07:01:00.183461+00:00",
       "canadian_score": 0.5,
       "trending_score": 0.625
     }
