@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-02-28T06:42:18.811638+00:00",
+  "generated_at": "2026-03-01T06:49:52.511415+00:00",
   "stats": {
     "reddit_posts": 0,
-    "news_articles": 3,
-    "total_items": 3,
+    "news_articles": 2,
+    "total_items": 2,
     "sources_succeeded": [
       "reddit",
       "news"
@@ -13,41 +13,6 @@
   "content": [
     {
       "content_type": "news",
-      "title": "Kelowna mayor does not ask for more RCMP funding during Victoria trip",
-      "link": "https://globalnews.ca/news/11710817/kelowna-mayor-does-not-ask-more-rcmp-funding-victoria-trip/",
-      "summary": "The 2026 budget has allocated funding for four additional RCMP officers, but according to the detachment's officer-in-charge, far more are needed to meet current policing needs.",
-      "published": "2026-02-28T04:19:38+00:00",
-      "source": "Global News",
-      "author": "Klaudia Van Emmerik",
-      "tags": [
-        "Canada",
-        "Central Okanagan",
-        "Kelowna",
-        "Kelowna RCMP",
-        "RCMP"
-      ],
-      "scraped_at": "2026-02-28T06:42:16.902603+00:00",
-      "canadian_score": 0.65,
-      "trending_score": 8.612
-    },
-    {
-      "content_type": "news",
-      "title": "Montreal bakery faces Quebec language watchdog complaint over TikTok videos",
-      "link": "https://globalnews.ca/news/11711026/montreal-bakery-language-watchdog-complaint-tiktok-quebec/",
-      "summary": "Lamajoune Villeray Bakery, a family-run business operating for 40 years, recently received a letter from the Office québécois de la langue française (OQLF).",
-      "published": "2026-02-28T01:05:07+00:00",
-      "source": "Global News",
-      "author": "Alessia Simona Maratta",
-      "tags": [
-        "Canada",
-        "OQLF"
-      ],
-      "scraped_at": "2026-02-28T06:42:16.902766+00:00",
-      "canadian_score": 0.5,
-      "trending_score": 8.125
-    },
-    {
-      "content_type": "news",
       "title": "Parks Canada warns wolves are targeting dogs on popular Vancouver Island beach - Victoria Buzz",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWmxpU3BEMmdaaHdhbHJFNGFYX3RoUE1IQi1wZzVqUldnbGJEYVhjN3F4QURKNkFtQ3BDUDVNaWQxOF84RmFYVHNDeHJ2Qy05SDNPRE5FWmszc3Zfcnc2WmJSU2dtOElIUXp2VER3X2xXTDlhMFA2N3I4eVFuS21oZEcxX1prcGJmMC1TT3VINWh4SVBsWmhtWllsZGgzZUpKQllVQ2hiOHpQU1NFRGxoYkxB?oc=5",
       "summary": "Parks Canada warns wolves are targeting dogs on popular Vancouver Island beach Victoria Buzz",
@@ -55,7 +20,20 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-02-28T06:42:17.574098+00:00",
+      "scraped_at": "2026-03-01T06:49:51.222538+00:00",
+      "canadian_score": 0.65,
+      "trending_score": 0.662
+    },
+    {
+      "content_type": "news",
+      "title": "Montreal’s Le Miaousee wants to become Canada’s first permanent cat museum - Toronto Sun",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQXhoUEdOUkd6RkJCTWhLQXFZRFdLVzdGSnVjZ2g3Wm1FYmZkUU1nVk54QlJZZXVlODcwVlNyMlhWZkN3aUtPOGo0bjhYVUlvWWpvNTlNTVN1dGZMYzZnSDJIRWRnNHpNRWhLSHdKS1F4Z1UxZ3lUajhoS3YwSjlHMW1mOG55ZGdLREphM2o1aG5qTkZHMHIyNHNSQ1lPUmJiY1dpZ0NscnJ2ZTVCRWc?oc=5",
+      "summary": "Montreal’s Le Miaousee wants to become Canada’s first permanent cat museum Toronto Sun",
+      "published": "2025-09-14T07:00:00+00:00",
+      "source": "Google News - Cats Canada",
+      "author": "",
+      "tags": [],
+      "scraped_at": "2026-03-01T06:49:51.830571+00:00",
       "canadian_score": 0.65,
       "trending_score": 0.662
     }
