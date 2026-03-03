@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-03-02T07:02:13.240181+00:00",
+  "generated_at": "2026-03-03T06:55:20.622521+00:00",
   "stats": {
     "reddit_posts": 0,
-    "news_articles": 1,
-    "total_items": 1,
+    "news_articles": 3,
+    "total_items": 3,
     "sources_succeeded": [
       "reddit",
       "news"
@@ -20,9 +20,35 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-03-02T07:02:11.969869+00:00",
+      "scraped_at": "2026-03-03T06:55:19.368148+00:00",
       "canadian_score": 0.65,
       "trending_score": 0.662
+    },
+    {
+      "content_type": "news",
+      "title": "Canoeists ‘stalked’ by pack of vicious dogs on Nova Scotia river: RCMP - Halifax - Global News",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBOaXRkVGRjbTY0QmloWi1hdmNjUUo1SWhnTTB0b1hiMF9PMW9xVGFHLVRaUFJHRExvVnpidkg2SnV0R0hSdFhLajV3eW15RzUtNXVwUGhLLVFYUEd3WW9wOWdvTURQZU9OeDNCbnpUU3d0VG9mb1JHWQ?oc=5",
+      "summary": "Canoeists ‘stalked’ by pack of vicious dogs on Nova Scotia river: RCMP - Halifax Global News",
+      "published": "2025-07-07T07:00:00+00:00",
+      "source": "Google News - Dogs Canada",
+      "author": "",
+      "tags": [],
+      "scraped_at": "2026-03-03T06:55:19.372926+00:00",
+      "canadian_score": 0.65,
+      "trending_score": 0.662
+    },
+    {
+      "content_type": "news",
+      "title": "Nova Scotia pet owner shares story after her dog dies suffocating on a chip bag - Halifax - Global News",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5xSUVEMG5uVTlOWE9yME1OS3JvQ21ZZHVobkVBRExCSURMV0hMR1dVdXhTUVkwa3M1OXhjNkVSVnItbTlra0pEQ2otWHFWTkdvR0U5cjdkbEhXWlFiSWNNT1BjcFZ6QVdweEE?oc=5",
+      "summary": "Nova Scotia pet owner shares story after her dog dies suffocating on a chip bag - Halifax Global News",
+      "published": "2025-06-26T07:00:00+00:00",
+      "source": "Google News - Pets Canada",
+      "author": "",
+      "tags": [],
+      "scraped_at": "2026-03-03T06:55:20.549152+00:00",
+      "canadian_score": 0.5,
+      "trending_score": 0.625
     }
   ]
 }
