@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-10T06:51:31.718199+00:00",
+  "generated_at": "2026-03-11T06:58:13.774194+00:00",
   "stats": {
     "reddit_posts": 0,
     "news_articles": 3,
@@ -20,33 +20,33 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-03-10T06:51:30.490341+00:00",
+      "scraped_at": "2026-03-11T06:58:12.417278+00:00",
       "canadian_score": 0.65,
       "trending_score": 0.662
     },
     {
       "content_type": "news",
-      "title": "Nova Scotia youth has life-threatening injuries after attack by 3 dogs: RCMP - Halifax - Global News",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQnE1S3dHUWpIclNlZUFLdHMwbkFoNzl6NGd5NXRxZjgtTzJhVEZsdjNiaF9XQXhpQld6b3VrbVlabV9IZFhqZ3FZNU5yVkhhZzlzMEVPR1BvTHJMSGVma3BKV09mU1psVWcxZVp4MHVzZndiSW1BdFA5RTBLZWhPX0g5UktjdmNVTkxyOXk0U0RCYlduanc?oc=5",
-      "summary": "Nova Scotia youth has life-threatening injuries after attack by 3 dogs: RCMP - Halifax Global News",
-      "published": "2026-01-05T08:00:00+00:00",
-      "source": "Google News - Dogs Canada",
-      "author": "",
-      "tags": [],
-      "scraped_at": "2026-03-10T06:51:30.492732+00:00",
-      "canadian_score": 0.65,
-      "trending_score": 0.662
-    },
-    {
-      "content_type": "news",
-      "title": "Guelph Humane Society reports \"significant increase\" of cats found dead outdoors - CityNews Kitchener",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTkVKOEY5Vm9lRzBlN1JBWUxzZU5UU2VqZUFHQlVua0hvYVRZR0hLSEFBVDVBM1hyRlZERXhqR3FKaGZMaEVWS19mZVRxekhidk96WllWN2dQektMVFFaM0hkT09UZFpvcEpMb1czNXZmX3hqTFBtX2xWY2J2eUd3SV9USV9iTkRlUmlBenc5MWpBLUV0MjFOWTZKVHNYZEExYVhzeS1NX3pHRXhma2lBU1ZZMFdfaEgwNEh6Mg?oc=5",
-      "summary": "Guelph Humane Society reports \"significant increase\" of cats found dead outdoors CityNews Kitchener",
-      "published": "2026-03-03T09:27:16+00:00",
+      "title": "Ontario unveils legislation to restrict invasive medical research on dogs and cats - London Free Press",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNzRub3laaE5RYzVZcmdXOVJJcmo0TFZ1RE1JcTM2Zkw0OHdRaVlnSHFKWVZTaWNIMkpnV2NNaGpNM0xubS1RbmJzWXY0ck5QcXlMdXQ0S2dzNUtfdGVTVlBrYU5KVkFCaGxqd0hNVDMtX2w2eHpjcDFIbzRiM2RNbkdvTWgzUmZOUmhYVWJfR21aelJTcm5YblZDUmQ4R1Nfc21ZdzlSLVh1SmJTTE5vR3BlMkdKSEttdEE?oc=5",
+      "summary": "Ontario unveils legislation to restrict invasive medical research on dogs and cats London Free Press",
+      "published": "2025-11-27T08:00:00+00:00",
       "source": "Google News - Cats Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-03-10T06:51:31.034849+00:00",
+      "scraped_at": "2026-03-11T06:58:13.099617+00:00",
+      "canadian_score": 0.5,
+      "trending_score": 0.625
+    },
+    {
+      "content_type": "news",
+      "title": "Can landlords say no to pets in Ontario? Here’s what the law says - NOW Toronto",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNkZoQS1ycU5tUTlZZGZFanlSWXhobnI1SXVwVFRXMDU5V1RJRW9vRzhPT0g2WVUxRW45a0cxcWVRNi1sTF9qZl9lMHhqaHdHZzllaGxlQV9vV2NyZmRoZGhIOXk0UVhIYjVpQ0s3X3NnQ2JSY1RpZWE5bldDWU53aTdjZXNKUk10ZHNOU3IxaEcxUmtGbEhjSGVJalFubXlH?oc=5",
+      "summary": "Can landlords say no to pets in Ontario? Here’s what the law says NOW Toronto",
+      "published": "2026-01-18T08:00:00+00:00",
+      "source": "Google News - Pets Canada",
+      "author": "",
+      "tags": [],
+      "scraped_at": "2026-03-11T06:58:13.692928+00:00",
       "canadian_score": 0.5,
       "trending_score": 0.625
     }
