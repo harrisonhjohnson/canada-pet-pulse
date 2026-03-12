@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-11T06:58:13.774194+00:00",
+  "generated_at": "2026-03-12T06:59:29.680014+00:00",
   "stats": {
     "reddit_posts": 0,
     "news_articles": 3,
@@ -20,9 +20,22 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-03-11T06:58:12.417278+00:00",
+      "scraped_at": "2026-03-12T06:59:28.518942+00:00",
       "canadian_score": 0.65,
       "trending_score": 0.662
+    },
+    {
+      "content_type": "news",
+      "title": "RCMP asking Canadian kids to name police dog puppies - Victoria News",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWmJ6eEZGZVQ2Z0x2N0pCYVVwSGhRVEJLNGRmNEtrZno0Z3h5Q1VOdUc3M0RvN1RhZGhpOTdIUzVZeGo0NVlHNjU5YXV3Yld6M3JydGhrN0s0TkdON0FOcndHWUkyQjhsa1NCb0pNakpONzZKVlRXSnpGUXRBNWZFM21HMUcxV2pTVkF2TQ?oc=5",
+      "summary": "RCMP asking Canadian kids to name police dog puppies Victoria News",
+      "published": "2026-02-25T19:48:59+00:00",
+      "source": "Google News - Dogs Canada",
+      "author": "",
+      "tags": [],
+      "scraped_at": "2026-03-12T06:59:28.513187+00:00",
+      "canadian_score": 0.6,
+      "trending_score": 0.65
     },
     {
       "content_type": "news",
@@ -33,20 +46,7 @@
       "source": "Google News - Cats Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-03-11T06:58:13.099617+00:00",
-      "canadian_score": 0.5,
-      "trending_score": 0.625
-    },
-    {
-      "content_type": "news",
-      "title": "Can landlords say no to pets in Ontario? Here’s what the law says - NOW Toronto",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNkZoQS1ycU5tUTlZZGZFanlSWXhobnI1SXVwVFRXMDU5V1RJRW9vRzhPT0g2WVUxRW45a0cxcWVRNi1sTF9qZl9lMHhqaHdHZzllaGxlQV9vV2NyZmRoZGhIOXk0UVhIYjVpQ0s3X3NnQ2JSY1RpZWE5bldDWU53aTdjZXNKUk10ZHNOU3IxaEcxUmtGbEhjSGVJalFubXlH?oc=5",
-      "summary": "Can landlords say no to pets in Ontario? Here’s what the law says NOW Toronto",
-      "published": "2026-01-18T08:00:00+00:00",
-      "source": "Google News - Pets Canada",
-      "author": "",
-      "tags": [],
-      "scraped_at": "2026-03-11T06:58:13.692928+00:00",
+      "scraped_at": "2026-03-12T06:59:29.051820+00:00",
       "canadian_score": 0.5,
       "trending_score": 0.625
     }
