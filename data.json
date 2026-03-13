@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-03-12T06:59:29.680014+00:00",
+  "generated_at": "2026-03-13T06:57:37.148244+00:00",
   "stats": {
     "reddit_posts": 0,
-    "news_articles": 3,
-    "total_items": 3,
+    "news_articles": 2,
+    "total_items": 2,
     "sources_succeeded": [
       "reddit",
       "news"
@@ -20,22 +20,9 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-03-12T06:59:28.518942+00:00",
+      "scraped_at": "2026-03-13T06:57:35.763768+00:00",
       "canadian_score": 0.65,
       "trending_score": 0.662
-    },
-    {
-      "content_type": "news",
-      "title": "RCMP asking Canadian kids to name police dog puppies - Victoria News",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWmJ6eEZGZVQ2Z0x2N0pCYVVwSGhRVEJLNGRmNEtrZno0Z3h5Q1VOdUc3M0RvN1RhZGhpOTdIUzVZeGo0NVlHNjU5YXV3Yld6M3JydGhrN0s0TkdON0FOcndHWUkyQjhsa1NCb0pNakpONzZKVlRXSnpGUXRBNWZFM21HMUcxV2pTVkF2TQ?oc=5",
-      "summary": "RCMP asking Canadian kids to name police dog puppies Victoria News",
-      "published": "2026-02-25T19:48:59+00:00",
-      "source": "Google News - Dogs Canada",
-      "author": "",
-      "tags": [],
-      "scraped_at": "2026-03-12T06:59:28.513187+00:00",
-      "canadian_score": 0.6,
-      "trending_score": 0.65
     },
     {
       "content_type": "news",
@@ -46,7 +33,7 @@
       "source": "Google News - Cats Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-03-12T06:59:29.051820+00:00",
+      "scraped_at": "2026-03-13T06:57:36.400711+00:00",
       "canadian_score": 0.5,
       "trending_score": 0.625
     }
