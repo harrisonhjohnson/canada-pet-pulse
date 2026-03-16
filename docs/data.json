@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-03-15T07:01:02.540180+00:00",
+  "generated_at": "2026-03-16T07:20:59.070528+00:00",
   "stats": {
     "reddit_posts": 0,
-    "news_articles": 2,
-    "total_items": 2,
+    "news_articles": 4,
+    "total_items": 4,
     "sources_succeeded": [
       "reddit",
       "news"
@@ -20,7 +20,20 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-03-15T07:01:01.153434+00:00",
+      "scraped_at": "2026-03-16T07:20:57.716861+00:00",
+      "canadian_score": 0.65,
+      "trending_score": 0.662
+    },
+    {
+      "content_type": "news",
+      "title": "3 stats that defined Hamilton’s WestJet Canada Day Weekend win over Montreal - CFL.ca",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPX3BIcHZBMWNMYnA5M3RMNjduVG9ZeFZUN09KMU5NOFJEN3ZlZXFJX3Z5U2ctV0RaTXlkLVpfRE9KanBfVlk3R0tmVjF3bWljcTluajViMjRsNjFveEs2SDlIZ2E0YU10LTdQME5fNFVXV3JaRHBLRVVvanZOMjB2eU42aC0wYnBrTHhiYVEtVQ?oc=5",
+      "summary": "3 stats that defined Hamilton’s WestJet Canada Day Weekend win over Montreal CFL.ca",
+      "published": "2025-06-27T07:00:00+00:00",
+      "source": "Google News - Cats Canada",
+      "author": "",
+      "tags": [],
+      "scraped_at": "2026-03-16T07:20:58.408001+00:00",
       "canadian_score": 0.65,
       "trending_score": 0.662
     },
@@ -33,7 +46,20 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-03-15T07:01:01.144562+00:00",
+      "scraped_at": "2026-03-16T07:20:57.708746+00:00",
+      "canadian_score": 0.5,
+      "trending_score": 0.625
+    },
+    {
+      "content_type": "news",
+      "title": "Ontario unveils legislation to restrict invasive medical research on dogs and cats - London Free Press",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNzRub3laaE5RYzVZcmdXOVJJcmo0TFZ1RE1JcTM2Zkw0OHdRaVlnSHFKWVZTaWNIMkpnV2NNaGpNM0xubS1RbmJzWXY0ck5QcXlMdXQ0S2dzNUtfdGVTVlBrYU5KVkFCaGxqd0hNVDMtX2w2eHpjcDFIbzRiM2RNbkdvTWgzUmZOUmhYVWJfR21aelJTcm5YblZDUmQ4R1Nfc21ZdzlSLVh1SmJTTE5vR3BlMkdKSEttdEE?oc=5",
+      "summary": "Ontario unveils legislation to restrict invasive medical research on dogs and cats London Free Press",
+      "published": "2025-11-27T08:00:00+00:00",
+      "source": "Google News - Cats Canada",
+      "author": "",
+      "tags": [],
+      "scraped_at": "2026-03-16T07:20:58.401798+00:00",
       "canadian_score": 0.5,
       "trending_score": 0.625
     }
