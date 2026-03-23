@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-03-22T06:55:33.605120+00:00",
+  "generated_at": "2026-03-23T07:13:36.350035+00:00",
   "stats": {
     "reddit_posts": 0,
-    "news_articles": 1,
-    "total_items": 1,
+    "news_articles": 2,
+    "total_items": 2,
     "sources_succeeded": [
       "reddit",
       "news"
@@ -13,6 +13,19 @@
   "content": [
     {
       "content_type": "news",
+      "title": "How Canada's language watchdog tripped over a dog's tail — and learned a lesson about French in Quebec - Montreal Gazette",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZG5QRjFjNnhvM0Y0YW91TTdncnp0TVFIOHdsOEpWYkgyNFJqN0xWS0FfM1c0dl9JaUE1NFJQdkVicWd2ZmNVSmY0MzNnMUFlakxHdUJOY2l3NXRMQ29xdTNDcVd1OFpyQld0U2s4OHhhTTNIRmd6OUNBZFRFWnBRaFRXNUhzT3Fyb3VILXJmaw?oc=5",
+      "summary": "How Canada's language watchdog tripped over a dog's tail — and learned a lesson about French in Quebec Montreal Gazette",
+      "published": "2026-03-18T11:42:02+00:00",
+      "source": "Google News - Dogs Canada",
+      "author": "",
+      "tags": [],
+      "scraped_at": "2026-03-23T07:13:35.201319+00:00",
+      "canadian_score": 0.65,
+      "trending_score": 0.662
+    },
+    {
+      "content_type": "news",
       "title": "Parks Canada warns wolves are targeting dogs on popular Vancouver Island beach - Victoria Buzz",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWmxpU3BEMmdaaHdhbHJFNGFYX3RoUE1IQi1wZzVqUldnbGJEYVhjN3F4QURKNkFtQ3BDUDVNaWQxOF84RmFYVHNDeHJ2Qy05SDNPRE5FWmszc3Zfcnc2WmJSU2dtOElIUXp2VER3X2xXTDlhMFA2N3I4eVFuS21oZEcxX1prcGJmMC1TT3VINWh4SVBsWmhtWllsZGgzZUpKQllVQ2hiOHpQU1NFRGxoYkxB?oc=5",
       "summary": "Parks Canada warns wolves are targeting dogs on popular Vancouver Island beach Victoria Buzz",
@@ -20,7 +33,7 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-03-22T06:55:32.387546+00:00",
+      "scraped_at": "2026-03-23T07:13:35.212776+00:00",
       "canadian_score": 0.65,
       "trending_score": 0.662
     }
