@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-03-23T07:13:36.350035+00:00",
+  "generated_at": "2026-03-24T07:08:27.488821+00:00",
   "stats": {
     "reddit_posts": 0,
-    "news_articles": 2,
-    "total_items": 2,
+    "news_articles": 3,
+    "total_items": 3,
     "sources_succeeded": [
       "reddit",
       "news"
@@ -13,6 +13,19 @@
   "content": [
     {
       "content_type": "news",
+      "title": "No-pet clauses in rental leasing violate Quebec charter: TAL - CityNews Montreal",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNV21teTBpQ2N1bDlibzBmZHM1b1M3N2UzSFluM2d5cGx2SDcwZWNEbDRHQjA4LWxIcV9tWkVLWU1fbU9pbm0yTi1TelU3TlNSQ3FGZ1BiNF85R2dsZW5GX3prSG1yc2ZSM1M3TzJyaERrSEdKVkt1TTJFMkkyUjdVWW9vcGZsWWJ3Z1E?oc=5",
+      "summary": "No-pet clauses in rental leasing violate Quebec charter: TAL CityNews Montreal",
+      "published": "2026-03-23T13:15:37+00:00",
+      "source": "Google News - Pets Canada",
+      "author": "",
+      "tags": [],
+      "scraped_at": "2026-03-24T07:08:27.405907+00:00",
+      "canadian_score": 0.5,
+      "trending_score": 2.5
+    },
+    {
+      "content_type": "news",
       "title": "How Canada's language watchdog tripped over a dog's tail — and learned a lesson about French in Quebec - Montreal Gazette",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZG5QRjFjNnhvM0Y0YW91TTdncnp0TVFIOHdsOEpWYkgyNFJqN0xWS0FfM1c0dl9JaUE1NFJQdkVicWd2ZmNVSmY0MzNnMUFlakxHdUJOY2l3NXRMQ29xdTNDcVd1OFpyQld0U2s4OHhhTTNIRmd6OUNBZFRFWnBRaFRXNUhzT3Fyb3VILXJmaw?oc=5",
       "summary": "How Canada's language watchdog tripped over a dog's tail — and learned a lesson about French in Quebec Montreal Gazette",
@@ -20,7 +33,7 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-03-23T07:13:35.201319+00:00",
+      "scraped_at": "2026-03-24T07:08:26.152565+00:00",
       "canadian_score": 0.65,
       "trending_score": 0.662
     },
@@ -33,7 +46,7 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-03-23T07:13:35.212776+00:00",
+      "scraped_at": "2026-03-24T07:08:26.165491+00:00",
       "canadian_score": 0.65,
       "trending_score": 0.662
     }
