@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-03-29T07:07:24.917286+00:00",
+  "generated_at": "2026-03-30T07:31:41.904327+00:00",
   "stats": {
     "reddit_posts": 0,
-    "news_articles": 2,
-    "total_items": 2,
+    "news_articles": 3,
+    "total_items": 3,
     "sources_succeeded": [
       "reddit",
       "news"
@@ -13,6 +13,23 @@
   "content": [
     {
       "content_type": "news",
+      "title": "Helicopter crash kills 1 in southern New Brunswick, safety board en route",
+      "link": "https://globalnews.ca/news/11750691/new-brunswick-helicopter-crash/",
+      "summary": "Police in Sussex got a call just before 7 p.m. on Saturday from the Joint Rescue Coordination Centre in Halifax about a missing helicopter with one person on board.",
+      "published": "2026-03-29T16:18:02+00:00",
+      "source": "Global News",
+      "author": "Globalnews Digital",
+      "tags": [
+        "Canada",
+        "Helicopter Crash",
+        "RCMP"
+      ],
+      "scraped_at": "2026-03-30T07:31:39.836567+00:00",
+      "canadian_score": 0.5,
+      "trending_score": 3.25
+    },
+    {
+      "content_type": "news",
       "title": "Parks Canada warns wolves are targeting dogs on popular Vancouver Island beach - Victoria Buzz",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWmxpU3BEMmdaaHdhbHJFNGFYX3RoUE1IQi1wZzVqUldnbGJEYVhjN3F4QURKNkFtQ3BDUDVNaWQxOF84RmFYVHNDeHJ2Qy05SDNPRE5FWmszc3Zfcnc2WmJSU2dtOElIUXp2VER3X2xXTDlhMFA2N3I4eVFuS21oZEcxX1prcGJmMC1TT3VINWh4SVBsWmhtWllsZGgzZUpKQllVQ2hiOHpQU1NFRGxoYkxB?oc=5",
       "summary": "Parks Canada warns wolves are targeting dogs on popular Vancouver Island beach Victoria Buzz",
@@ -20,22 +37,22 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-03-29T07:07:23.662466+00:00",
+      "scraped_at": "2026-03-30T07:31:40.529290+00:00",
       "canadian_score": 0.65,
       "trending_score": 0.662
     },
     {
       "content_type": "news",
-      "title": "‘They bring extra joy,’ Study suggests pets are improving Canadians’ mental health, and Toronto residents explain why - NOW Toronto",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMGw2TzhsOUtyWnIzTDZFMkJEQUEyZjhpNHp6SDg4dFhzd2JQajR0R0xyX1RxQ0lMbnB6ajU5X0lpVkhTNnRpdU9ITDYyMXMySXdsWUNJRVdMUXFWSXlUalF6aE8yY2p4X2dSSF9FbGVMT0RQMmJQTEQ3MDYzMkx1MmVjaHFTdWplckFEdUZhLWg2QVNjRHIzRnRYUXFxRVRfM2lUSV9xM3BVcE9oMy15eXBJNWxGNnNybENQVEVrd0xXdUU?oc=5",
-      "summary": "‘They bring extra joy,’ Study suggests pets are improving Canadians’ mental health, and Toronto residents explain why NOW Toronto",
-      "published": "2026-03-26T13:12:16+00:00",
-      "source": "Google News - Dogs Canada",
+      "title": "Can landlords say no to pets in Ontario? Here’s what the law says - NOW Toronto",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNkZoQS1ycU5tUTlZZGZFanlSWXhobnI1SXVwVFRXMDU5V1RJRW9vRzhPT0g2WVUxRW45a0cxcWVRNi1sTF9qZl9lMHhqaHdHZzllaGxlQV9vV2NyZmRoZGhIOXk0UVhIYjVpQ0s3X3NnQ2JSY1RpZWE5bldDWU53aTdjZXNKUk10ZHNOU3IxaEcxUmtGbEhjSGVJalFubXlH?oc=5",
+      "summary": "Can landlords say no to pets in Ontario? Here’s what the law says NOW Toronto",
+      "published": "2026-01-18T08:00:00+00:00",
+      "source": "Google News - Pets Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-03-29T07:07:23.651613+00:00",
-      "canadian_score": 0.6,
-      "trending_score": 0.65
+      "scraped_at": "2026-03-30T07:31:41.820812+00:00",
+      "canadian_score": 0.5,
+      "trending_score": 0.625
     }
   ]
 }
