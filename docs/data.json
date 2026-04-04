@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-03T07:12:29.122900+00:00",
+  "generated_at": "2026-04-04T07:05:07.068474+00:00",
   "stats": {
     "reddit_posts": 0,
-    "news_articles": 1,
-    "total_items": 1,
+    "news_articles": 2,
+    "total_items": 2,
     "sources_succeeded": [
       "reddit",
       "news"
@@ -13,6 +13,24 @@
   "content": [
     {
       "content_type": "news",
+      "title": "No charges for Toronto officer in fatal Danforth GO station shooting: SIU",
+      "link": "https://globalnews.ca/news/11758747/no-charges-siu-officer-shooting/",
+      "summary": "Ontario’s police watchdog says an officer acted in self-defence when he fatally shot a 32-year-old man who had pointed a BB gun at him at a Toronto transit station.",
+      "published": "2026-04-03T21:00:10+00:00",
+      "source": "Global News",
+      "author": "Prisha Dev",
+      "tags": [
+        "Canada",
+        "Metrolinx",
+        "Police Shooting",
+        "SIU Investigation"
+      ],
+      "scraped_at": "2026-04-04T07:05:05.366381+00:00",
+      "canadian_score": 0.5,
+      "trending_score": 5.688
+    },
+    {
+      "content_type": "news",
       "title": "Parks Canada warns wolves are targeting dogs on popular Vancouver Island beach - Victoria Buzz",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWmxpU3BEMmdaaHdhbHJFNGFYX3RoUE1IQi1wZzVqUldnbGJEYVhjN3F4QURKNkFtQ3BDUDVNaWQxOF84RmFYVHNDeHJ2Qy05SDNPRE5FWmszc3Zfcnc2WmJSU2dtOElIUXp2VER3X2xXTDlhMFA2N3I4eVFuS21oZEcxX1prcGJmMC1TT3VINWh4SVBsWmhtWllsZGgzZUpKQllVQ2hiOHpQU1NFRGxoYkxB?oc=5",
       "summary": "Parks Canada warns wolves are targeting dogs on popular Vancouver Island beach Victoria Buzz",
@@ -20,7 +38,7 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-04-03T07:12:27.947305+00:00",
+      "scraped_at": "2026-04-04T07:05:05.897571+00:00",
       "canadian_score": 0.65,
       "trending_score": 0.662
     }
