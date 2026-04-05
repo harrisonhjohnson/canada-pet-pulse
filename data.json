@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-04T07:05:07.068474+00:00",
+  "generated_at": "2026-04-05T07:10:20.401395+00:00",
   "stats": {
     "reddit_posts": 0,
     "news_articles": 2,
@@ -13,21 +13,16 @@
   "content": [
     {
       "content_type": "news",
-      "title": "No charges for Toronto officer in fatal Danforth GO station shooting: SIU",
-      "link": "https://globalnews.ca/news/11758747/no-charges-siu-officer-shooting/",
-      "summary": "Ontario’s police watchdog says an officer acted in self-defence when he fatally shot a 32-year-old man who had pointed a BB gun at him at a Toronto transit station.",
-      "published": "2026-04-03T21:00:10+00:00",
-      "source": "Global News",
-      "author": "Prisha Dev",
-      "tags": [
-        "Canada",
-        "Metrolinx",
-        "Police Shooting",
-        "SIU Investigation"
-      ],
-      "scraped_at": "2026-04-04T07:05:05.366381+00:00",
-      "canadian_score": 0.5,
-      "trending_score": 5.688
+      "title": "Nova Scotia youth has life-threatening injuries after attack by 3 dogs: RCMP - Halifax - Global News",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQnE1S3dHUWpIclNlZUFLdHMwbkFoNzl6NGd5NXRxZjgtTzJhVEZsdjNiaF9XQXhpQld6b3VrbVlabV9IZFhqZ3FZNU5yVkhhZzlzMEVPR1BvTHJMSGVma3BKV09mU1psVWcxZVp4MHVzZndiSW1BdFA5RTBLZWhPX0g5UktjdmNVTkxyOXk0U0RCYlduanc?oc=5",
+      "summary": "Nova Scotia youth has life-threatening injuries after attack by 3 dogs: RCMP - Halifax Global News",
+      "published": "2026-01-05T08:00:00+00:00",
+      "source": "Google News - Dogs Canada",
+      "author": "",
+      "tags": [],
+      "scraped_at": "2026-04-05T07:10:19.231287+00:00",
+      "canadian_score": 0.65,
+      "trending_score": 0.662
     },
     {
       "content_type": "news",
@@ -38,7 +33,7 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-04-04T07:05:05.897571+00:00",
+      "scraped_at": "2026-04-05T07:10:19.233161+00:00",
       "canadian_score": 0.65,
       "trending_score": 0.662
     }
