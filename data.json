@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-09T07:25:54.604428+00:00",
+  "generated_at": "2026-04-10T07:31:33.795298+00:00",
   "stats": {
     "reddit_posts": 0,
-    "news_articles": 4,
-    "total_items": 4,
+    "news_articles": 5,
+    "total_items": 5,
     "sources_succeeded": [
       "reddit",
       "news"
@@ -13,27 +13,14 @@
   "content": [
     {
       "content_type": "news",
-      "title": "Canadians increasingly adding pets to their will, study shows - Toronto Sun",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9iUmtYTGpMVnhzRGJBNUZpdEcwTXNxRnNjb1hhUjByZzFHZU9LZldFMERUWmZjcGRreEM1SEhSMGtva3VmZDFIRU0zQlhfUmw4dWt5eVIxVTNjUGVZQmF2Z24wVWxxbFdkTU9sMFJMRF9TaG55ajdOUy1MMFh3UQ?oc=5",
-      "summary": "Canadians increasingly adding pets to their will, study shows Toronto Sun",
-      "published": "2026-04-08T19:57:07+00:00",
+      "title": "Vancouver Canadians introduce 75-cent hot dogs at Nat Bailey Stadium - Daily Hive",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPd3BPemNDVndUNGJ0dVF6T3BiWW1tUWIxdzRFN0VWNGVIN29BOElSclpqYnRmLVJYOXBvQXBSVG41UE5XSDNDSTgtS2dmRHZranRXUjBtcjhMUXNyWE1uRHFQbXYxNnpPZVh1YndlTnplSEpEYXRJU2ZBalhZck9Xa0Rza093Wk5ZZ0lfZFVJZDg?oc=5",
+      "summary": "Vancouver Canadians introduce 75-cent hot dogs at Nat Bailey Stadium Daily Hive",
+      "published": "2026-04-09T23:02:00+00:00",
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-04-09T07:25:53.256016+00:00",
-      "canadian_score": 0.6,
-      "trending_score": 4.55
-    },
-    {
-      "content_type": "news",
-      "title": "Canadians increasingly adding pets to their will, study shows - Toronto Sun",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9iUmtYTGpMVnhzRGJBNUZpdEcwTXNxRnNjb1hhUjByZzFHZU9LZldFMERUWmZjcGRreEM1SEhSMGtva3VmZDFIRU0zQlhfUmw4dWt5eVIxVTNjUGVZQmF2Z24wVWxxbFdkTU9sMFJMRF9TaG55ajdOUy1MMFh3UQ?oc=5",
-      "summary": "Canadians increasingly adding pets to their will, study shows Toronto Sun",
-      "published": "2026-04-08T19:57:07+00:00",
-      "source": "Google News - Cats Canada",
-      "author": "",
-      "tags": [],
-      "scraped_at": "2026-04-09T07:25:53.880410+00:00",
+      "scraped_at": "2026-04-10T07:31:32.604665+00:00",
       "canadian_score": 0.6,
       "trending_score": 4.55
     },
@@ -46,22 +33,48 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-04-09T07:25:53.269005+00:00",
+      "scraped_at": "2026-04-10T07:31:32.618091+00:00",
       "canadian_score": 0.65,
       "trending_score": 0.662
     },
     {
       "content_type": "news",
-      "title": "Can landlords say no to pets in Ontario? Here’s what the law says - NOW Toronto",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNkZoQS1ycU5tUTlZZGZFanlSWXhobnI1SXVwVFRXMDU5V1RJRW9vRzhPT0g2WVUxRW45a0cxcWVRNi1sTF9qZl9lMHhqaHdHZzllaGxlQV9vV2NyZmRoZGhIOXk0UVhIYjVpQ0s3X3NnQ2JSY1RpZWE5bldDWU53aTdjZXNKUk10ZHNOU3IxaEcxUmtGbEhjSGVJalFubXlH?oc=5",
-      "summary": "Can landlords say no to pets in Ontario? Here’s what the law says NOW Toronto",
-      "published": "2026-01-18T08:00:00+00:00",
-      "source": "Google News - Pets Canada",
+      "title": "Nova Scotia youth has life-threatening injuries after attack by 3 dogs: RCMP - Halifax - Global News",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQnE1S3dHUWpIclNlZUFLdHMwbkFoNzl6NGd5NXRxZjgtTzJhVEZsdjNiaF9XQXhpQld6b3VrbVlabV9IZFhqZ3FZNU5yVkhhZzlzMEVPR1BvTHJMSGVma3BKV09mU1psVWcxZVp4MHVzZndiSW1BdFA5RTBLZWhPX0g5UktjdmNVTkxyOXk0U0RCYlduanc?oc=5",
+      "summary": "Nova Scotia youth has life-threatening injuries after attack by 3 dogs: RCMP - Halifax Global News",
+      "published": "2026-01-05T08:00:00+00:00",
+      "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-04-09T07:25:54.526807+00:00",
-      "canadian_score": 0.5,
-      "trending_score": 0.625
+      "scraped_at": "2026-04-10T07:31:32.619987+00:00",
+      "canadian_score": 0.65,
+      "trending_score": 0.662
+    },
+    {
+      "content_type": "news",
+      "title": "Canadians increasingly adding pets to their will, study shows - Toronto Sun",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9iUmtYTGpMVnhzRGJBNUZpdEcwTXNxRnNjb1hhUjByZzFHZU9LZldFMERUWmZjcGRreEM1SEhSMGtva3VmZDFIRU0zQlhfUmw4dWt5eVIxVTNjUGVZQmF2Z24wVWxxbFdkTU9sMFJMRF9TaG55ajdOUy1MMFh3UQ?oc=5",
+      "summary": "Canadians increasingly adding pets to their will, study shows Toronto Sun",
+      "published": "2026-04-08T19:57:07+00:00",
+      "source": "Google News - Dogs Canada",
+      "author": "",
+      "tags": [],
+      "scraped_at": "2026-04-10T07:31:32.607500+00:00",
+      "canadian_score": 0.6,
+      "trending_score": 0.65
+    },
+    {
+      "content_type": "news",
+      "title": "Canadians increasingly adding pets to their will, study shows - Toronto Sun",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9iUmtYTGpMVnhzRGJBNUZpdEcwTXNxRnNjb1hhUjByZzFHZU9LZldFMERUWmZjcGRreEM1SEhSMGtva3VmZDFIRU0zQlhfUmw4dWt5eVIxVTNjUGVZQmF2Z24wVWxxbFdkTU9sMFJMRF9TaG55ajdOUy1MMFh3UQ?oc=5",
+      "summary": "Canadians increasingly adding pets to their will, study shows Toronto Sun",
+      "published": "2026-04-08T19:57:07+00:00",
+      "source": "Google News - Cats Canada",
+      "author": "",
+      "tags": [],
+      "scraped_at": "2026-04-10T07:31:33.154700+00:00",
+      "canadian_score": 0.6,
+      "trending_score": 0.65
     }
   ]
 }
