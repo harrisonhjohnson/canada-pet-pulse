@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-10T07:31:33.795298+00:00",
+  "generated_at": "2026-04-11T07:05:35.416849+00:00",
   "stats": {
     "reddit_posts": 0,
     "news_articles": 5,
@@ -13,19 +13,6 @@
   "content": [
     {
       "content_type": "news",
-      "title": "Vancouver Canadians introduce 75-cent hot dogs at Nat Bailey Stadium - Daily Hive",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPd3BPemNDVndUNGJ0dVF6T3BiWW1tUWIxdzRFN0VWNGVIN29BOElSclpqYnRmLVJYOXBvQXBSVG41UE5XSDNDSTgtS2dmRHZranRXUjBtcjhMUXNyWE1uRHFQbXYxNnpPZVh1YndlTnplSEpEYXRJU2ZBalhZck9Xa0Rza093Wk5ZZ0lfZFVJZDg?oc=5",
-      "summary": "Vancouver Canadians introduce 75-cent hot dogs at Nat Bailey Stadium Daily Hive",
-      "published": "2026-04-09T23:02:00+00:00",
-      "source": "Google News - Dogs Canada",
-      "author": "",
-      "tags": [],
-      "scraped_at": "2026-04-10T07:31:32.604665+00:00",
-      "canadian_score": 0.6,
-      "trending_score": 4.55
-    },
-    {
-      "content_type": "news",
       "title": "Parks Canada warns wolves are targeting dogs on popular Vancouver Island beach - Victoria Buzz",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWmxpU3BEMmdaaHdhbHJFNGFYX3RoUE1IQi1wZzVqUldnbGJEYVhjN3F4QURKNkFtQ3BDUDVNaWQxOF84RmFYVHNDeHJ2Qy05SDNPRE5FWmszc3Zfcnc2WmJSU2dtOElIUXp2VER3X2xXTDlhMFA2N3I4eVFuS21oZEcxX1prcGJmMC1TT3VINWh4SVBsWmhtWllsZGgzZUpKQllVQ2hiOHpQU1NFRGxoYkxB?oc=5",
       "summary": "Parks Canada warns wolves are targeting dogs on popular Vancouver Island beach Victoria Buzz",
@@ -33,22 +20,22 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-04-10T07:31:32.618091+00:00",
+      "scraped_at": "2026-04-11T07:05:34.221588+00:00",
       "canadian_score": 0.65,
       "trending_score": 0.662
     },
     {
       "content_type": "news",
-      "title": "Nova Scotia youth has life-threatening injuries after attack by 3 dogs: RCMP - Halifax - Global News",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQnE1S3dHUWpIclNlZUFLdHMwbkFoNzl6NGd5NXRxZjgtTzJhVEZsdjNiaF9XQXhpQld6b3VrbVlabV9IZFhqZ3FZNU5yVkhhZzlzMEVPR1BvTHJMSGVma3BKV09mU1psVWcxZVp4MHVzZndiSW1BdFA5RTBLZWhPX0g5UktjdmNVTkxyOXk0U0RCYlduanc?oc=5",
-      "summary": "Nova Scotia youth has life-threatening injuries after attack by 3 dogs: RCMP - Halifax Global News",
-      "published": "2026-01-05T08:00:00+00:00",
+      "title": "Vancouver Canadians introduce 75-cent hot dogs at Nat Bailey Stadium - Daily Hive",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPd3BPemNDVndUNGJ0dVF6T3BiWW1tUWIxdzRFN0VWNGVIN29BOElSclpqYnRmLVJYOXBvQXBSVG41UE5XSDNDSTgtS2dmRHZranRXUjBtcjhMUXNyWE1uRHFQbXYxNnpPZVh1YndlTnplSEpEYXRJU2ZBalhZck9Xa0Rza093Wk5ZZ0lfZFVJZDg?oc=5",
+      "summary": "Vancouver Canadians introduce 75-cent hot dogs at Nat Bailey Stadium Daily Hive",
+      "published": "2026-04-09T23:02:00+00:00",
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-04-10T07:31:32.619987+00:00",
-      "canadian_score": 0.65,
-      "trending_score": 0.662
+      "scraped_at": "2026-04-11T07:05:34.206613+00:00",
+      "canadian_score": 0.6,
+      "trending_score": 0.65
     },
     {
       "content_type": "news",
@@ -59,7 +46,7 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-04-10T07:31:32.607500+00:00",
+      "scraped_at": "2026-04-11T07:05:34.209548+00:00",
       "canadian_score": 0.6,
       "trending_score": 0.65
     },
@@ -72,9 +59,22 @@
       "source": "Google News - Cats Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-04-10T07:31:33.154700+00:00",
+      "scraped_at": "2026-04-11T07:05:34.776268+00:00",
       "canadian_score": 0.6,
       "trending_score": 0.65
+    },
+    {
+      "content_type": "news",
+      "title": "Can landlords say no to pets in Ontario? Here’s what the law says - NOW Toronto",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNkZoQS1ycU5tUTlZZGZFanlSWXhobnI1SXVwVFRXMDU5V1RJRW9vRzhPT0g2WVUxRW45a0cxcWVRNi1sTF9qZl9lMHhqaHdHZzllaGxlQV9vV2NyZmRoZGhIOXk0UVhIYjVpQ0s3X3NnQ2JSY1RpZWE5bldDWU53aTdjZXNKUk10ZHNOU3IxaEcxUmtGbEhjSGVJalFubXlH?oc=5",
+      "summary": "Can landlords say no to pets in Ontario? Here’s what the law says NOW Toronto",
+      "published": "2026-01-18T08:00:00+00:00",
+      "source": "Google News - Pets Canada",
+      "author": "",
+      "tags": [],
+      "scraped_at": "2026-04-11T07:05:35.339198+00:00",
+      "canadian_score": 0.5,
+      "trending_score": 0.625
     }
   ]
 }
