@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-19T07:23:13.068192+00:00",
+  "generated_at": "2026-04-20T08:10:10.719951+00:00",
   "stats": {
     "reddit_posts": 0,
-    "news_articles": 3,
-    "total_items": 3,
+    "news_articles": 6,
+    "total_items": 6,
     "sources_succeeded": [
       "reddit",
       "news"
@@ -20,7 +20,20 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-04-19T07:23:11.898917+00:00",
+      "scraped_at": "2026-04-20T08:10:09.098538+00:00",
+      "canadian_score": 0.65,
+      "trending_score": 0.662
+    },
+    {
+      "content_type": "news",
+      "title": "Nova Scotia youth has life-threatening injuries after attack by 3 dogs: RCMP - Halifax - Global News",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQnE1S3dHUWpIclNlZUFLdHMwbkFoNzl6NGd5NXRxZjgtTzJhVEZsdjNiaF9XQXhpQld6b3VrbVlabV9IZFhqZ3FZNU5yVkhhZzlzMEVPR1BvTHJMSGVma3BKV09mU1psVWcxZVp4MHVzZndiSW1BdFA5RTBLZWhPX0g5UktjdmNVTkxyOXk0U0RCYlduanc?oc=5",
+      "summary": "Nova Scotia youth has life-threatening injuries after attack by 3 dogs: RCMP - Halifax Global News",
+      "published": "2026-01-05T08:00:00+00:00",
+      "source": "Google News - Dogs Canada",
+      "author": "",
+      "tags": [],
+      "scraped_at": "2026-04-20T08:10:09.101870+00:00",
       "canadian_score": 0.65,
       "trending_score": 0.662
     },
@@ -33,7 +46,7 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-04-19T07:23:11.885727+00:00",
+      "scraped_at": "2026-04-20T08:10:09.089471+00:00",
       "canadian_score": 0.5,
       "trending_score": 0.625
     },
@@ -46,7 +59,33 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-04-19T07:23:11.888362+00:00",
+      "scraped_at": "2026-04-20T08:10:09.089747+00:00",
+      "canadian_score": 0.5,
+      "trending_score": 0.625
+    },
+    {
+      "content_type": "news",
+      "title": "‘Landmark’ Quebec ruling states no-pet clause violates Charter rights - Montreal - Global News",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVHkzZVJteC0ydWZCTTdfMGJxY3RmRFpibWptakNWbThyR0d1N01JX0dwR2VISVRhbE5iU0Vlb0R3VW8wc0loVGlYdW9LVjY5bXRNX1pBRXo1M1o0X3BiQWluZDR5eVI3dElYMlV1V1VZbmZHb3p5OHJ0Tmg3VmZXZHotbmRtMGRGLW1Kdkk4UXNjTzVXZG1lU21Paw?oc=5",
+      "summary": "‘Landmark’ Quebec ruling states no-pet clause violates Charter rights - Montreal Global News",
+      "published": "2026-03-23T07:00:00+00:00",
+      "source": "Google News - Pets Canada",
+      "author": "",
+      "tags": [],
+      "scraped_at": "2026-04-20T08:10:10.637468+00:00",
+      "canadian_score": 0.5,
+      "trending_score": 0.625
+    },
+    {
+      "content_type": "news",
+      "title": "Can landlords say no to pets in Ontario? Here’s what the law says - NOW Toronto",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNkZoQS1ycU5tUTlZZGZFanlSWXhobnI1SXVwVFRXMDU5V1RJRW9vRzhPT0g2WVUxRW45a0cxcWVRNi1sTF9qZl9lMHhqaHdHZzllaGxlQV9vV2NyZmRoZGhIOXk0UVhIYjVpQ0s3X3NnQ2JSY1RpZWE5bldDWU53aTdjZXNKUk10ZHNOU3IxaEcxUmtGbEhjSGVJalFubXlH?oc=5",
+      "summary": "Can landlords say no to pets in Ontario? Here’s what the law says NOW Toronto",
+      "published": "2026-01-18T08:00:00+00:00",
+      "source": "Google News - Pets Canada",
+      "author": "",
+      "tags": [],
+      "scraped_at": "2026-04-20T08:10:10.642607+00:00",
       "canadian_score": 0.5,
       "trending_score": 0.625
     }
