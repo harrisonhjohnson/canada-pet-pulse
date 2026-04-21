@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-20T08:10:10.719951+00:00",
+  "generated_at": "2026-04-21T07:53:11.050629+00:00",
   "stats": {
     "reddit_posts": 0,
-    "news_articles": 6,
-    "total_items": 6,
+    "news_articles": 5,
+    "total_items": 5,
     "sources_succeeded": [
       "reddit",
       "news"
@@ -13,6 +13,43 @@
   "content": [
     {
       "content_type": "news",
+      "title": "Saskatchewan sees first Black legal clinic launched in Saskatoon",
+      "link": "https://globalnews.ca/news/11809784/saskatchewan-first-black-legal-clinic-saskatoon/",
+      "summary": "TAYFFI launched Leading Change Justice Navigation for Black Adults in Saskatchewan, to educate participants on ways to overcome racialized barriers.",
+      "published": "2026-04-21T04:35:07+00:00",
+      "source": "Global News",
+      "author": "Grace Miller",
+      "tags": [
+        "News",
+        "BIPOC",
+        "Black Legal Clinic"
+      ],
+      "scraped_at": "2026-04-21T07:53:09.100435+00:00",
+      "canadian_score": 0.5,
+      "trending_score": 8.125
+    },
+    {
+      "content_type": "news",
+      "title": "‘They want to understand’: Agritourism growing across Alberta",
+      "link": "https://globalnews.ca/news/11809498/alberta-agritourism/",
+      "summary": "As Canadians look to spend less and vacation closer to home, thousands of farms in Alberta are offering agritourism services and it's not only farmers who are benefiting.",
+      "published": "2026-04-21T00:20:58+00:00",
+      "source": "Global News",
+      "author": "Justin Sibbet",
+      "tags": [
+        "Canada",
+        "Consumer",
+        "Economy",
+        "Agritourism",
+        "Alberta Tourism",
+        "Farming"
+      ],
+      "scraped_at": "2026-04-21T07:53:09.100882+00:00",
+      "canadian_score": 0.5,
+      "trending_score": 5.688
+    },
+    {
+      "content_type": "news",
       "title": "Parks Canada warns wolves are targeting dogs on popular Vancouver Island beach - Victoria Buzz",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWmxpU3BEMmdaaHdhbHJFNGFYX3RoUE1IQi1wZzVqUldnbGJEYVhjN3F4QURKNkFtQ3BDUDVNaWQxOF84RmFYVHNDeHJ2Qy05SDNPRE5FWmszc3Zfcnc2WmJSU2dtOElIUXp2VER3X2xXTDlhMFA2N3I4eVFuS21oZEcxX1prcGJmMC1TT3VINWh4SVBsWmhtWllsZGgzZUpKQllVQ2hiOHpQU1NFRGxoYkxB?oc=5",
       "summary": "Parks Canada warns wolves are targeting dogs on popular Vancouver Island beach Victoria Buzz",
@@ -20,20 +57,7 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-04-20T08:10:09.098538+00:00",
-      "canadian_score": 0.65,
-      "trending_score": 0.662
-    },
-    {
-      "content_type": "news",
-      "title": "Nova Scotia youth has life-threatening injuries after attack by 3 dogs: RCMP - Halifax - Global News",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQnE1S3dHUWpIclNlZUFLdHMwbkFoNzl6NGd5NXRxZjgtTzJhVEZsdjNiaF9XQXhpQld6b3VrbVlabV9IZFhqZ3FZNU5yVkhhZzlzMEVPR1BvTHJMSGVma3BKV09mU1psVWcxZVp4MHVzZndiSW1BdFA5RTBLZWhPX0g5UktjdmNVTkxyOXk0U0RCYlduanc?oc=5",
-      "summary": "Nova Scotia youth has life-threatening injuries after attack by 3 dogs: RCMP - Halifax Global News",
-      "published": "2026-01-05T08:00:00+00:00",
-      "source": "Google News - Dogs Canada",
-      "author": "",
-      "tags": [],
-      "scraped_at": "2026-04-20T08:10:09.101870+00:00",
+      "scraped_at": "2026-04-21T07:53:09.772550+00:00",
       "canadian_score": 0.65,
       "trending_score": 0.662
     },
@@ -46,7 +70,7 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-04-20T08:10:09.089471+00:00",
+      "scraped_at": "2026-04-21T07:53:09.762518+00:00",
       "canadian_score": 0.5,
       "trending_score": 0.625
     },
@@ -59,33 +83,7 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-04-20T08:10:09.089747+00:00",
-      "canadian_score": 0.5,
-      "trending_score": 0.625
-    },
-    {
-      "content_type": "news",
-      "title": "‘Landmark’ Quebec ruling states no-pet clause violates Charter rights - Montreal - Global News",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVHkzZVJteC0ydWZCTTdfMGJxY3RmRFpibWptakNWbThyR0d1N01JX0dwR2VISVRhbE5iU0Vlb0R3VW8wc0loVGlYdW9LVjY5bXRNX1pBRXo1M1o0X3BiQWluZDR5eVI3dElYMlV1V1VZbmZHb3p5OHJ0Tmg3VmZXZHotbmRtMGRGLW1Kdkk4UXNjTzVXZG1lU21Paw?oc=5",
-      "summary": "‘Landmark’ Quebec ruling states no-pet clause violates Charter rights - Montreal Global News",
-      "published": "2026-03-23T07:00:00+00:00",
-      "source": "Google News - Pets Canada",
-      "author": "",
-      "tags": [],
-      "scraped_at": "2026-04-20T08:10:10.637468+00:00",
-      "canadian_score": 0.5,
-      "trending_score": 0.625
-    },
-    {
-      "content_type": "news",
-      "title": "Can landlords say no to pets in Ontario? Here’s what the law says - NOW Toronto",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNkZoQS1ycU5tUTlZZGZFanlSWXhobnI1SXVwVFRXMDU5V1RJRW9vRzhPT0g2WVUxRW45a0cxcWVRNi1sTF9qZl9lMHhqaHdHZzllaGxlQV9vV2NyZmRoZGhIOXk0UVhIYjVpQ0s3X3NnQ2JSY1RpZWE5bldDWU53aTdjZXNKUk10ZHNOU3IxaEcxUmtGbEhjSGVJalFubXlH?oc=5",
-      "summary": "Can landlords say no to pets in Ontario? Here’s what the law says NOW Toronto",
-      "published": "2026-01-18T08:00:00+00:00",
-      "source": "Google News - Pets Canada",
-      "author": "",
-      "tags": [],
-      "scraped_at": "2026-04-20T08:10:10.642607+00:00",
+      "scraped_at": "2026-04-21T07:53:09.763363+00:00",
       "canadian_score": 0.5,
       "trending_score": 0.625
     }
