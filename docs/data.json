@@ -1,91 +1,14 @@
 {
-  "generated_at": "2026-04-21T07:53:11.050629+00:00",
+  "generated_at": "2026-04-22T07:36:31.613242+00:00",
   "stats": {
     "reddit_posts": 0,
-    "news_articles": 5,
-    "total_items": 5,
+    "news_articles": 0,
+    "total_items": 0,
     "sources_succeeded": [
       "reddit",
       "news"
     ],
     "sources_failed": []
   },
-  "content": [
-    {
-      "content_type": "news",
-      "title": "Saskatchewan sees first Black legal clinic launched in Saskatoon",
-      "link": "https://globalnews.ca/news/11809784/saskatchewan-first-black-legal-clinic-saskatoon/",
-      "summary": "TAYFFI launched Leading Change Justice Navigation for Black Adults in Saskatchewan, to educate participants on ways to overcome racialized barriers.",
-      "published": "2026-04-21T04:35:07+00:00",
-      "source": "Global News",
-      "author": "Grace Miller",
-      "tags": [
-        "News",
-        "BIPOC",
-        "Black Legal Clinic"
-      ],
-      "scraped_at": "2026-04-21T07:53:09.100435+00:00",
-      "canadian_score": 0.5,
-      "trending_score": 8.125
-    },
-    {
-      "content_type": "news",
-      "title": "‘They want to understand’: Agritourism growing across Alberta",
-      "link": "https://globalnews.ca/news/11809498/alberta-agritourism/",
-      "summary": "As Canadians look to spend less and vacation closer to home, thousands of farms in Alberta are offering agritourism services and it's not only farmers who are benefiting.",
-      "published": "2026-04-21T00:20:58+00:00",
-      "source": "Global News",
-      "author": "Justin Sibbet",
-      "tags": [
-        "Canada",
-        "Consumer",
-        "Economy",
-        "Agritourism",
-        "Alberta Tourism",
-        "Farming"
-      ],
-      "scraped_at": "2026-04-21T07:53:09.100882+00:00",
-      "canadian_score": 0.5,
-      "trending_score": 5.688
-    },
-    {
-      "content_type": "news",
-      "title": "Parks Canada warns wolves are targeting dogs on popular Vancouver Island beach - Victoria Buzz",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWmxpU3BEMmdaaHdhbHJFNGFYX3RoUE1IQi1wZzVqUldnbGJEYVhjN3F4QURKNkFtQ3BDUDVNaWQxOF84RmFYVHNDeHJ2Qy05SDNPRE5FWmszc3Zfcnc2WmJSU2dtOElIUXp2VER3X2xXTDlhMFA2N3I4eVFuS21oZEcxX1prcGJmMC1TT3VINWh4SVBsWmhtWllsZGgzZUpKQllVQ2hiOHpQU1NFRGxoYkxB?oc=5",
-      "summary": "Parks Canada warns wolves are targeting dogs on popular Vancouver Island beach Victoria Buzz",
-      "published": "2025-10-29T07:00:00+00:00",
-      "source": "Google News - Dogs Canada",
-      "author": "",
-      "tags": [],
-      "scraped_at": "2026-04-21T07:53:09.772550+00:00",
-      "canadian_score": 0.65,
-      "trending_score": 0.662
-    },
-    {
-      "content_type": "news",
-      "title": "Pooch on a mission: Regina dog escapes yard, makes solo trek to beloved daycare - Toronto Star",
-      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPV1U4NG1ZVTBwUlJSdERJb1RaQ0paaVhocjJKekpmTzhHdDZab0JOU2xWU2d4b19xR1BMQnlpUlEwU2lLdklaOThJRnVXeGdxM01Ld0NGSG1NOWZ0THF0RkhxalBBOTEwWmF4R3NoejJ1WjdJTGZsQnBWZXVJR3RZVVkwWHNldDdTUC1LWEFVSEhtMzZySEE3WXJlUkdTQnNzZlpyWjRGMU4yaGE3LS1GTzUyc1FTVng5RFVqX3RTOUgxTzkyMzV2MDhDZmdmMWI4bGV2VjBFWERDTHhYUXgyTXFrN1hVSWRqM0ltX2Uybmo2emN4MVhZ?oc=5",
-      "summary": "Pooch on a mission: Regina dog escapes yard, makes solo trek to beloved daycare Toronto Star",
-      "published": "2026-04-17T21:26:29+00:00",
-      "source": "Google News - Dogs Canada",
-      "author": "",
-      "tags": [],
-      "scraped_at": "2026-04-21T07:53:09.762518+00:00",
-      "canadian_score": 0.5,
-      "trending_score": 0.625
-    },
-    {
-      "content_type": "news",
-      "title": "Regina dog escapes yard, makes solo trek to get to beloved daycare - CityNews Halifax",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTk45TXF1a1VQTVEzUGVPd0VlcVU3OVFFcWp1bDJDTXdmV09QdWs0VHNDelRLX21vUU9WalI4ZDdIaU5xWDNSbHRKRmVCYnZvRndOU3p3WlRWbmFPcVRrVzUtTzMyVlpzNUI5eTRLQm80RVVMbXBMMWh2WVNuRGVtd1BSRE1BRlN2MGM1aS13QVFyN0FQOU05MWFtTk1rT0pkLVF5Vl91eW0?oc=5",
-      "summary": "Regina dog escapes yard, makes solo trek to get to beloved daycare CityNews Halifax",
-      "published": "2026-04-17T21:34:58+00:00",
-      "source": "Google News - Dogs Canada",
-      "author": "",
-      "tags": [],
-      "scraped_at": "2026-04-21T07:53:09.763363+00:00",
-      "canadian_score": 0.5,
-      "trending_score": 0.625
-    }
-  ]
+  "content": []
 }
