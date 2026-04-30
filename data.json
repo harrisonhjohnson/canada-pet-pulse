@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-29T08:19:52.893651+00:00",
+  "generated_at": "2026-04-30T08:24:55.411675+00:00",
   "stats": {
     "reddit_posts": 0,
-    "news_articles": 2,
-    "total_items": 2,
+    "news_articles": 3,
+    "total_items": 3,
     "sources_succeeded": [
       "reddit",
       "news"
@@ -20,7 +20,7 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-04-29T08:19:51.603798+00:00",
+      "scraped_at": "2026-04-30T08:24:54.127499+00:00",
       "canadian_score": 0.65,
       "trending_score": 0.662
     },
@@ -33,7 +33,20 @@
       "source": "Google News - Pets Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-04-29T08:19:52.814080+00:00",
+      "scraped_at": "2026-04-30T08:24:55.331550+00:00",
+      "canadian_score": 0.5,
+      "trending_score": 0.625
+    },
+    {
+      "content_type": "news",
+      "title": "Can landlords say no to pets in Ontario? Here’s what the law says - NOW Toronto",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNkZoQS1ycU5tUTlZZGZFanlSWXhobnI1SXVwVFRXMDU5V1RJRW9vRzhPT0g2WVUxRW45a0cxcWVRNi1sTF9qZl9lMHhqaHdHZzllaGxlQV9vV2NyZmRoZGhIOXk0UVhIYjVpQ0s3X3NnQ2JSY1RpZWE5bldDWU53aTdjZXNKUk10ZHNOU3IxaEcxUmtGbEhjSGVJalFubXlH?oc=5",
+      "summary": "Can landlords say no to pets in Ontario? Here’s what the law says NOW Toronto",
+      "published": "2026-01-18T08:00:00+00:00",
+      "source": "Google News - Pets Canada",
+      "author": "",
+      "tags": [],
+      "scraped_at": "2026-04-30T08:24:55.335270+00:00",
       "canadian_score": 0.5,
       "trending_score": 0.625
     }
