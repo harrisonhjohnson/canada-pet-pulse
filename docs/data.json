@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-01T08:15:50.047458+00:00",
+  "generated_at": "2026-05-02T07:47:36.586092+00:00",
   "stats": {
     "reddit_posts": 0,
-    "news_articles": 1,
-    "total_items": 1,
+    "news_articles": 2,
+    "total_items": 2,
     "sources_succeeded": [
       "reddit",
       "news"
@@ -13,6 +13,19 @@
   "content": [
     {
       "content_type": "news",
+      "title": "Costco Canada changes $1.50 hot dog and drink combo at Ontario locations and customers are reacting - Toronto Star",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNclZmZzJPQ09OUHFzNUVGelBIcXlMeDZ6QnNFSFhUTC1DWkRLTFRyOHBrbGs0bXJRYnZ6WDBxdTBVQWRFZXNBS0FwM0FFc0wtM1RpSkVqOUlUWlVBakFOc3djUUZTa1lSTC1rNlJqOE9acWFILVFUN1VtakxQbXczejZLLXZma0w0Z2V2UkJPMGVnRUlJaVNBeUdYR3FSMTBOWG9tZENR?oc=5",
+      "summary": "Costco Canada changes $1.50 hot dog and drink combo at Ontario locations and customers are reacting Toronto Star",
+      "published": "2026-04-30T20:00:00+00:00",
+      "source": "Google News - Dogs Canada",
+      "author": "",
+      "tags": [],
+      "scraped_at": "2026-05-02T07:47:35.417445+00:00",
+      "canadian_score": 0.65,
+      "trending_score": 0.662
+    },
+    {
+      "content_type": "news",
       "title": "Parks Canada warns wolves are targeting dogs on popular Vancouver Island beach - Victoria Buzz",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWmxpU3BEMmdaaHdhbHJFNGFYX3RoUE1IQi1wZzVqUldnbGJEYVhjN3F4QURKNkFtQ3BDUDVNaWQxOF84RmFYVHNDeHJ2Qy05SDNPRE5FWmszc3Zfcnc2WmJSU2dtOElIUXp2VER3X2xXTDlhMFA2N3I4eVFuS21oZEcxX1prcGJmMC1TT3VINWh4SVBsWmhtWllsZGgzZUpKQllVQ2hiOHpQU1NFRGxoYkxB?oc=5",
       "summary": "Parks Canada warns wolves are targeting dogs on popular Vancouver Island beach Victoria Buzz",
@@ -20,7 +33,7 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-05-01T08:15:48.868635+00:00",
+      "scraped_at": "2026-05-02T07:47:35.427381+00:00",
       "canadian_score": 0.65,
       "trending_score": 0.662
     }
