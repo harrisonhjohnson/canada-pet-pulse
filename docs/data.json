@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-09T08:00:38.079558+00:00",
+  "generated_at": "2026-05-10T08:12:17.886968+00:00",
   "stats": {
     "reddit_posts": 0,
-    "news_articles": 2,
-    "total_items": 2,
+    "news_articles": 3,
+    "total_items": 3,
     "sources_succeeded": [
       "reddit",
       "news"
@@ -13,6 +13,19 @@
   "content": [
     {
       "content_type": "news",
+      "title": "‘Team Nigel’ rallies behind East Vancouver cat after complaint about feline folk hero - Toronto Star",
+      "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQTUU0NTlLM0VCZ0dYSjVEdW04cW1Ja0ZGMEd0WTNxVUlpcWJsbkU0ZnNxdTRra2ZRTHFseDdTdjEwOWFpdkNfcm4wM19HYk5Lck9oWW51NzlHbTJyZzgzR2p3dlFJR0wycEFpMTNEdkRnRVFzbmZka0taUkY0X04xZnZtNXVSSm9DNzBscVlOb1c4eXROQzloczRRVWh1YkRucTludW9iM3VCRlBsNWRiZzBNTWRmZ1pfM05XOVZuU3dtbVpHd3V3c1UxZjhYSHN2LUt2REdkTkY2RnViN1VqMUhYV1VuTnVjUUhBVkUzR2xlZW1DQ1k1ejlmR2pEY0U3dUhMd21ZekJCQ1BjYnRrU2xmQ2c?oc=5",
+      "summary": "‘Team Nigel’ rallies behind East Vancouver cat after complaint about feline folk hero Toronto Star",
+      "published": "2026-05-09T10:07:00+00:00",
+      "source": "Google News - Cats Canada",
+      "author": "",
+      "tags": [],
+      "scraped_at": "2026-05-10T08:12:17.275781+00:00",
+      "canadian_score": 0.5,
+      "trending_score": 2.5
+    },
+    {
+      "content_type": "news",
       "title": "Parks Canada warns wolves are targeting dogs on popular Vancouver Island beach - Victoria Buzz",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWmxpU3BEMmdaaHdhbHJFNGFYX3RoUE1IQi1wZzVqUldnbGJEYVhjN3F4QURKNkFtQ3BDUDVNaWQxOF84RmFYVHNDeHJ2Qy05SDNPRE5FWmszc3Zfcnc2WmJSU2dtOElIUXp2VER3X2xXTDlhMFA2N3I4eVFuS21oZEcxX1prcGJmMC1TT3VINWh4SVBsWmhtWllsZGgzZUpKQllVQ2hiOHpQU1NFRGxoYkxB?oc=5",
       "summary": "Parks Canada warns wolves are targeting dogs on popular Vancouver Island beach Victoria Buzz",
@@ -20,20 +33,20 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-05-09T08:00:36.687823+00:00",
+      "scraped_at": "2026-05-10T08:12:16.678548+00:00",
       "canadian_score": 0.65,
       "trending_score": 0.662
     },
     {
       "content_type": "news",
-      "title": "Can landlords say no to pets in Ontario? Here’s what the law says - NOW Toronto",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNkZoQS1ycU5tUTlZZGZFanlSWXhobnI1SXVwVFRXMDU5V1RJRW9vRzhPT0g2WVUxRW45a0cxcWVRNi1sTF9qZl9lMHhqaHdHZzllaGxlQV9vV2NyZmRoZGhIOXk0UVhIYjVpQ0s3X3NnQ2JSY1RpZWE5bldDWU53aTdjZXNKUk10ZHNOU3IxaEcxUmtGbEhjSGVJalFubXlH?oc=5",
-      "summary": "Can landlords say no to pets in Ontario? Here’s what the law says NOW Toronto",
-      "published": "2026-01-18T08:00:00+00:00",
+      "title": "‘Landmark’ Quebec ruling states no-pet clause violates Charter rights - Montreal - Global News",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVHkzZVJteC0ydWZCTTdfMGJxY3RmRFpibWptakNWbThyR0d1N01JX0dwR2VISVRhbE5iU0Vlb0R3VW8wc0loVGlYdW9LVjY5bXRNX1pBRXo1M1o0X3BiQWluZDR5eVI3dElYMlV1V1VZbmZHb3p5OHJ0Tmg3VmZXZHotbmRtMGRGLW1Kdkk4UXNjTzVXZG1lU21Paw?oc=5",
+      "summary": "‘Landmark’ Quebec ruling states no-pet clause violates Charter rights - Montreal Global News",
+      "published": "2026-03-23T07:00:00+00:00",
       "source": "Google News - Pets Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-05-09T08:00:37.999040+00:00",
+      "scraped_at": "2026-05-10T08:12:17.807732+00:00",
       "canadian_score": 0.5,
       "trending_score": 0.625
     }
