@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-10T08:12:17.886968+00:00",
+  "generated_at": "2026-05-11T09:42:15.550523+00:00",
   "stats": {
     "reddit_posts": 0,
     "news_articles": 3,
@@ -13,6 +13,19 @@
   "content": [
     {
       "content_type": "news",
+      "title": "Nova Scotia youth has life-threatening injuries after attack by 3 dogs: RCMP - Halifax - Global News",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQnE1S3dHUWpIclNlZUFLdHMwbkFoNzl6NGd5NXRxZjgtTzJhVEZsdjNiaF9XQXhpQld6b3VrbVlabV9IZFhqZ3FZNU5yVkhhZzlzMEVPR1BvTHJMSGVma3BKV09mU1psVWcxZVp4MHVzZndiSW1BdFA5RTBLZWhPX0g5UktjdmNVTkxyOXk0U0RCYlduanc?oc=5",
+      "summary": "Nova Scotia youth has life-threatening injuries after attack by 3 dogs: RCMP - Halifax Global News",
+      "published": "2026-01-05T08:00:00+00:00",
+      "source": "Google News - Dogs Canada",
+      "author": "",
+      "tags": [],
+      "scraped_at": "2026-05-11T09:42:14.252589+00:00",
+      "canadian_score": 0.65,
+      "trending_score": 0.662
+    },
+    {
+      "content_type": "news",
       "title": "‘Team Nigel’ rallies behind East Vancouver cat after complaint about feline folk hero - Toronto Star",
       "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQTUU0NTlLM0VCZ0dYSjVEdW04cW1Ja0ZGMEd0WTNxVUlpcWJsbkU0ZnNxdTRra2ZRTHFseDdTdjEwOWFpdkNfcm4wM19HYk5Lck9oWW51NzlHbTJyZzgzR2p3dlFJR0wycEFpMTNEdkRnRVFzbmZka0taUkY0X04xZnZtNXVSSm9DNzBscVlOb1c4eXROQzloczRRVWh1YkRucTludW9iM3VCRlBsNWRiZzBNTWRmZ1pfM05XOVZuU3dtbVpHd3V3c1UxZjhYSHN2LUt2REdkTkY2RnViN1VqMUhYV1VuTnVjUUhBVkUzR2xlZW1DQ1k1ejlmR2pEY0U3dUhMd21ZekJCQ1BjYnRrU2xmQ2c?oc=5",
       "summary": "‘Team Nigel’ rallies behind East Vancouver cat after complaint about feline folk hero Toronto Star",
@@ -20,22 +33,9 @@
       "source": "Google News - Cats Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-05-10T08:12:17.275781+00:00",
+      "scraped_at": "2026-05-11T09:42:14.881785+00:00",
       "canadian_score": 0.5,
-      "trending_score": 2.5
-    },
-    {
-      "content_type": "news",
-      "title": "Parks Canada warns wolves are targeting dogs on popular Vancouver Island beach - Victoria Buzz",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWmxpU3BEMmdaaHdhbHJFNGFYX3RoUE1IQi1wZzVqUldnbGJEYVhjN3F4QURKNkFtQ3BDUDVNaWQxOF84RmFYVHNDeHJ2Qy05SDNPRE5FWmszc3Zfcnc2WmJSU2dtOElIUXp2VER3X2xXTDlhMFA2N3I4eVFuS21oZEcxX1prcGJmMC1TT3VINWh4SVBsWmhtWllsZGgzZUpKQllVQ2hiOHpQU1NFRGxoYkxB?oc=5",
-      "summary": "Parks Canada warns wolves are targeting dogs on popular Vancouver Island beach Victoria Buzz",
-      "published": "2025-10-29T07:00:00+00:00",
-      "source": "Google News - Dogs Canada",
-      "author": "",
-      "tags": [],
-      "scraped_at": "2026-05-10T08:12:16.678548+00:00",
-      "canadian_score": 0.65,
-      "trending_score": 0.662
+      "trending_score": 0.625
     },
     {
       "content_type": "news",
@@ -46,7 +46,7 @@
       "source": "Google News - Pets Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-05-10T08:12:17.807732+00:00",
+      "scraped_at": "2026-05-11T09:42:15.467413+00:00",
       "canadian_score": 0.5,
       "trending_score": 0.625
     }
