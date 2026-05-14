@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-13T08:48:25.495222+00:00",
+  "generated_at": "2026-05-14T08:41:39.431939+00:00",
   "stats": {
     "reddit_posts": 0,
-    "news_articles": 2,
-    "total_items": 2,
+    "news_articles": 4,
+    "total_items": 4,
     "sources_succeeded": [
       "reddit",
       "news"
@@ -20,7 +20,7 @@
       "source": "Google News - Dogs Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-05-13T08:48:24.229377+00:00",
+      "scraped_at": "2026-05-14T08:41:38.256042+00:00",
       "canadian_score": 0.65,
       "trending_score": 0.662
     },
@@ -33,9 +33,35 @@
       "source": "Google News - Pets Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-05-13T08:48:25.417149+00:00",
+      "scraped_at": "2026-05-14T08:41:39.353049+00:00",
       "canadian_score": 0.65,
       "trending_score": 0.662
+    },
+    {
+      "content_type": "news",
+      "title": "Edmonton court hears of prior grisly dog attack in death of 11-year-old boy - Toronto Star",
+      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQelZNaE9RVkhLY3p0cHZJUlZqQWNseGdSMGotaGNNVVN1Sm4xRkd1YlREaVFHb1ZkRzl4ME1oaTNtUURLMDl6MDg4SmI1NEVzTGJYMXR0d3hwdTBLVDA1ZVVYOTMyUUxXaUg3RWg5NHNSY1NaTEJFdlFpXzNwbzA1QkVQZVBPUUhJUngzUDBqYlBHanh1MTdLYnVjRWRsbUhrejBMdFhOd1N3QmFrMTdaeVhoSV9DS1NlVzRraV80MVZkV3BPZm8wbGgxQjB4VF9fS0o4VEtOMVBSZHp4dlhfTFRKaEVmX2FpRDdsd3hub2xVeUc0Wmc2U2VsNUxTdw?oc=5",
+      "summary": "Edmonton court hears of prior grisly dog attack in death of 11-year-old boy Toronto Star",
+      "published": "2026-05-12T18:40:00+00:00",
+      "source": "Google News - Dogs Canada",
+      "author": "",
+      "tags": [],
+      "scraped_at": "2026-05-14T08:41:38.244788+00:00",
+      "canadian_score": 0.5,
+      "trending_score": 0.625
+    },
+    {
+      "content_type": "news",
+      "title": "Nova Scotia pet owner shares story after her dog dies suffocating on a chip bag - Halifax - Global News",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5xSUVEMG5uVTlOWE9yME1OS3JvQ21ZZHVobkVBRExCSURMV0hMR1dVdXhTUVkwa3M1OXhjNkVSVnItbTlra0pEQ2otWHFWTkdvR0U5cjdkbEhXWlFiSWNNT1BjcFZ6QVdweEE?oc=5",
+      "summary": "Nova Scotia pet owner shares story after her dog dies suffocating on a chip bag - Halifax Global News",
+      "published": "2025-06-26T07:00:00+00:00",
+      "source": "Google News - Pets Canada",
+      "author": "",
+      "tags": [],
+      "scraped_at": "2026-05-14T08:41:39.355933+00:00",
+      "canadian_score": 0.5,
+      "trending_score": 0.625
     }
   ]
 }
