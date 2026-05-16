@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-15T08:52:49.792374+00:00",
+  "generated_at": "2026-05-16T08:07:45.653712+00:00",
   "stats": {
     "reddit_posts": 0,
-    "news_articles": 4,
-    "total_items": 4,
+    "news_articles": 2,
+    "total_items": 2,
     "sources_succeeded": [
       "reddit",
       "news"
@@ -20,22 +20,9 @@
       "source": "Google News - Pets Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-05-15T08:52:49.716639+00:00",
+      "scraped_at": "2026-05-16T08:07:45.570611+00:00",
       "canadian_score": 0.65,
       "trending_score": 0.662
-    },
-    {
-      "content_type": "news",
-      "title": "Edmonton court hears of prior grisly dog attack in death of 11-year-old boy - Toronto Star",
-      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQelZNaE9RVkhLY3p0cHZJUlZqQWNseGdSMGotaGNNVVN1Sm4xRkd1YlREaVFHb1ZkRzl4ME1oaTNtUURLMDl6MDg4SmI1NEVzTGJYMXR0d3hwdTBLVDA1ZVVYOTMyUUxXaUg3RWg5NHNSY1NaTEJFdlFpXzNwbzA1QkVQZVBPUUhJUngzUDBqYlBHanh1MTdLYnVjRWRsbUhrejBMdFhOd1N3QmFrMTdaeVhoSV9DS1NlVzRraV80MVZkV3BPZm8wbGgxQjB4VF9fS0o4VEtOMVBSZHp4dlhfTFRKaEVmX2FpRDdsd3hub2xVeUc0Wmc2U2VsNUxTdw?oc=5",
-      "summary": "Edmonton court hears of prior grisly dog attack in death of 11-year-old boy Toronto Star",
-      "published": "2026-05-12T18:40:00+00:00",
-      "source": "Google News - Dogs Canada",
-      "author": "",
-      "tags": [],
-      "scraped_at": "2026-05-15T08:52:48.529182+00:00",
-      "canadian_score": 0.5,
-      "trending_score": 0.625
     },
     {
       "content_type": "news",
@@ -46,20 +33,7 @@
       "source": "Google News - Pets Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-05-15T08:52:49.710853+00:00",
-      "canadian_score": 0.5,
-      "trending_score": 0.625
-    },
-    {
-      "content_type": "news",
-      "title": "Can landlords say no to pets in Ontario? Here’s what the law says - NOW Toronto",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNkZoQS1ycU5tUTlZZGZFanlSWXhobnI1SXVwVFRXMDU5V1RJRW9vRzhPT0g2WVUxRW45a0cxcWVRNi1sTF9qZl9lMHhqaHdHZzllaGxlQV9vV2NyZmRoZGhIOXk0UVhIYjVpQ0s3X3NnQ2JSY1RpZWE5bldDWU53aTdjZXNKUk10ZHNOU3IxaEcxUmtGbEhjSGVJalFubXlH?oc=5",
-      "summary": "Can landlords say no to pets in Ontario? Here’s what the law says NOW Toronto",
-      "published": "2026-01-18T08:00:00+00:00",
-      "source": "Google News - Pets Canada",
-      "author": "",
-      "tags": [],
-      "scraped_at": "2026-05-15T08:52:49.713786+00:00",
+      "scraped_at": "2026-05-16T08:07:45.569290+00:00",
       "canadian_score": 0.5,
       "trending_score": 0.625
     }
