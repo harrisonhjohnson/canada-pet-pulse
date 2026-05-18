@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-17T08:25:14.464464+00:00",
+  "generated_at": "2026-05-18T10:04:43.258256+00:00",
   "stats": {
     "reddit_posts": 0,
-    "news_articles": 2,
-    "total_items": 2,
+    "news_articles": 4,
+    "total_items": 4,
     "sources_succeeded": [
       "reddit",
       "news"
@@ -13,6 +13,38 @@
   "content": [
     {
       "content_type": "news",
+      "title": "Edmonton councillor pitches ‘Forever Canadian’ street amid separatist push",
+      "link": "https://globalnews.ca/news/11853668/edmonton-forever-canadian-road-renaming-push/",
+      "summary": "Michael Janz says he will be submitting an application to rename the portion of 99th Avenue that's adjacent to the Alberta legislature to Forever Canadian Avenue.",
+      "published": "2026-05-17T20:42:18+00:00",
+      "source": "Global News",
+      "author": "Globalnews Digital",
+      "tags": [
+        "Canada",
+        "Politics",
+        "Alberta Separatism",
+        "Separatism",
+        "separatist"
+      ],
+      "scraped_at": "2026-05-18T10:04:41.532248+00:00",
+      "canadian_score": 0.65,
+      "trending_score": 3.445
+    },
+    {
+      "content_type": "news",
+      "title": "Lions Foundation of Canada Dog Guides empowers Canadians living with disabilities - CityNews Calgary",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOWEgwUVVCczloUnhxNlZtQ1BINXVwdldVUDNkT0wtaUtWdUZCZ3QzQy10SEFKWHBIY2puazdfeGxGcGFQcXlsWnlTbUFMX1dIeE9USm5fTUU3U1lXRnZZTElfVF8wUW1tY3ItajBMM3hfdlZ3WUVyMjJWenRRcmZVQTJHQ1J4SmpvTDdXdHZMc3NZYXhqTUtmejlodGV6TGJMUmNmZm9DNjQ1TlZNR3RBM3ZpUGlNVTMwUE5nblVYQWpjSzVXaGc?oc=5",
+      "summary": "Lions Foundation of Canada Dog Guides empowers Canadians living with disabilities CityNews Calgary",
+      "published": "2026-05-17T14:41:00+00:00",
+      "source": "Google News - Dogs Canada",
+      "author": "",
+      "tags": [],
+      "scraped_at": "2026-05-18T10:04:42.085292+00:00",
+      "canadian_score": 0.6,
+      "trending_score": 2.6
+    },
+    {
+      "content_type": "news",
       "title": "Pet abandonments in Quebec used to spike around Canada Day. Now they’re year-round - Montreal - Global News",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9GZUd0djFCV3U2WGFhcGlkaUJkZi1feGpGdTFwLUtGeE5BcXRGUHFEWmJlU0dhQV95QWs5Q2NpYndPeTZPdDVZSUNreE5ORUxEaVRhMDVoV21xRDhyRFJ0NVVLQzNxWDNsdUhYVw?oc=5",
       "summary": "Pet abandonments in Quebec used to spike around Canada Day. Now they’re year-round - Montreal Global News",
@@ -20,20 +52,20 @@
       "source": "Google News - Pets Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-05-17T08:25:14.385258+00:00",
+      "scraped_at": "2026-05-18T10:04:43.177451+00:00",
       "canadian_score": 0.65,
       "trending_score": 0.662
     },
     {
       "content_type": "news",
-      "title": "‘Landmark’ Quebec ruling states no-pet clause violates Charter rights - Montreal - Global News",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVHkzZVJteC0ydWZCTTdfMGJxY3RmRFpibWptakNWbThyR0d1N01JX0dwR2VISVRhbE5iU0Vlb0R3VW8wc0loVGlYdW9LVjY5bXRNX1pBRXo1M1o0X3BiQWluZDR5eVI3dElYMlV1V1VZbmZHb3p5OHJ0Tmg3VmZXZHotbmRtMGRGLW1Kdkk4UXNjTzVXZG1lU21Paw?oc=5",
-      "summary": "‘Landmark’ Quebec ruling states no-pet clause violates Charter rights - Montreal Global News",
-      "published": "2026-03-23T07:00:00+00:00",
-      "source": "Google News - Pets Canada",
+      "title": "Nova Scotia SPCA’s trap, neuter, return program for feral cats runs out of money - Halifax - Global News",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOb3ozcW4zRUNoajJwOENKeTdBUDNJUTBNaVlOMGMtX1M1LUdvQTNiNHdadmk2cHBicHdnNHAyZVYwYVNfeGhIQXMycW4tMkw5Zzd5R1cxcmdJNTlSM0x2d3lrMkp6M3dnSjFrdVNCWkNYSFZoV3V5LVZUcFdRc2tOcEp3cEx2SW5wZzRZZk5Mcw?oc=5",
+      "summary": "Nova Scotia SPCA’s trap, neuter, return program for feral cats runs out of money - Halifax Global News",
+      "published": "2026-05-15T20:29:08+00:00",
+      "source": "Google News - Cats Canada",
       "author": "",
       "tags": [],
-      "scraped_at": "2026-05-17T08:25:14.384215+00:00",
+      "scraped_at": "2026-05-18T10:04:42.645335+00:00",
       "canadian_score": 0.5,
       "trending_score": 0.625
     }
